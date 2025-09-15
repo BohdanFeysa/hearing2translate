@@ -19,7 +19,8 @@ The `generate.py` script downloads and prepares the dataset from the original up
 python generate.py 
 ```
 # Languages directions
-- en->{es,fr,pt,it,de}->en
+- en->{es,fr,pt,it,de}
+- {es,fr,pt,it,de}->en (Unused)
 
 # Reference and Links
 https://www.mllp.upv.es/europarl-st/

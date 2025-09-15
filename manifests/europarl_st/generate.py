@@ -76,8 +76,10 @@ def generate_europarl_st():
     else:
         extract_dir = Path(extract_dir)
 
-    for src in langs:
-        for tgt in langs - {src}:
+    #for src in {"en"}:
+    #    for tgt in langs - {src}:
+    lang_pairs = [ ("en", t) for t in langs - {"en"} ]
+    for src, tgt in lang_pairs + [(t,s) for s,t in lang_pairs]:
             audios = extract_dir / f"{src}" / "audios"
             (Path(__file__).parent / "audio" / src).mkdir(parents=True,exist_ok=True)
             for split in ("test",): #dev
@@ -105,7 +107,7 @@ def generate_europarl_st():
                                     src_ref=src_ref,
                                     tgt_ref=tgt_ref,
                                     src_lang= src,
-                                    ref_lang= tgt,
+                                    tgt_lang= tgt,
                                     benchmark_metadata={"context" : "short", "doc_id" : audio, "dataset_type" : DatasetType.LONGFORM }
                                 ))
                                 )
