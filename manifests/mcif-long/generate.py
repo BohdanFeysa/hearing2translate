@@ -104,7 +104,7 @@ def main() -> None:
         src_ref = open_file(file_path)
 
         base_record = {
-            "dataset_id": "mcif_v0.2",
+            "dataset_id": "mcif_v1.0",
             "sample_id": idx,
             "src_audio": str(new_audio_path.relative_to(ROOT_PATH)),  # mcif-long/audio/en/0.wav
             "src_ref": src_ref,
