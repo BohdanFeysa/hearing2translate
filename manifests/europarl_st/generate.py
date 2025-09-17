@@ -54,36 +54,32 @@ def generate_europarl_st():
     dataset_path = Path(__file__).parent 
     url = "https://www.mllp.upv.es/europarl-st/v1.1.tar.gz"
     filename = dataset_path / Path("v1.1.tar.gz")
+    extract_dir = dataset_path / Path("europarl-st-v1.1")
 
     # Download if not already present
-    extract_dir = os.getenv('EUROPARL_ST_PATH')
-    if not extract_dir:
-        extract_dir = dataset_path / Path("europarl-st-v1.1")
-        print("EUROPARL_ST_PATH variable not set.")
-        if not filename.exists() and not extract_dir.exists():
-            print("Downloading...")
-            with TqdmUpTo(unit = 'B', unit_scale = True, unit_divisor = 1024, miniters = 1, desc = str(filename)) as t:
-                urllib.request.urlretrieve(url, filename, reporthook= t.update_to)
+    if not filename.exists() and not extract_dir.exists():
+        print("Downloading...")
+        with TqdmUpTo(unit = 'B', unit_scale = True, unit_divisor = 1024, miniters = 1, desc = str(filename)) as t:
+            urllib.request.urlretrieve(url, filename, reporthook= t.update_to)
 
-        # Extract if not already extracted
-        if not os.path.exists(extract_dir):
-            print("Extracting...")
-            with tarfile.open(filename, "r:gz") as tar:
-                tar.extractall()
-            print("Done.")
-        else:
-            print("Already downloaded and extracted Europarl-ST")
+    # Extract if not already extracted
+    if not os.path.exists(extract_dir):
+        print("Extracting...")
+        with tarfile.open(filename, "r:gz") as tar:
+            tar.extractall(extract_dir)
+        print("Done.")
     else:
-        extract_dir = Path(extract_dir)
+        print("Already downloaded and extracted Europarl-ST")
 
     #for src in {"en"}:
     #    for tgt in langs - {src}:
+    extract_dir = extract_dir / "v1.1"
     lang_pairs = [ ("en", t) for t in langs - {"en"} ]
     for src, tgt in lang_pairs + [(t,s) for s,t in lang_pairs]:
             audios = extract_dir / f"{src}" / "audios"
             (Path(__file__).parent / "audio" / src).mkdir(parents=True,exist_ok=True)
             for split in ("test",): #dev
-                f = extract_dir / f"{src}/{tgt}/{split}"
+                f = extract_dir / src / tgt / split
                 print(f"Processing Europarl-ST: {split}|{src}-{tgt}")
                 df = pd.read_csv(f/"segments.lst", delimiter=" ", names=["audio","s","e"])
                 base= (f /"segments")
