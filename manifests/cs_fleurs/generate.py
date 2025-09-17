@@ -24,14 +24,16 @@ def generate_csfleurs():
     print("Generating cs_fleurs dataset")
     dataset_id = "cs_fleurs"
 
-    dataset = load_dataset("byan/cs-fleurs", split="test")
+    dataset = load_dataset("byan/cs-fleurs", split="test", revision="135740ad6587724e54e9bbf3e0952e4ff3a4b6b6")
     dataset_path = Path(__file__).parent 
     (dataset_path / "audio").mkdir(parents=True, exist_ok=True)
 
     #TODO: Add the paths from huggingface cache. Should change it so that it is multiplatform
     cmd = r"huggingface-cli scan-cache | grep byan/cs-fleurs | awk -F ' ' '{print $NF}'"
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True).stdout.rstrip()
-    hf_data_folder=subprocess.run(f"echo {result}/snapshots/$(cat {result}/refs/main)", shell=True, capture_output=True, text=True).stdout.rstrip()
+    #hf_data_folder=subprocess.run(f"echo {result}/snapshots/$(cat {result}/refs/main)", shell=True, capture_output=True, text=True).stdout.rstrip()
+    hf_data_folder=subprocess.run(f"echo {result}/snapshots/135740ad6587724e54e9bbf3e0952e4ff3a4b6b6", #$(cat {result}/refs/main)
+                                  shell=True, capture_output=True, text=True).stdout.rstrip()
     print(hf_data_folder)
 
     lang_pair = set(dataset["language"]) & langs
