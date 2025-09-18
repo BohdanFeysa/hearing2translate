@@ -136,6 +136,10 @@ class Evaluator:
             except KeyError as e:
                 logging.info(f"Warning: Missing key {e} in data at line index {i}. Skipping this entry.")
 
+        self.is_multi_ref = isinstance(merged_data[0].tgt_ref, dict) if merged_data and merged_data[0].tgt_ref else False
+        if self.is_multi_ref:
+            logging.info('Multi-reference dataset detected!')
+
         return merged_data
 
     def get_all_data(self) -> List[MergedData]:
@@ -152,11 +156,30 @@ class Evaluator:
         batch_size = 8
 
         sources = [ item.src_ref for item in self.data]
-        targets = [ item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        comet_result = comet.evaluate(translations, targets, sources, batch_size )
-        return round(comet_result["system_score"], 4), comet_result["segments_scores"]
+        if not self.is_multi_ref:
+            targets = [ item.tgt_ref for item in self.data]
+            comet_result = comet.evaluate(translations, targets, sources, batch_size )
+            return round(comet_result["system_score"], 4), comet_result["segments_scores"]
+
+        else:
+            ref_keys = sorted(self.data[0].tgt_ref.keys())
+            refs_by_key = {key: [str(item.tgt_ref.get(key, '')) for item in self.data] for key in ref_keys}
+            
+            system_scores = []
+            segment_scores_list = []
+
+            for ref_key, targets in refs_by_key.items():
+                logging.info(f"Computing COMET for reference: {ref_key}")
+                result = comet.evaluate(translations, targets, sources, batch_size)
+                system_scores.append(result["system_score"])
+                segment_scores_list.append(result["segments_scores"])
+
+            avg_system_score = np.mean(system_scores)
+            avg_segment_scores = np.mean(np.array(segment_scores_list), axis=0).tolist()
+
+            return round(avg_system_score, 4), avg_segment_scores
 
     def evaluate_comet_kiwi(self):
         """Evaluates the outputs using COMETKiwi (QE metric)."""
@@ -176,10 +199,27 @@ class Evaluator:
         batch_size = 8
 
         sources = [item.src_ref for item in self.data]
-        targets = [ item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        xcomet_result = xcomet.evaluate(translations, targets, sources, batch_size)
+        if not self.is_multi_ref:
+            targets = [ item.tgt_ref for item in self.data]
+            xcomet_result = xcomet.evaluate(translations, targets, sources, batch_size)
+        else:
+
+            ref_keys = sorted(self.data[0].tgt_ref.keys())
+            refs_by_key = {key: [str(item.tgt_ref.get(key, '')) for item in self.data] for key in ref_keys}
+            
+            system_scores = []
+            segment_scores_list = []
+            for ref_key, targets in refs_by_key.items():
+                logging.info(f"Computing XCOMET for reference: {ref_key}")
+                result = xcomet.evaluate(translations, targets, sources, batch_size)
+                system_scores.append(result["system_score"])
+                segment_scores_list.append(result["segments_scores"])
+
+            avg_system_score = np.mean(system_scores)
+            avg_segment_scores = np.mean(np.array(segment_scores_list), axis=0).tolist()
+            xcomet_result = {"system_score": avg_system_score, "segments_scores": avg_segment_scores}
 
         xcomet.model.to('cpu')
         del xcomet
@@ -210,12 +250,31 @@ class Evaluator:
         ref_metricx = RefMetricX_24(METRICX_TOKENIZER, METRICX_CK_NAME)
 
         sources = [item.src_ref for item in self.data]
-        targets = [item.tgt_ref for item in self.data]
         translations = [item.output for item in self.data]
 
-        ref_metricx_result = ref_metricx.evaluate(
-            hypotheses=translations, references=targets, sources=sources
-        )
+        if not self.is_multi_ref:
+            targets = [item.tgt_ref for item in self.data]
+            ref_metricx_result = ref_metricx.evaluate(
+                hypotheses=translations, references=targets, sources=sources
+            )
+
+        else:
+            ref_keys = sorted(self.data[0].tgt_ref.keys())
+            refs_by_key = {key: [str(item.tgt_ref.get(key, '')) for item in self.data] for key in ref_keys}
+
+            system_scores = []
+            segment_scores_list = []
+            for ref_key, targets in refs_by_key.items():
+                logging.info(f"Computing RefMetricX_24 for reference: {ref_key}")
+                result = ref_metricx.evaluate(
+                    hypotheses=translations, references=targets, sources=sources
+                )
+                system_scores.append(result["system_score"])
+                segment_scores_list.append(result["segments_scores"])
+
+            avg_system_score = np.mean(system_scores)
+            avg_segment_scores = np.mean(np.array(segment_scores_list), axis=0).tolist()
+            ref_metricx_result = {"system_score": avg_system_score, "segments_scores": avg_segment_scores}  
 
         del ref_metricx
         torch.cuda.empty_cache()
@@ -244,27 +303,41 @@ class Evaluator:
         """Evaluates the outputs using sacrebleu."""
         
         hypotheses = [item.output for item in self.data]
-        references = [item.tgt_ref for item in self.data]
-
         tgt_language = self.data[0].tgt_lang
 
+        corpus_refs = []
+        segment_refs_grouped = []
+
+        if not self.is_multi_ref:
+            single_ref_list = [str(item.tgt_ref) for item in self.data]
+            corpus_refs = [single_ref_list]
+            segment_refs_grouped = [[ref] for ref in single_ref_list]
+        else:
+            ref_keys = sorted(self.data[0].tgt_ref.keys())
+            refs_by_key = {key: [str(item.tgt_ref.get(key, '')) for item in self.data] for key in ref_keys}
+            corpus_refs = list(refs_by_key.values())
+            
+            for i in range(len(self.data)):
+                segment_refs_grouped.append([refs_by_key[key][i] for key in ref_keys])
+
+
         if tgt_language == 'zh': # if chinese, we use chinese tokenizer
-            corpus_score = sacrebleu.corpus_bleu(hypotheses, [references], tokenize='zh').score
+            corpus_score = sacrebleu.corpus_bleu(hypotheses, corpus_refs, tokenize='zh').score
 
             # Calculate segment-level BLEU scores
             segment_scores = [
-                sacrebleu.corpus_bleu( [hyp], [[ref]], tokenize='zh' ).score
-                for hyp, ref in zip(hypotheses, references)
+                sacrebleu.corpus_bleu([hyp], [refs], tokenize='zh').score
+                for hyp, refs in zip(hypotheses, segment_refs_grouped)
             ]
 
         else:
             # Calculate corpus-level BLEU score
-            corpus_score = sacrebleu.corpus_bleu(hypotheses, [references]).score
+            corpus_score = sacrebleu.corpus_bleu(hypotheses, corpus_refs).score
 
             # Calculate segment-level BLEU scores
             segment_scores = [
-                sacrebleu.corpus_bleu( [hyp], [[ref]] ).score
-                for hyp, ref in zip(hypotheses, references)
+                sacrebleu.corpus_bleu([hyp], [refs]).score
+                for hyp, refs in zip(hypotheses, segment_refs_grouped)
             ]
 
         return round(corpus_score, 4), segment_scores
@@ -273,15 +346,28 @@ class Evaluator:
         """Evaluates the outputs using sacrebleu's chrF."""
         
         hypotheses = [item.output for item in self.data]
-        references = [item.tgt_ref for item in self.data]
+
+        corpus_refs = []
+        segment_refs_grouped = []
+
+        if not self.is_multi_ref:
+            single_ref_list = [str(item.tgt_ref) for item in self.data]
+            corpus_refs = [single_ref_list]
+            segment_refs_grouped = [[ref] for ref in single_ref_list]
+        else:
+            ref_keys = sorted(self.data[0].tgt_ref.keys())
+            refs_by_key = {key: [str(item.tgt_ref.get(key, '')) for item in self.data] for key in ref_keys}
+            corpus_refs = list(refs_by_key.values())
+            
+            for i in range(len(self.data)):
+                segment_refs_grouped.append([refs_by_key[key][i] for key in ref_keys])
+        
 
         # Calculate corpus-level chrF score. The .score attribute is used to get the float value.
-        corpus_score = sacrebleu.corpus_chrf(hypotheses, [references]).score
-
-        # Calculate segment-level chrF scores
+        corpus_score = sacrebleu.corpus_chrf(hypotheses, corpus_refs).score
         segment_scores = [
-            sacrebleu.corpus_chrf( [hyp], [[ref]] ).score
-            for hyp, ref in zip(hypotheses, references)
+            sacrebleu.corpus_chrf([hyp], [refs]).score
+            for hyp, refs in zip(hypotheses, segment_refs_grouped)
         ]
 
         return round(corpus_score, 4), segment_scores
@@ -359,10 +445,6 @@ class Evaluator:
         system_score = (off_target_count / total_samples) * 100 if total_samples > 0 else 0.0
 
         return round(system_score,4), segment_scores
-
-    def evaluate_blaser(self):
-        # TO DO
-        pass
 
     def run_evaluations(self, metrics_to_compute: Dict[str, bool]) -> List[Dict[str, Any]]:
         """

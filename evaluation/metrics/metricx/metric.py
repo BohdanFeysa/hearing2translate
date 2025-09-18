@@ -57,7 +57,8 @@ class BaseMetricX():
         N = len(samples)
         scores = []
         for i in range(0, N):
-            logging.info(f"Predicting batch : {i}. Num samples: {N}")
+            if i % 50 == 0:
+                logging.info(f"Predicting batch : {i}. Num samples: {N}")
 
             _prompts = self._make_input(samples[i])['input']
 
