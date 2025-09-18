@@ -25,7 +25,8 @@ def generate_csfleurs():
     dataset_id = "cs_fleurs"
 
     dataset = load_dataset("byan/cs-fleurs", split="test", revision="135740ad6587724e54e9bbf3e0952e4ff3a4b6b6")
-    dataset_path = Path(__file__).parent 
+    dataset_path = Path(os.environ['H2T_DATADIR']) / dataset_id
+    print(dataset_path)
     (dataset_path / "audio").mkdir(parents=True, exist_ok=True)
 
     #TODO: Add the paths from huggingface cache. Should change it so that it is multiplatform
@@ -56,7 +57,7 @@ def generate_csfleurs():
             samples = []
             for i, sample in enumerate(tqdm(dataset.filter(lambda x : x["language"] == lp))):
                 ids = int(sample["id"].split("_")[1]) 
-                sample_path = (Path(__file__).parent / "audio" / src / sample['id']).with_suffix(".wav")
+                sample_path = (dataset_path / "audio" / src / sample['id']).with_suffix(".wav")
                 sample_path_json = (Path(dataset_id) / "audio" / src / sample['id']).with_suffix(".wav")
                 samples.append(
                         asdict(InputJson(

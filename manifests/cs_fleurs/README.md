@@ -7,7 +7,7 @@ CS-FLEURS is a **code-switched** version of the FLEURS dataset designed for:
 * **Primary Task:** Code-switching research.
 * **Secondary Task:** Gender-bias analysis.
 
-This is a **short-form dataset** derived from the **CS-FLEURS-READ** subset, which supports **14 directions in total** (`XXX-eng`). In this release, **4 language directions** are provided.
+This is a **short-form dataset** derived from the **CS-FLEURS-READ-TEST** subset, which supports **14 directions in total** (`XXX-eng`). In this release, **4 language directions** are provided.
 
 From the original article:
 

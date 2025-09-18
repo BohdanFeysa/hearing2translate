@@ -51,7 +51,7 @@ def generate_europarl_st():
     print("Generating europarl_st dataset")
     dataset_id = "europarl_st"
 
-    dataset_path = Path(__file__).parent 
+    dataset_path = Path(os.environ['H2T_DATADIR']) / dataset_id
     url = "https://www.mllp.upv.es/europarl-st/v1.1.tar.gz"
     filename = dataset_path / Path("v1.1.tar.gz")
     extract_dir = dataset_path / Path("europarl-st-v1.1")
@@ -77,7 +77,7 @@ def generate_europarl_st():
     lang_pairs = [ ("en", t) for t in langs - {"en"} ]
     for src, tgt in lang_pairs + [(t,s) for s,t in lang_pairs]:
             audios = extract_dir / f"{src}" / "audios"
-            (Path(__file__).parent / "audio" / src).mkdir(parents=True,exist_ok=True)
+            (dataset_path / "audio" / src).mkdir(parents=True,exist_ok=True)
             for split in ("test",): #dev
                 f = extract_dir / src / tgt / split
                 print(f"Processing Europarl-ST: {split}|{src}-{tgt}")
