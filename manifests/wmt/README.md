@@ -48,7 +48,7 @@ WIP
 ## Instructions
 
 
-The script `generate.py` will build the jsonl files for the following language pairs (the dataset has more languages but this is the intersection with hearing2translate):
+The script `generate.py` will build the jsonl files for the following language pairs with references (and for all the rest without references):
 
 - en-es (Spanish, WMT24 & WMT25)
 - en-de (German, WMT24 & WMT25)
@@ -88,10 +88,13 @@ If your generate.py script writes manifests, you should get JSONL files (one per
 The WMT24 and WMT25 are merged in the JSONL files, though can be filtered with the `dataset_id` values.
 ```
 $ wc -l manifests/wmt/*.jsonl
-   173 manifests/wmt/en-de.jsonl
-   111 manifests/wmt/en-es.jsonl
-    62 manifests/wmt/en-it.jsonl
-   173 manifests/wmt/en-zh.jsonl
+    173 manifests/wmt/en-de.jsonl
+    173 manifests/wmt/en-es.jsonl
+    173 manifests/wmt/en-fr.jsonl
+    173 manifests/wmt/en-it.jsonl
+    173 manifests/wmt/en-nl.jsonl
+    173 manifests/wmt/en-pt.jsonl
+    173 manifests/wmt/en-zh.jsonl
 ```
 
 ## Licence

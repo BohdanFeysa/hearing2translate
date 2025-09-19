@@ -62,6 +62,19 @@ for langs in ["en-de", "en-es", "en-zh"]:
             "benchmark_metadata": {"doc_id": doc_id},
         })
 
+# mock other languages on WMT24 without references
+for langs in ["en-it", "en-fr", "en-pt", "en-nl"]:
+    for line in dataset_out["en-de"]:
+        dataset_out[langs].append({
+            "dataset_id": line["dataset_id"],
+            "sample_id": len(dataset_out[langs]),
+            "src_audio": line["src_audio"],
+            "src_ref": line["src_ref"],
+            "tgt_ref": None,
+            "src_lang": "en",
+            "ref_lang": None,
+            "benchmark_metadata": line["benchmark_metadata"],
+        })
 
 # WMT25
 print("Downloading WMT25 assets, this might take a while...")
@@ -103,10 +116,24 @@ for langs in ["en-zh_CN", "en-de_DE", "en-it_IT"]:
             "src_ref": line["src_text"],
             "tgt_ref": line["tgt_text"]["refA"] if "refA" in line["tgt_text"] else None,
             "src_lang": lang1,
-            "ref_lang": lang2,
+            "ref_lang": lang2 if "refA" in line["tgt_text"] else None,
             "benchmark_metadata": {"doc_id": line["doc_id"]},
         })
 
+# mock other languages on WMT25 without references
+for langs in ["en-es", "en-fr", "en-pt", "en-nl"]:
+    # start where the language ends
+    for line in dataset_out["en-de"][len(dataset_out[langs]):]:
+        dataset_out[langs].append({
+            "dataset_id": line["dataset_id"],
+            "sample_id": len(dataset_out[langs]),
+            "src_audio": line["src_audio"],
+            "src_ref": line["src_ref"],
+            "tgt_ref": None,
+            "src_lang": "en",
+            "ref_lang": None,
+            "benchmark_metadata": line["benchmark_metadata"],
+        })
 
 for langs, dataset in dataset_out.items():
     with open(f"manifests/wmt/{langs}.jsonl", "w") as f:
