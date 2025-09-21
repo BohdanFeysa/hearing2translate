@@ -13,7 +13,7 @@ import ffmpeg
 
 dir_root = os.environ.get("H2T_DATADIR", ".")
 dir_tmp = tempfile.mkdtemp()
-os.makedirs(f"{dir_root}/wmt/audio/", exist_ok=True)
+os.makedirs(f"{dir_root}/wmt/audio/en/", exist_ok=True)
 
 # WMT24
 print("Downloading WMT24 audio, this might take a while...")
@@ -48,7 +48,7 @@ for langs in ["en-de", "en-es", "en-zh"]:
         # copy, even override
         fname_new = shutil.copyfile(
             f"{dir_tmp}/WMT24_GeneralMT_audio/test-en-speech-audio/{doc_id.removeprefix('test-en-speech_')}.wav",
-            f"{dir_root}/wmt/audio/{doc_id.removeprefix('test-en-speech_')}.wav"
+            f"{dir_root}/wmt/audio/en/{doc_id.removeprefix('test-en-speech_')}.wav"
         )
 
         dataset_out[langs].append({
@@ -103,7 +103,7 @@ for langs in ["en-zh_CN", "en-de_DE", "en-it_IT"]:
     lang1, lang2 = langs.split("-")
 
     for line in data_local:
-        wav_file = f"{dir_root}/wmt/audio/{line['doc_id'].split('_#_')[2]}.wav"
+        wav_file = f"{dir_root}/wmt/audio/en/{line['doc_id'].split('_#_')[2]}.wav"
 
         # convert MP4 to WAV using ffmpeg-python
         if not os.path.exists(wav_file):
