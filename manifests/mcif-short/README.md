@@ -1,8 +1,8 @@
-# MCIF Long
+# MCIF Short
 
 ## Overview
-This repository provides instructions for downloading and preparing the MCIF v1.0 Long dataset.
-The dataset is released as part of the [GitHub release](https://github.com/sarapapi/hearing2translate/releases/tag/data-share-mcif) and can be directly used for model inference.
+This repository provides instructions for downloading and preparing the MCIF v1.0 Short dataset.
+The dataset is released as part of the [GitHub release](https://github.com/sarapapi/hearing2translate/releases/tag/data-share-mcif-short) and can be directly used for model inference.
 
 ```bibtex
 @misc{papi2025mcifmultimodalcrosslingualinstructionfollowing,
@@ -31,8 +31,11 @@ export H2T_DATADIR='/path/to/data'
 The dataset already includes pre-generated manifests.
 There is no need to regenerate them unless you modify the data.
 
+⚠️ Note: The current manifests do not include `src_ref` or `tgt_ref` keys due to segmentation issues.
+Before applying evaluation metrics, the model hypotheses, transcripts, and reference translations must first be segmented and aligned using a segmenter.
+
 ## Expected Output
-The dataset contains 21 audio files, and manifests are provided for three language pairs: 
+The dataset contains 670 audio files, and manifests are provided for three language pairs: 
 
 - en-de
 - en-it
@@ -41,23 +44,15 @@ The dataset contains 21 audio files, and manifests are provided for three langua
 
 ```
 ${H2T_DATADIR}/
-├── mcif-long
+├── mcif-short
 │   └── audio/
 │       └── en/
 │           ├── 0.wav
 │           ├── 1.wav
 │           └── ...
 │
-│       └── long_texts/
-│           ├── crgYiwKDfX.en
-│           ├── ...
-│
-│       └── xml/
-│           ├── MCIF0.2.IF.long.de.ref.xml
-│           ├── ...
-│
 ├── manifests
-│   └── mcif-long
+│   └── mcif-short
 │       ├── en-de.jsonl
 │       ├── en-it.jsonl
 │       ├── en-zh.jsonl
