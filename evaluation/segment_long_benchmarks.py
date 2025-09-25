@@ -140,6 +140,7 @@ def main():
     # Use a dictionary for faster, more robust lookup of model outputs by a unique ID.
     output_by_id = {item['sample_id']: item for item in model_output}
     
+    DATASETID, SRCLANG, TGTLANG = None, None, None
     merged_data: List[MergedData] = []
     for input_item in long_manifest:
         sample_id = input_item['sample_id']
@@ -153,6 +154,11 @@ def main():
         references_segmented = {
             item.get('src_ref', ''): item.get('tgt_ref', '') for item in short_segments
         }
+        
+        if DATASETID is None:
+            DATASETID = output_item['dataset_id']
+            SRCLANG = output_item['src_lang']
+            TGTLANG = output_item['tgt_lang']
 
         merged_data.append(
             MergedData(
@@ -194,10 +200,10 @@ def main():
             continue
         
         final_output_data.append({
-            "dataset_id": item['dataset_id'],
-            "sample_id": item['sample_id'],
-            "src_lang": item['src_lang'],
-            "tgt_lang": item['tgt_lang'],
+            "dataset_id": item.get('dataset_id', DATASETID),
+            "sample_id": item.get('sample_id', None),
+            "src_lang": item.get('src_lang', SRCLANG),
+            "tgt_lang": item.get('tgt_lang', TGTLANG),
             "output": aligned_output
         })
 
