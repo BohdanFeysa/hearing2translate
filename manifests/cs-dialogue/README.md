@@ -2,11 +2,9 @@
 
 ## Overview
 
-**CS-Dialogue** is a dataset of spontaneous Mandarin–English code-switching speech. It contains **104 hours** of audio from **200 speakers**, recorded across **100 dialogues** with a total of **38,917 utterances**.
+**CS-Dialogue** is a dataset of spontaneous Mandarin–English code-switching speech. It contains **104 hours** of audio from **200 speakers**, recorded across **100 dialogues** with a total of **38,917 utterances**. All speakers are native Chinese and fluent in English, with diverse age and regional backgrounds. The recordings cover **7 topics**: personal, entertainment, technology, education, job, philosophy, and sports. The dataset is divided into **train**, **development**, and **test** splits.
 
-The recordings cover **7 topics**: personal, entertainment, technology, education, job, philosophy, and sports. The dataset is divided into **train**, **development**, and **test** splits.
-
-All speakers are native Chinese and fluent in English, with diverse age and regional backgrounds.
+The linguistic composition of the dialogue progressed systematically: initially in Mandarin Chinese, followed by a period of code-switching between Chinese and English, and concluding with exclusive use of English. Each topic segment was designed to last approximately 20 minutes, with a target allocation of 8 minutes for Chinese, 6 minutes for code-switching, and 6 minutes for English. Since we are only interested in the code-switching aspect, **we only use the portion of the test split that is code-switching** (which mainly consists of **Chinese with embedded English**).
 
 ```bibtex
 @article{zhou2025cs,
