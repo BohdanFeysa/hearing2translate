@@ -17,26 +17,27 @@ def process_cs_dialogue_dataset():
     assert os.environ["H2T_DATADIR"] is not None, "H2T_DATADIR is not set"
 
     dataset_path = Path(os.environ["H2T_DATADIR"]) / "cs-dialogue"
-    dataset_path.mkdir(parents=True, exist_ok=True)
+    raw_dataset_path = dataset_path / "raw"
+    raw_dataset_path.mkdir(parents=True, exist_ok=True)
 
     # 1. Download dataset and extract tar files
     snapshot_download(
         repo_id="BAAI/CS-Dialogue",
         repo_type="dataset",
-        local_dir=dataset_path,
+        local_dir=raw_dataset_path,
         allow_patterns=["data/index/short_wav/*", "data/short_wav/*"],
     )
-    data_dir = dataset_path / "data"
+    data_dir = raw_dataset_path / "data"
     if data_dir.exists():
         for item in data_dir.iterdir():
-            target = dataset_path / item.name
+            target = raw_dataset_path / item.name
             if target.exists():
                 shutil.rmtree(target)
             shutil.move(str(item), str(target))
         data_dir.rmdir()
 
-    short_wav_path = dataset_path / "short_wav"
-    merged_tar_file = dataset_path / "short_wav.tar.gz"
+    short_wav_path = raw_dataset_path / "short_wav"
+    merged_tar_file = raw_dataset_path / "short_wav.tar.gz"
     if not (short_wav_path / "WAVE").is_dir():
         print("Extracting tar files...")
         if merged_tar_file.is_file():
@@ -50,13 +51,13 @@ def process_cs_dialogue_dataset():
         shutil.rmtree(short_wav_path)
 
         with tarfile.open(merged_tar_file, "r:gz") as tar:
-            tar.extractall(dataset_path)
+            tar.extractall(raw_dataset_path)
         os.unlink(merged_tar_file)
 
     # 2. Load CS-Dialogue test data into a pandas DataFrame
-    text_file = dataset_path / "index" / "short_wav" / "test" / "text"
-    wav_scp_file = dataset_path / "index" / "short_wav" / "test" / "wav.scp"
-    script_files_dir = dataset_path / "short_wav" / "SCRIPT"
+    text_file = raw_dataset_path / "index" / "short_wav" / "test" / "text"
+    wav_scp_file = raw_dataset_path / "index" / "short_wav" / "test" / "wav.scp"
+    script_files_dir = raw_dataset_path / "short_wav" / "SCRIPT"
 
     text_data = []
     with open(text_file, "r", encoding="utf-8") as f:
@@ -111,7 +112,6 @@ def process_cs_dialogue_dataset():
         axis=1,
     )
     df = df.rename(columns={"audio_path": "src_audio", "transcription": "src_ref"})
-    df["src_audio"] = df["src_audio"].apply(lambda x: f"cs-dialogue/{x}")
     df = df[
         [
             "dataset_id",
@@ -125,8 +125,16 @@ def process_cs_dialogue_dataset():
         ]
     ]
 
-    # 5. Write to JSONL file
-    jsonl_filename = Path(__file__).parent / f"zh-en.jsonl"
+    # 5. Copy audio files to the new location
+    for i, row in df.iterrows():
+        old_src_audio_path = raw_dataset_path / row["src_audio"]
+        new_src_audio_path = dataset_path / "audio" / row["src_lang"] / old_src_audio_path.name
+        new_src_audio_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy(old_src_audio_path, new_src_audio_path)
+        df.at[i, "src_audio"] = f"cs-dialogue/audio/{row['src_lang']}/{old_src_audio_path.name}"
+
+    # 6. Write to JSONL file
+    jsonl_filename = dataset_path / "zh-en.jsonl"
 
     records_written = 0
     with open(jsonl_filename, "w", encoding="utf-8") as f:
@@ -135,6 +143,7 @@ def process_cs_dialogue_dataset():
             f.write("\n")
             records_written += 1
 
+    shutil.copy(jsonl_filename, Path(__file__).parent / "zh-en.jsonl")
     print(
         f"Successfully created '{jsonl_filename}' with {records_written} records."
     )
