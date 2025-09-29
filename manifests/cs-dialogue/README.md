@@ -80,7 +80,7 @@ Each entry in the JSONL manifest looks like:
   "src_audio": "/cs-dialogue/short_wav/WAVE/C0/<dialogue_id>/<dialogue_id>_<utterance_idx>.wav",
   "src_ref": "<source raw_transcription>",
   "tgt_ref": null,
-  "src_lang": null,
+  "src_lang": "zh",
   "tgt_lang": "en",
   "benchmark_metadata": {
     "cs_lang": ["en", "zh"],
