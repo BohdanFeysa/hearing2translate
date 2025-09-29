@@ -7,9 +7,6 @@ from pathlib import Path
 from huggingface_hub import snapshot_download
 
 
-tgt_langs = ["de", "en", "es", "fr", "it", "nl", "pt"]
-
-
 def process_cs_dialogue_dataset():
     """
     Downloads and processes the CS-Dialogue dataset.
@@ -103,7 +100,7 @@ def process_cs_dialogue_dataset():
         dataset_id="cs-dialogue",
         tgt_ref=None,
         src_lang="zh",
-        tgt_lang=None,
+        tgt_lang="en",
     )
     df["benchmark_metadata"] = df.apply(
         lambda row: {
@@ -128,22 +125,19 @@ def process_cs_dialogue_dataset():
         ]
     ]
 
-    # 5. Write to JSONL files
-    for tgt_lang in tgt_langs:
-        jsonl_filename = Path(__file__).parent / f"zh-{tgt_lang}.jsonl"
-        df_tgtlang = df.copy()
-        df_tgtlang["tgt_lang"] = tgt_lang
+    # 5. Write to JSONL file
+    jsonl_filename = Path(__file__).parent / f"zh-en.jsonl"
 
-        records_written = 0
-        with open(jsonl_filename, "w", encoding="utf-8") as f:
-            for record in df_tgtlang.to_dict(orient="records"):
-                json.dump(record, f, ensure_ascii=False)
-                f.write("\n")
-                records_written += 1
+    records_written = 0
+    with open(jsonl_filename, "w", encoding="utf-8") as f:
+        for record in df.to_dict(orient="records"):
+            json.dump(record, f, ensure_ascii=False)
+            f.write("\n")
+            records_written += 1
 
-        print(
-            f"Successfully created '{jsonl_filename}' with {records_written} records."
-        )
+    print(
+        f"Successfully created '{jsonl_filename}' with {records_written} records."
+    )
 
     print("\nDataset processing finished.")
 

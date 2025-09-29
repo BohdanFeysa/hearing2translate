@@ -81,7 +81,7 @@ Each entry in the JSONL manifest looks like:
   "src_ref": "<source raw_transcription>",
   "tgt_ref": null,
   "src_lang": null,
-  "tgt_lang": "<two-letter ISO 639-1>",
+  "tgt_lang": "en",
   "benchmark_metadata": {
     "cs_lang": ["en", "zh"],
     "context": "short",
