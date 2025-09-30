@@ -44,8 +44,8 @@ class TqdmUpTo(tqdm):
         self.update(b * bsize - self.n)  # will also set self.n = b * bsize
 
 load_dotenv()
-langs = {"en", "es", "fr", "de", "it", "pt" }
-not_used = {"pl", "ro", "nl"}
+langs = {"en", "es", "fr", "de", "it", "pt", "nl" }
+not_used = {"pl", "ro"}
 
 def generate_europarl_st():
     print("Generating europarl_st dataset")
@@ -79,6 +79,7 @@ def generate_europarl_st():
     extract_dir = extract_dir / "v1.1"
     lang_pairs = [ ("en", t) for t in langs - {"en"} ]
     for src, tgt in lang_pairs + [(t,s) for s,t in lang_pairs]:
+            if src == "nl": continue
             audios = extract_dir / f"{src}" / "audios"
             (dataset_path / "audio" / src).mkdir(parents=True,exist_ok=True)
             for split in ("test",): #dev
