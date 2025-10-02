@@ -2,7 +2,7 @@
 
 ## Overview
 
-FLEURS (Few-shot Learning Evaluation of Universal Representations of Speech), is a benchmark dataset for speech research. The dataset is an n-way parallel speech dataset that includes 102 languages and is based on the machine translation FLoRes-101 benchmark. It contains approximately 12 hours of speech per language. The FLEURS benchmark enables the evaluation of various speech tasks, including Automatic Speech Recognition (ASR), Speech Language Identification (Speech LangID), Translation, and Retrieval.
+Libristutter is a dataset designed to simulate stuttered speech. It is derived from the publicly available LibriSpeech corpus by artificially introducing various types of disfluencies, including sound, word, and phrase repetitions, as well as prolongations and interjections. The dataset comprises roughly 20 hours of audio, divided into 4,26k training utterances and 474 test utterances.
 
 ```bibtex
 @ARTICLE{9528931,
