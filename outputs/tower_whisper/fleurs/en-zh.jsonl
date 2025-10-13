@@ -1,0 +1,646 @@
+{"dataset_id": "fleurs", "sample_id": 1904, "src_lang": "en", "tgt_lang": "zh", "output": "然而，由于沟通渠道缓慢，西方风格可能会落后 25 至 30 年。"}
+{"dataset_id": "fleurs", "sample_id": 1675, "src_lang": "en", "tgt_lang": "zh", "output": "所有名词以及在 C 之后的名词，即使在句中，也始终以大写字母开头。"}
+{"dataset_id": "fleurs", "sample_id": 1950, "src_lang": "en", "tgt_lang": "zh", "output": "北部不远的地方，有一个浪漫而迷人的小镇辛特拉，在布赖恩勋爵记录其辉煌的精彩故事后，这个小镇才名声大噪。"}
+{"dataset_id": "fleurs", "sample_id": 1728, "src_lang": "en", "tgt_lang": "zh", "output": "酸性或碱性化学物质的酸碱度会使卷心菜汁的颜色发生变化。"}
+{"dataset_id": "fleurs", "sample_id": 1972, "src_lang": "en", "tgt_lang": "zh", "output": "有多少人不会把它们当作恐龙，因为它们有羽毛并且会飞？"}
+{"dataset_id": "fleurs", "sample_id": 1938, "src_lang": "en", "tgt_lang": "zh", "output": "医院已遵循感染控制协议，包括将患者与其他人隔离，以防止可能对其他人造成感染。"}
+{"dataset_id": "fleurs", "sample_id": 1876, "src_lang": "en", "tgt_lang": "zh", "output": "北马里亚纳群岛紧急事务管理办公室表示，该国未报告任何损害。"}
+{"dataset_id": "fleurs", "sample_id": 1914, "src_lang": "en", "tgt_lang": "zh", "output": "20 世纪的研究表明，存在两种基因变异库，即隐藏的和表达的。"}
+{"dataset_id": "fleurs", "sample_id": 1846, "src_lang": "en", "tgt_lang": "zh", "output": "因此，这种格式的纵横比除以12后得到最简单的整数比，因此据说为3比2。"}
+{"dataset_id": "fleurs", "sample_id": 1806, "src_lang": "en", "tgt_lang": "zh", "output": "由于在它们最辉煌的时期，光污染并不是像今天这样严重的问题，因此它们通常位于城市或校园内，比现代建造的那些更容易到达。"}
+{"dataset_id": "fleurs", "sample_id": 1776, "src_lang": "en", "tgt_lang": "zh", "output": "整个晚上，他们制作了 150 到 200 份，现在被称为“邦拉普传单”。"}
+{"dataset_id": "fleurs", "sample_id": 1729, "src_lang": "en", "tgt_lang": "zh", "output": "例如，每年北卡罗来纳州的班尼特学校的学生都会设计一个关于他们参观州议会大厦旅行的网站。每年网站都会进行改造，但旧版本仍然保留在线，作为纪念册。"}
+{"dataset_id": "fleurs", "sample_id": 1855, "src_lang": "en", "tgt_lang": "zh", "output": "狮子的群体行为与狼群或狗群非常相似，这些动物与狮子在行为上惊人的相似，但与其他大型猫科动物不同，它们对猎物也非常致命。"}
+{"dataset_id": "fleurs", "sample_id": 1919, "src_lang": "en", "tgt_lang": "zh", "output": "这座城市也是攀登尼亚拉贡戈火山（Nyiragongo volcano）的基地，同时也是非洲山地大猩猩走私最便宜的地方。"}
+{"dataset_id": "fleurs", "sample_id": 1802, "src_lang": "en", "tgt_lang": "zh", "output": "互联网结合了大众传播和人际传播的元素。"}
+{"dataset_id": "fleurs", "sample_id": 1711, "src_lang": "en", "tgt_lang": "zh", "output": "这些理论探讨的是，是什么使某些人想要做某些事情，以及环境中的哪些因素会促使他们做或不做某些事情。"}
+{"dataset_id": "fleurs", "sample_id": 1685, "src_lang": "en", "tgt_lang": "zh", "output": "例如，世界上最常见的静态摄影格式是 35mm，这是模拟胶片时代结束时占主导地位的胶片尺寸。"}
+{"dataset_id": "fleurs", "sample_id": 1992, "src_lang": "en", "tgt_lang": "zh", "output": "在日常生活中，人们常说的“野生动物观赏游”指的是前往非洲大草原等地，通过陆路旅行观赏非洲野生动物的活动。"}
+{"dataset_id": "fleurs", "sample_id": 2005, "src_lang": "en", "tgt_lang": "zh", "output": "但是鸟类身上仍有许多像恐龙的特征。"}
+{"dataset_id": "fleurs", "sample_id": 1982, "src_lang": "en", "tgt_lang": "zh", "output": "建议女性旅行者无论实际婚姻状况如何，都应自称已婚。"}
+{"dataset_id": "fleurs", "sample_id": 1674, "src_lang": "en", "tgt_lang": "zh", "output": "在一些地区，沸水一分钟就足够了，而在其他地区则需要几分钟。"}
+{"dataset_id": "fleurs", "sample_id": 1952, "src_lang": "en", "tgt_lang": "zh", "output": "任何打算在高纬度地区或山间峠驾驶的人，都应该考虑到可能遇到雪、冰或低温。"}
+{"dataset_id": "fleurs", "sample_id": 1752, "src_lang": "en", "tgt_lang": "zh", "output": "因此，两种鱼类已经灭绝，另外两种鱼类（包括驼背鲈）濒临灭绝。"}
+{"dataset_id": "fleurs", "sample_id": 1749, "src_lang": "en", "tgt_lang": "zh", "output": "它由维希法国统治。这些法国人在1940年与德国人议和，与侵略者合作而不是与他们战斗。"}
+{"dataset_id": "fleurs", "sample_id": 1705, "src_lang": "en", "tgt_lang": "zh", "output": "1940 年 8 月 15 日，盟军入侵法国南部，这次入侵被称为“德拉贡行动”。"}
+{"dataset_id": "fleurs", "sample_id": 1662, "src_lang": "en", "tgt_lang": "zh", "output": "合金基本上是由两种或更多种金属组成的混合物。别忘了周期表上有许多元素。"}
+{"dataset_id": "fleurs", "sample_id": 1729, "src_lang": "en", "tgt_lang": "zh", "output": "例如，每年北卡罗来纳州的班尼特学校的学生都会设计一个关于他们参观州议会大厦旅行的网站。每年网站都会进行改造，但旧版本仍然保留在线，作为纪念册。"}
+{"dataset_id": "fleurs", "sample_id": 1790, "src_lang": "en", "tgt_lang": "zh", "output": "他的作品质量和细节都得到了广泛认可，他是集邮家中的少数几个家喻户晓的人物之一，有些人甚至专门收藏他的作品。"}
+{"dataset_id": "fleurs", "sample_id": 1858, "src_lang": "en", "tgt_lang": "zh", "output": "联合国该疾病问题专家丹尼尔·拉唐格表示，此次疫情很可能是由维和人员引起的。"}
+{"dataset_id": "fleurs", "sample_id": 1789, "src_lang": "en", "tgt_lang": "zh", "output": "其他提名包括最佳影片、最佳导演、最佳摄影、最佳服装设计、最佳剪辑、最佳原创配乐、最佳美术设计、最佳音效剪辑、最佳音效混音和最佳原创剧本。"}
+{"dataset_id": "fleurs", "sample_id": 1909, "src_lang": "en", "tgt_lang": "zh", "output": "虚拟团队与传统团队都需达到卓越的标准，但两者之间存在细微差别。"}
+{"dataset_id": "fleurs", "sample_id": 1897, "src_lang": "en", "tgt_lang": "zh", "output": "北部与萨赫勒地区接壤，南部和西部濒临大西洋。"}
+{"dataset_id": "fleurs", "sample_id": 1680, "src_lang": "en", "tgt_lang": "zh", "output": "体型矮壮的运动员，老虎会爬，虽然不太擅长，会游泳，能跳很远，拉力是普通人的五倍。"}
+{"dataset_id": "fleurs", "sample_id": 1953, "src_lang": "en", "tgt_lang": "zh", "output": "随后，他被转移到剑桥的阿登布鲁克医院。"}
+{"dataset_id": "fleurs", "sample_id": 1740, "src_lang": "en", "tgt_lang": "zh", "output": "金字塔音响和灯光秀是该地区最吸引孩子们的有趣活动之一。"}
+{"dataset_id": "fleurs", "sample_id": 1717, "src_lang": "en", "tgt_lang": "zh", "output": "由于水下地形，回流集中在几个较深的区域，并且可能会形成向深水快速流动的水流。"}
+{"dataset_id": "fleurs", "sample_id": 1987, "src_lang": "en", "tgt_lang": "zh", "output": "坠机事件发生在高海拔的山区，据信是敌方火力造成的。"}
+{"dataset_id": "fleurs", "sample_id": 1990, "src_lang": "en", "tgt_lang": "zh", "output": "博客还可以提高学生的写作水平。虽然学生在开始写博客时通常语法和拼写都不太好，但有读者在场通常会改变这一点。"}
+{"dataset_id": "fleurs", "sample_id": 1908, "src_lang": "en", "tgt_lang": "zh", "output": "这是区分某些动词和宾语的重要方法。"}
+{"dataset_id": "fleurs", "sample_id": 1752, "src_lang": "en", "tgt_lang": "zh", "output": "因此，两种鱼类已经灭绝，另外两种鱼类（包括驼背鲈）濒临灭绝。"}
+{"dataset_id": "fleurs", "sample_id": 2005, "src_lang": "en", "tgt_lang": "zh", "output": "但是鸟类身上仍有许多像恐龙的特征。"}
+{"dataset_id": "fleurs", "sample_id": 1678, "src_lang": "en", "tgt_lang": "zh", "output": "奥利弗·萨克斯在他的论文《总统的演讲》中指出，尽管因脑损伤而无法理解言语，但人们仍然能够准确地评估真诚。"}
+{"dataset_id": "fleurs", "sample_id": 1701, "src_lang": "en", "tgt_lang": "zh", "output": "山羊似乎在约 10,000 年前在伊朗的扎格罗斯山脉首次被驯化。"}
+{"dataset_id": "fleurs", "sample_id": 2001, "src_lang": "en", "tgt_lang": "zh", "output": "强烈建议旅客注意当地可能出现的严重天气风险，因为这些天气可能会影响旅行计划。"}
+{"dataset_id": "fleurs", "sample_id": 1991, "src_lang": "en", "tgt_lang": "zh", "output": "在欧洲历史的这段时期，天主教会因其财富和权力而受到审查。"}
+{"dataset_id": "fleurs", "sample_id": 1895, "src_lang": "en", "tgt_lang": "zh", "output": "随着对希腊知识的了解减少，西方发现自己与希腊哲学和科学的根源隔绝了。"}
+{"dataset_id": "fleurs", "sample_id": 1710, "src_lang": "en", "tgt_lang": "zh", "output": "上周，许多人宣布苹果公司已告知其发生了34起过热事件，苹果公司称这些事件并不严重。"}
+{"dataset_id": "fleurs", "sample_id": 1975, "src_lang": "en", "tgt_lang": "zh", "output": "梵蒂冈城的常住人口约为800人，是世界上最小的独立国家，也是人口最少的国家。"}
+{"dataset_id": "fleurs", "sample_id": 1864, "src_lang": "en", "tgt_lang": "zh", "output": "基什内尔夫人在阿根廷剧院宣布竞选总统的意向，这个地方与她2005年作为布宜诺斯艾利斯省代表团成员竞选参议员时使用的竞选启动地点相同。"}
+{"dataset_id": "fleurs", "sample_id": 1720, "src_lang": "en", "tgt_lang": "zh", "output": "热巧克力符合比利时标准。果汁价格昂贵，但质量一流。"}
+{"dataset_id": "fleurs", "sample_id": 1723, "src_lang": "en", "tgt_lang": "zh", "output": "1889 年，该港口发生了一场臭名昭著的海军僵持，当时来自德国、美国和英国的七艘船拒绝离开港口。"}
+{"dataset_id": "fleurs", "sample_id": 1769, "src_lang": "en", "tgt_lang": "zh", "output": "大金字塔由埃及人在公元前 3 世纪建造，是为纪念已故法老而建造的众多大型金字塔结构之一。"}
+{"dataset_id": "fleurs", "sample_id": 1794, "src_lang": "en", "tgt_lang": "zh", "output": "一个文明是一个由大量的人们共享的独特文化，他们作为一个社会合作地生活和工作。"}
+{"dataset_id": "fleurs", "sample_id": 1950, "src_lang": "en", "tgt_lang": "zh", "output": "北部不远的地方，有一个浪漫而迷人的小镇辛特拉，在布赖恩勋爵记录其辉煌的精彩故事后，这个小镇才名声大噪。"}
+{"dataset_id": "fleurs", "sample_id": 1855, "src_lang": "en", "tgt_lang": "zh", "output": "狮子的群体行为与狼群或狗群非常相似，这些动物与狮子在行为上惊人的相似，但与其他大型猫科动物不同，它们对猎物也非常致命。"}
+{"dataset_id": "fleurs", "sample_id": 1882, "src_lang": "en", "tgt_lang": "zh", "output": "科学家希望了解行星如何形成，特别是地球如何形成，因为很久以前彗星与地球相撞。"}
+{"dataset_id": "fleurs", "sample_id": 1890, "src_lang": "en", "tgt_lang": "zh", "output": "大多数现代研究望远镜都是巨大的设施，位于偏远地区，大气条件良好。"}
+{"dataset_id": "fleurs", "sample_id": 1849, "src_lang": "en", "tgt_lang": "zh", "output": "如果你看过电影《国家宝藏》，你可能会认为《独立宣言》背面写着宝藏地图。"}
+{"dataset_id": "fleurs", "sample_id": 1893, "src_lang": "en", "tgt_lang": "zh", "output": "孟加拉三角洲是世界上最大的滨海红树林带，从海岸向孟加拉国和印度腹地延伸 80 公里（50 英里）。"}
+{"dataset_id": "fleurs", "sample_id": 1667, "src_lang": "en", "tgt_lang": "zh", "output": "一般来说，当经理开始领导他们以前的同事时，可能会出现两种行为。一种是试图保持与同事之间的平等关系。"}
+{"dataset_id": "fleurs", "sample_id": 1814, "src_lang": "en", "tgt_lang": "zh", "output": "氢离子是失去电子的质子，因为氢原子由一个质子和一个电子组成。"}
+{"dataset_id": "fleurs", "sample_id": 1893, "src_lang": "en", "tgt_lang": "zh", "output": "孟加拉三角洲是世界上最大的滨海红树林带，从海岸向孟加拉国和印度腹地延伸 80 公里（50 英里）。"}
+{"dataset_id": "fleurs", "sample_id": 1999, "src_lang": "en", "tgt_lang": "zh", "output": "在整个20世纪60年代，布热津斯基在林登·B·约翰逊政府中担任约翰·F·肯尼迪的顾问。"}
+{"dataset_id": "fleurs", "sample_id": 1722, "src_lang": "en", "tgt_lang": "zh", "output": "今年年初，53岁的库莫开始担任州长，上个月签署了一项将同性婚姻合法化的法案。"}
+{"dataset_id": "fleurs", "sample_id": 1778, "src_lang": "en", "tgt_lang": "zh", "output": "电视报道显示，工厂中冒出白色烟雾。"}
+{"dataset_id": "fleurs", "sample_id": 1830, "src_lang": "en", "tgt_lang": "zh", "output": "执政党——西南非洲人民组织在议会选举中也保持了多数席位。"}
+{"dataset_id": "fleurs", "sample_id": 1841, "src_lang": "en", "tgt_lang": "zh", "output": "除了头顶上蔚蓝的天空和周围的群山，什么都看不见。从洞穴内部几乎看不到或听到这个世界上的任何事物。"}
+{"dataset_id": "fleurs", "sample_id": 1866, "src_lang": "en", "tgt_lang": "zh", "output": "首先，大多数作家都穿着带有跟子和光滑、安静、窄鞋底的骑马靴。"}
+{"dataset_id": "fleurs", "sample_id": 1712, "src_lang": "en", "tgt_lang": "zh", "output": "自1966年以来，苏德尔班斯一直是一个野生动物保护区，据估计，目前该地区有400只孟加拉虎和约30,000只斑鹿。"}
+{"dataset_id": "fleurs", "sample_id": 1831, "src_lang": "en", "tgt_lang": "zh", "output": "普利特维采湖国家公园森林茂密，主要生长有山毛榉、云杉和冷杉，同时还拥有阿尔卑斯山区和地中海地区的植被。"}
+{"dataset_id": "fleurs", "sample_id": 1939, "src_lang": "en", "tgt_lang": "zh", "output": "革命后，该学院也向所有男性申请者开放，使最有雄心和最成功的人能够成功入学。"}
+{"dataset_id": "fleurs", "sample_id": 1870, "src_lang": "en", "tgt_lang": "zh", "output": "场景在金字塔上展示，不同的金字塔被点亮。"}
+{"dataset_id": "fleurs", "sample_id": 1941, "src_lang": "en", "tgt_lang": "zh", "output": "这些夫妇可以选择为他们的宝宝制定收养计划。"}
+{"dataset_id": "fleurs", "sample_id": 1911, "src_lang": "en", "tgt_lang": "zh", "output": "同样，拥有深圳签证，您无需分别向每个深圳成员国申请签证，从而节省时间、金钱和文书工作。"}
+{"dataset_id": "fleurs", "sample_id": 1698, "src_lang": "en", "tgt_lang": "zh", "output": "宇宙中的所有事物都是由物质构成的。所有物质都是由称为原子的微小粒子构成的。"}
+{"dataset_id": "fleurs", "sample_id": 1750, "src_lang": "en", "tgt_lang": "zh", "output": "这一发现还为鸟类羽毛的演化提供了新的见解。"}
+{"dataset_id": "fleurs", "sample_id": 1803, "src_lang": "en", "tgt_lang": "zh", "output": "手上的水分会与外层物质发生反应，感觉会很奇怪，并形成一种壳状物。"}
+{"dataset_id": "fleurs", "sample_id": 1792, "src_lang": "en", "tgt_lang": "zh", "output": "这被称为化学品的 pH 值。你可以用红甘蓝汁制作指示剂。"}
+{"dataset_id": "fleurs", "sample_id": 1757, "src_lang": "en", "tgt_lang": "zh", "output": "只有生殖细胞的突变才能遗传给后代，而其他部位的突变则可能导致细胞死亡或癌症。"}
+{"dataset_id": "fleurs", "sample_id": 1860, "src_lang": "en", "tgt_lang": "zh", "output": "州长办公室与警察一起送走了 19 名受伤者。"}
+{"dataset_id": "fleurs", "sample_id": 1798, "src_lang": "en", "tgt_lang": "zh", "output": "最初，该节目仅在长期运营的互联网广播网站 Togginet Radio 上播出，该网站专注于谈话广播。"}
+{"dataset_id": "fleurs", "sample_id": 1824, "src_lang": "en", "tgt_lang": "zh", "output": "位于埃及死亡之谷的吉萨高原或吉萨陵区包含数座金字塔，其中大金字塔最大，还有几座小型墓葬、几座寺庙和巨大的狮身人面像。"}
+{"dataset_id": "fleurs", "sample_id": 1941, "src_lang": "en", "tgt_lang": "zh", "output": "这些夫妇可以选择为他们的宝宝制定收养计划。"}
+{"dataset_id": "fleurs", "sample_id": 1896, "src_lang": "en", "tgt_lang": "zh", "output": "美国体操协会和美国奥委会拥有相同的目标，那就是让体操运动和其他运动项目尽可能安全，让运动员在一个安全、积极且赋权的环境中追逐梦想。"}
+{"dataset_id": "fleurs", "sample_id": 1955, "src_lang": "en", "tgt_lang": "zh", "output": "MS 是一种影响中枢神经系统的疾病，中枢神经系统由大脑、脊髓和视神经组成。"}
+{"dataset_id": "fleurs", "sample_id": 1881, "src_lang": "en", "tgt_lang": "zh", "output": "虚拟实地考察也是反思旅行和与未来班级分享经验的好方法。"}
+{"dataset_id": "fleurs", "sample_id": 1797, "src_lang": "en", "tgt_lang": "zh", "output": "每个人都参与社会活动，使用交通系统。几乎每个人都在抱怨交通系统。"}
+{"dataset_id": "fleurs", "sample_id": 1899, "src_lang": "en", "tgt_lang": "zh", "output": "穆罕默德对超越他平凡生活的各种事物深感兴趣。他经常光顾努尔山的一处洞穴，这处洞穴后来被称为希拉洞，在那里进行沉思。"}
+{"dataset_id": "fleurs", "sample_id": 1691, "src_lang": "en", "tgt_lang": "zh", "output": "在一些道路上，大型公司有自己的飞机，但在其他道路和小型公司那里，存在一个问题。"}
+{"dataset_id": "fleurs", "sample_id": 1801, "src_lang": "en", "tgt_lang": "zh", "output": "构成香港天际线的建筑群被比作一幅闪耀的条形图，而维多利亚港的勇士们则使这幅图变得清晰可见。"}
+{"dataset_id": "fleurs", "sample_id": 1846, "src_lang": "en", "tgt_lang": "zh", "output": "因此，这种格式的纵横比除以12后得到最简单的整数比，因此据说为3比2。"}
+{"dataset_id": "fleurs", "sample_id": 1732, "src_lang": "en", "tgt_lang": "zh", "output": "事件发生的时间通常被称为高中古典时代，是欧洲历史上 11、12 和 13 世纪的时期。"}
+{"dataset_id": "fleurs", "sample_id": 1969, "src_lang": "en", "tgt_lang": "zh", "output": "它指出，主体最有效的位置是图像垂直和水平三分之一的交点。见示例。"}
+{"dataset_id": "fleurs", "sample_id": 1722, "src_lang": "en", "tgt_lang": "zh", "output": "今年年初，53岁的库莫开始担任州长，上个月签署了一项将同性婚姻合法化的法案。"}
+{"dataset_id": "fleurs", "sample_id": 1668, "src_lang": "en", "tgt_lang": "zh", "output": "购买一张通票也可能会有好处，这张通票可以进入南非的某些公园或所有南非国家公园。"}
+{"dataset_id": "fleurs", "sample_id": 2004, "src_lang": "en", "tgt_lang": "zh", "output": "同月，另一架飞机在马克兰（Machland）跑道尽头冲出跑道，撞上墙壁，造成17人死亡。"}
+{"dataset_id": "fleurs", "sample_id": 1750, "src_lang": "en", "tgt_lang": "zh", "output": "这一发现还为鸟类羽毛的演化提供了新的见解。"}
+{"dataset_id": "fleurs", "sample_id": 1760, "src_lang": "en", "tgt_lang": "zh", "output": "在当时，摩萨龙是顶级掠食者，除了其他摩萨龙外，它什么都不怕。"}
+{"dataset_id": "fleurs", "sample_id": 1930, "src_lang": "en", "tgt_lang": "zh", "output": "儿童和老人等六名人质以及菲律宾摄影师早些时候获释。"}
+{"dataset_id": "fleurs", "sample_id": 1799, "src_lang": "en", "tgt_lang": "zh", "output": "除了周三的比赛外，卡彭尼多还在锦标赛上参加了两项个人赛。"}
+{"dataset_id": "fleurs", "sample_id": 1867, "src_lang": "en", "tgt_lang": "zh", "output": "植物制造氧气供人类呼吸，同时吸收人类呼出的二氧化碳。"}
+{"dataset_id": "fleurs", "sample_id": 2008, "src_lang": "en", "tgt_lang": "zh", "output": "在巴厘岛议程上的其他议题还包括拯救世界剩余的森林，以及分享技术，帮助发展中国家以更少污染的方式发展。"}
+{"dataset_id": "fleurs", "sample_id": 1821, "src_lang": "en", "tgt_lang": "zh", "output": "大脑病理与行为之间的相关性支持科学家及其研究。"}
+{"dataset_id": "fleurs", "sample_id": 1779, "src_lang": "en", "tgt_lang": "zh", "output": "特朗普与土耳其总统雷杰普·塔伊普·埃尔多安通话后宣布了这一消息。"}
+{"dataset_id": "fleurs", "sample_id": 1911, "src_lang": "en", "tgt_lang": "zh", "output": "同样，拥有深圳签证，您无需分别向每个深圳成员国申请签证，从而节省时间、金钱和文书工作。"}
+{"dataset_id": "fleurs", "sample_id": 1807, "src_lang": "en", "tgt_lang": "zh", "output": "意大利语也是大多数国家工作人员日常使用的语言，而拉丁语则经常用于宗教仪式。"}
+{"dataset_id": "fleurs", "sample_id": 1980, "src_lang": "en", "tgt_lang": "zh", "output": "遗憾的是，研究交通流量很困难，因为驾驶员的行为无法100%准确地预测。"}
+{"dataset_id": "fleurs", "sample_id": 1660, "src_lang": "en", "tgt_lang": "zh", "output": "浪漫主义包含了很大一部分文化决定论因素，这些因素源自歌德、费希特和施莱格尔等作家的作品。"}
+{"dataset_id": "fleurs", "sample_id": 1680, "src_lang": "en", "tgt_lang": "zh", "output": "体型矮壮的运动员，老虎会爬，虽然不太擅长，会游泳，能跳很远，拉力是普通人的五倍。"}
+{"dataset_id": "fleurs", "sample_id": 1825, "src_lang": "en", "tgt_lang": "zh", "output": "如果你想离音乐现场近一些，就必须早点来这里，才能获得一个靠近音乐的露营地。"}
+{"dataset_id": "fleurs", "sample_id": 1671, "src_lang": "en", "tgt_lang": "zh", "output": "国会于 2005 财年开始为淫秽犯罪计划提供资金，并明确规定 FBI 必须将 10 名特工专门用于打击成人色情制品。"}
+{"dataset_id": "fleurs", "sample_id": 1889, "src_lang": "en", "tgt_lang": "zh", "output": "它使我们得以训练汽车和其他许多交通工具。"}
+{"dataset_id": "fleurs", "sample_id": 1808, "src_lang": "en", "tgt_lang": "zh", "output": "战争结束两年后，前盟友变成了敌人，冷战开始了。"}
+{"dataset_id": "fleurs", "sample_id": 1756, "src_lang": "en", "tgt_lang": "zh", "output": "周日晚间，美国总统唐纳德·特朗普通过新闻秘书发表声明，宣布美军将撤离叙利亚。"}
+{"dataset_id": "fleurs", "sample_id": 1845, "src_lang": "en", "tgt_lang": "zh", "output": "在马车里，他们返回巴黎，周围是一群人，他们尖叫着，对国王和王后发出威胁。"}
+{"dataset_id": "fleurs", "sample_id": 1713, "src_lang": "en", "tgt_lang": "zh", "output": "虽然戈马相对安全，但任何前往戈马以外地区的旅行都应事先了解北基伍省持续存在的战斗状况。"}
+{"dataset_id": "fleurs", "sample_id": 1849, "src_lang": "en", "tgt_lang": "zh", "output": "如果你看过电影《国家宝藏》，你可能会认为《独立宣言》背面写着宝藏地图。"}
+{"dataset_id": "fleurs", "sample_id": 1780, "src_lang": "en", "tgt_lang": "zh", "output": "通过昆达里尼瑜伽，昆达里尼能量（觉悟能量）通过瑜伽体式、呼吸练习、咒语和可视化来唤醒。"}
+{"dataset_id": "fleurs", "sample_id": 1792, "src_lang": "en", "tgt_lang": "zh", "output": "这被称为化学品的 pH 值。你可以用红甘蓝汁制作指示剂。"}
+{"dataset_id": "fleurs", "sample_id": 1984, "src_lang": "en", "tgt_lang": "zh", "output": "大规模汽车拥有也导致道路事故率上升，这促使人们发明了新的医疗技术来修复受损的身体。"}
+{"dataset_id": "fleurs", "sample_id": 1728, "src_lang": "en", "tgt_lang": "zh", "output": "酸性或碱性化学物质的酸碱度会使卷心菜汁的颜色发生变化。"}
+{"dataset_id": "fleurs", "sample_id": 1884, "src_lang": "en", "tgt_lang": "zh", "output": "特别是，有人声称，通过正确解读微表情，就可以判断一个人是否在说谎。"}
+{"dataset_id": "fleurs", "sample_id": 1664, "src_lang": "en", "tgt_lang": "zh", "output": "将两种干粉混合搅拌，然后用干净湿润的手将它们捏成一团。"}
+{"dataset_id": "fleurs", "sample_id": 1917, "src_lang": "en", "tgt_lang": "zh", "output": "罗马各处安装了几台大型电视屏幕，让市民们观看仪式。"}
+{"dataset_id": "fleurs", "sample_id": 1786, "src_lang": "en", "tgt_lang": "zh", "output": "通过红外光谱法比较，这些晶体的组成与感染裤子尿液中发现的晶体相匹配。"}
+{"dataset_id": "fleurs", "sample_id": 1978, "src_lang": "en", "tgt_lang": "zh", "output": "对于春申足球队来说，这场比赛结束了他们五连败的局面。"}
+{"dataset_id": "fleurs", "sample_id": 1803, "src_lang": "en", "tgt_lang": "zh", "output": "手上的水分会与外层物质发生反应，感觉会很奇怪，并形成一种壳状物。"}
+{"dataset_id": "fleurs", "sample_id": 1741, "src_lang": "en", "tgt_lang": "zh", "output": "北部更远的广大地区人口稀少，有些地方几乎无人居住，是荒野。"}
+{"dataset_id": "fleurs", "sample_id": 1736, "src_lang": "en", "tgt_lang": "zh", "output": "罗兰多·门多萨用他的M16步枪向恐怖分子开火。"}
+{"dataset_id": "fleurs", "sample_id": 1860, "src_lang": "en", "tgt_lang": "zh", "output": "州长办公室与警察一起送走了 19 名受伤者。"}
+{"dataset_id": "fleurs", "sample_id": 1704, "src_lang": "en", "tgt_lang": "zh", "output": "1990 年，由于沙漠沙丘的威胁，它被列入世界濒危遗产名录。"}
+{"dataset_id": "fleurs", "sample_id": 2007, "src_lang": "en", "tgt_lang": "zh", "output": "美国工程兵部队估计，6英寸的降雨可能导致先前受损的树叶破裂。"}
+{"dataset_id": "fleurs", "sample_id": 1741, "src_lang": "en", "tgt_lang": "zh", "output": "北部更远的广大地区人口稀少，有些地方几乎无人居住，是荒野。"}
+{"dataset_id": "fleurs", "sample_id": 1765, "src_lang": "en", "tgt_lang": "zh", "output": "自1537年阿法·安松西翁（Afa Anzuncion）成立以来，巴拉圭成功地保留了许多本土特色和身份。"}
+{"dataset_id": "fleurs", "sample_id": 1755, "src_lang": "en", "tgt_lang": "zh", "output": "一枚炸弹在总督办公室外面爆炸。"}
+{"dataset_id": "fleurs", "sample_id": 1906, "src_lang": "en", "tgt_lang": "zh", "output": "这不是告别。这将是一个篇章的结束，一个新篇章的开始。"}
+{"dataset_id": "fleurs", "sample_id": 1939, "src_lang": "en", "tgt_lang": "zh", "output": "革命后，该学院也向所有男性申请者开放，使最有雄心和最成功的人能够成功入学。"}
+{"dataset_id": "fleurs", "sample_id": 1940, "src_lang": "en", "tgt_lang": "zh", "output": "考虑到所有因素，如果我们的祖先以与今天萨凡纳的黑猩猩大致相同的方式解决了他们的蛋白质问题，我们就不应该感到惊讶了。"}
+{"dataset_id": "fleurs", "sample_id": 1858, "src_lang": "en", "tgt_lang": "zh", "output": "联合国该疾病问题专家丹尼尔·拉唐格表示，此次疫情很可能是由维和人员引起的。"}
+{"dataset_id": "fleurs", "sample_id": 1998, "src_lang": "en", "tgt_lang": "zh", "output": "它们有带鳞片和爪子的脚。它们会下蛋，并且像霸王龙一样用两只后腿走路。"}
+{"dataset_id": "fleurs", "sample_id": 1690, "src_lang": "en", "tgt_lang": "zh", "output": "我们同意美国奥委会(USOC)的声明，即通过在我们组织内部推动有意义的变革，而不是取消认证，更有利于运动员、俱乐部及其运动的利益。"}
+{"dataset_id": "fleurs", "sample_id": 1805, "src_lang": "en", "tgt_lang": "zh", "output": "斯科特波特 403 路公交车定期开往市中心，途经罗卡角。"}
+{"dataset_id": "fleurs", "sample_id": 1853, "src_lang": "en", "tgt_lang": "zh", "output": "吉安卡洛·菲奇切拉失控，在比赛开始后不久就结束了比赛。"}
+{"dataset_id": "fleurs", "sample_id": 1749, "src_lang": "en", "tgt_lang": "zh", "output": "它由维希法国统治。这些法国人在1940年与德国人议和，与侵略者合作而不是与他们战斗。"}
+{"dataset_id": "fleurs", "sample_id": 1928, "src_lang": "en", "tgt_lang": "zh", "output": "到 1976 年，马丘比丘的 30% 已得到修复，修复工作至今仍在继续。"}
+{"dataset_id": "fleurs", "sample_id": 1961, "src_lang": "en", "tgt_lang": "zh", "output": "说明社会化重要性的最常见方法之一，是引用一些不幸的案例，这些孩子由于忽视、不幸或故意虐待，在成长过程中没有得到成人的社会化。"}
+{"dataset_id": "fleurs", "sample_id": 2004, "src_lang": "en", "tgt_lang": "zh", "output": "同月，另一架飞机在马克兰（Machland）跑道尽头冲出跑道，撞上墙壁，造成17人死亡。"}
+{"dataset_id": "fleurs", "sample_id": 1666, "src_lang": "en", "tgt_lang": "zh", "output": "您可能还想咨询其他国家的政府的建议，但他们的建议是为本国公民设计的。"}
+{"dataset_id": "fleurs", "sample_id": 1687, "src_lang": "en", "tgt_lang": "zh", "output": "分离和重组使两个基因库之间的变异在每一代中来回交替。"}
+{"dataset_id": "fleurs", "sample_id": 1773, "src_lang": "en", "tgt_lang": "zh", "output": "睡眠中断是指在正常睡眠期间故意醒来，然后在短时间内（10至60分钟）再次入睡的过程。"}
+{"dataset_id": "fleurs", "sample_id": 1970, "src_lang": "en", "tgt_lang": "zh", "output": "我们不能确定，但它可能有一条分叉的舌头。它的食物包括乌龟、大鱼、其他沧龙，甚至可能自相残杀。"}
+{"dataset_id": "fleurs", "sample_id": 1862, "src_lang": "en", "tgt_lang": "zh", "output": "NextGen 是 FAA 声称的系统，它将使飞机能够飞更短的航线，每年节省数百万加仑的燃料，并减少碳排放。"}
+{"dataset_id": "fleurs", "sample_id": 1903, "src_lang": "en", "tgt_lang": "zh", "output": "当一个组织的所有可用资源都能在各个职能部门中得到有效利用时，创造力和智慧就会涌现。"}
+{"dataset_id": "fleurs", "sample_id": 1695, "src_lang": "en", "tgt_lang": "zh", "output": "一个简单受欢迎的调味品，尤其是在夏季，是 pa'am oli，即用橄榄油、番茄和任何可用的调味品（如奶酪、金枪鱼等）制作的面包。"}
+{"dataset_id": "fleurs", "sample_id": 1921, "src_lang": "en", "tgt_lang": "zh", "output": "另一方面，在许多国家，冰冻和下雪的天气很正常，交通基本上全年不停。"}
+{"dataset_id": "fleurs", "sample_id": 2003, "src_lang": "en", "tgt_lang": "zh", "output": "要欣赏香港最美的景色，离开岛屿，前往对面的九龙海滨。"}
+{"dataset_id": "fleurs", "sample_id": 1694, "src_lang": "en", "tgt_lang": "zh", "output": "儿童被安置在寄养家庭的原因多种多样，从忽视到虐待，甚至包括勒索。"}
+{"dataset_id": "fleurs", "sample_id": 1823, "src_lang": "en", "tgt_lang": "zh", "output": "交通流量研究的是个体驾驶员和车辆在两点之间移动的过程，以及它们相互之间的互动。"}
+{"dataset_id": "fleurs", "sample_id": 1822, "src_lang": "en", "tgt_lang": "zh", "output": "摩洛哥苏丹重建了达鲁伊巴迪亚城，西班牙商人在这里建立贸易基地，并将其命名为卡萨布兰卡。"}
+{"dataset_id": "fleurs", "sample_id": 1943, "src_lang": "en", "tgt_lang": "zh", "output": "紧张感越低，生命力就越积极。每个人都有潜力找到绝对的平静和满足。"}
+{"dataset_id": "fleurs", "sample_id": 1956, "src_lang": "en", "tgt_lang": "zh", "output": "迄今为止，使用船只运输货物是跨越海洋运送大量人员和货物最有效的方式。"}
+{"dataset_id": "fleurs", "sample_id": 1719, "src_lang": "en", "tgt_lang": "zh", "output": "恶劣天气是指任何可能造成破坏、严重社会混乱或人员伤亡的危险天气现象。"}
+{"dataset_id": "fleurs", "sample_id": 1689, "src_lang": "en", "tgt_lang": "zh", "output": "欧洲是一个相对较小的大陆，但拥有许多独立的国家。在正常情况下，穿越多个国家意味着需要多次申请签证和通过护照检查。"}
+{"dataset_id": "fleurs", "sample_id": 1810, "src_lang": "en", "tgt_lang": "zh", "output": "加州州长阿诺德·施瓦辛格签署了一项法案，禁止向未成年人出售或出租暴力视频游戏。"}
+{"dataset_id": "fleurs", "sample_id": 1778, "src_lang": "en", "tgt_lang": "zh", "output": "电视报道显示，工厂中冒出白色烟雾。"}
+{"dataset_id": "fleurs", "sample_id": 2006, "src_lang": "en", "tgt_lang": "zh", "output": "钙和钾等元素被认为是金属。当然，还有像银和金这样的金属。"}
+{"dataset_id": "fleurs", "sample_id": 1805, "src_lang": "en", "tgt_lang": "zh", "output": "斯科特波特 403 路公交车定期开往市中心，途经罗卡角。"}
+{"dataset_id": "fleurs", "sample_id": 1890, "src_lang": "en", "tgt_lang": "zh", "output": "大多数现代研究望远镜都是巨大的设施，位于偏远地区，大气条件良好。"}
+{"dataset_id": "fleurs", "sample_id": 1782, "src_lang": "en", "tgt_lang": "zh", "output": "此外，每个朝代之间都有一个分封诸侯的不稳定时期。其中最著名的时期是三国时代，发生在汉朝和晋朝之间的六十年间。"}
+{"dataset_id": "fleurs", "sample_id": 1784, "src_lang": "en", "tgt_lang": "zh", "output": "格陵兰岛的定居者稀少。在北欧传奇中，他们说红衣埃里克因谋杀罪被流放到冰岛，在向西旅行时发现了格陵兰岛，并将其命名为格陵兰岛。"}
+{"dataset_id": "fleurs", "sample_id": 1949, "src_lang": "en", "tgt_lang": "zh", "output": "昆虫学家在正式场合使用“bug”一词来指代这一类昆虫。"}
+{"dataset_id": "fleurs", "sample_id": 1683, "src_lang": "en", "tgt_lang": "zh", "output": "仍然有许多男女幸存者，他们曾在这里度过这段时光，还有更多人失去了亲人，无论他们是犹太人还是非犹太人，亲人都被谋杀或被迫害致死。"}
+{"dataset_id": "fleurs", "sample_id": 1919, "src_lang": "en", "tgt_lang": "zh", "output": "这座城市也是攀登尼亚拉贡戈火山（Nyiragongo volcano）的基地，同时也是非洲山地大猩猩走私最便宜的地方。"}
+{"dataset_id": "fleurs", "sample_id": 1791, "src_lang": "en", "tgt_lang": "zh", "output": "请勿在建筑物上涂鸦或刻画，以免破坏景观。"}
+{"dataset_id": "fleurs", "sample_id": 1693, "src_lang": "en", "tgt_lang": "zh", "output": "但在失去队长之后，印度只拿了 36 分，损失了 7 个击 wickets，最终输给了印度队。"}
+{"dataset_id": "fleurs", "sample_id": 1885, "src_lang": "en", "tgt_lang": "zh", "output": "格林尼治标准时间晚上10点到11点之间，囚犯在院子里点燃了火。"}
+{"dataset_id": "fleurs", "sample_id": 1772, "src_lang": "en", "tgt_lang": "zh", "output": "因此，这种符号很可能只是作为标签添加的。"}
+{"dataset_id": "fleurs", "sample_id": 1998, "src_lang": "en", "tgt_lang": "zh", "output": "它们有带鳞片和爪子的脚。它们会下蛋，并且像霸王龙一样用两只后腿走路。"}
+{"dataset_id": "fleurs", "sample_id": 1857, "src_lang": "en", "tgt_lang": "zh", "output": "他还补充说，然而，不应要求他们承担超出其发展阶段、责任和能力的义务。"}
+{"dataset_id": "fleurs", "sample_id": 1761, "src_lang": "en", "tgt_lang": "zh", "output": "摄影师后来代替了一位上了年纪的女士，因为她需要上厕所。门多萨被枪杀。"}
+{"dataset_id": "fleurs", "sample_id": 1702, "src_lang": "en", "tgt_lang": "zh", "output": "仅仅两周时间，美军和自由法国军队就解放了法国南部，并向德国进发。"}
+{"dataset_id": "fleurs", "sample_id": 1746, "src_lang": "en", "tgt_lang": "zh", "output": "植物通过光合作用利用阳光制造食物。它们还能提供阴凉。"}
+{"dataset_id": "fleurs", "sample_id": 1907, "src_lang": "en", "tgt_lang": "zh", "output": "敌对行动爆发后不久，英国对德国实施了海上封锁。"}
+{"dataset_id": "fleurs", "sample_id": 1769, "src_lang": "en", "tgt_lang": "zh", "output": "大金字塔由埃及人在公元前 3 世纪建造，是为纪念已故法老而建造的众多大型金字塔结构之一。"}
+{"dataset_id": "fleurs", "sample_id": 1788, "src_lang": "en", "tgt_lang": "zh", "output": "美国体操协会支持美国奥林匹克委员会的信件，并接受奥林匹克大家庭为所有运动员创造安全环境的绝对需求。"}
+{"dataset_id": "fleurs", "sample_id": 1801, "src_lang": "en", "tgt_lang": "zh", "output": "构成香港天际线的建筑群被比作一幅闪耀的条形图，而维多利亚港的勇士们则使这幅图变得清晰可见。"}
+{"dataset_id": "fleurs", "sample_id": 1861, "src_lang": "en", "tgt_lang": "zh", "output": "因此，表演者在舞台上吸食大麻卷烟，剧院本身也在鼓励观众加入。"}
+{"dataset_id": "fleurs", "sample_id": 1996, "src_lang": "en", "tgt_lang": "zh", "output": "澳大利亚的米切尔·戈利在男子站立式超级G比赛中获得第11名。捷克选手阿尔德里奇·迪莱尼奇在男子坐姿超级G比赛中获得第16名。"}
+{"dataset_id": "fleurs", "sample_id": 1697, "src_lang": "en", "tgt_lang": "zh", "output": "他一直无法服用克服疼痛所需的药物，因为这些药物在比赛中是被禁止的。"}
+{"dataset_id": "fleurs", "sample_id": 1962, "src_lang": "en", "tgt_lang": "zh", "output": "pH值由被测化学物质中氢离子的数量表示。"}
+{"dataset_id": "fleurs", "sample_id": 1847, "src_lang": "en", "tgt_lang": "zh", "output": "他受到新加坡副总理黄根兴的迎接，并与新加坡总理李显龙讨论了贸易和恐怖主义问题。"}
+{"dataset_id": "fleurs", "sample_id": 1932, "src_lang": "en", "tgt_lang": "zh", "output": "表演开始后的五分钟，一阵风开始吹起。大约一分钟后，风速达到每小时70公里。接着，雨来了，但雨滴很大，像针一样刺痛皮肤。接着，冰雹从天而降，人们惊慌失措，尖叫着，互相践踏。"}
+{"dataset_id": "fleurs", "sample_id": 1850, "src_lang": "en", "tgt_lang": "zh", "output": "如果基站具有双无线电，这将使其与 802.11a、802.11b 和 802.11g 向后兼容。"}
+{"dataset_id": "fleurs", "sample_id": 1700, "src_lang": "en", "tgt_lang": "zh", "output": "在梅里亚地区较薄，在高地地区较厚。"}
+{"dataset_id": "fleurs", "sample_id": 1727, "src_lang": "en", "tgt_lang": "zh", "output": "流浪儿童在被遗弃或离家出走之前，可能经历过严重的虐待或创伤。"}
+{"dataset_id": "fleurs", "sample_id": 1984, "src_lang": "en", "tgt_lang": "zh", "output": "大规模汽车拥有也导致道路事故率上升，这促使人们发明了新的医疗技术来修复受损的身体。"}
+{"dataset_id": "fleurs", "sample_id": 1853, "src_lang": "en", "tgt_lang": "zh", "output": "吉安卡洛·菲奇切拉失控，在比赛开始后不久就结束了比赛。"}
+{"dataset_id": "fleurs", "sample_id": 1694, "src_lang": "en", "tgt_lang": "zh", "output": "儿童被安置在寄养家庭的原因多种多样，从忽视到虐待，甚至包括勒索。"}
+{"dataset_id": "fleurs", "sample_id": 1878, "src_lang": "en", "tgt_lang": "zh", "output": "教会的中央权力机构已在罗马存在了一千多年，这种权力和财富的集中，导致许多人质疑是否满足了这一租约条款。"}
+{"dataset_id": "fleurs", "sample_id": 1692, "src_lang": "en", "tgt_lang": "zh", "output": "据日本核能机构称，已在该工厂发现了放射性酪蛋白和碘。"}
+{"dataset_id": "fleurs", "sample_id": 1797, "src_lang": "en", "tgt_lang": "zh", "output": "每个人都参与社会活动，使用交通系统。几乎每个人都在抱怨交通系统。"}
+{"dataset_id": "fleurs", "sample_id": 1912, "src_lang": "en", "tgt_lang": "zh", "output": "大多数较小的岛屿都是独立的国家，或者与法国有联系，被称为豪华海滩度假村。"}
+{"dataset_id": "fleurs", "sample_id": 1711, "src_lang": "en", "tgt_lang": "zh", "output": "这些理论探讨的是，是什么使某些人想要做某些事情，以及环境中的哪些因素会促使他们做或不做某些事情。"}
+{"dataset_id": "fleurs", "sample_id": 1913, "src_lang": "en", "tgt_lang": "zh", "output": "老虎的吼声不像狮子那样的洪亮，更像是一连串尖厉的怒吼。"}
+{"dataset_id": "fleurs", "sample_id": 1787, "src_lang": "en", "tgt_lang": "zh", "output": "博客是一种激发合作并鼓励学生将学习延伸到传统学校日以外的工具。"}
+{"dataset_id": "fleurs", "sample_id": 1977, "src_lang": "en", "tgt_lang": "zh", "output": "一个骄傲群体由1至3只成年雄性同类组成，以及多达30只雌性和幼崽。"}
+{"dataset_id": "fleurs", "sample_id": 1667, "src_lang": "en", "tgt_lang": "zh", "output": "一般来说，当经理开始领导他们以前的同事时，可能会出现两种行为。一种是试图保持与同事之间的平等关系。"}
+{"dataset_id": "fleurs", "sample_id": 1669, "src_lang": "en", "tgt_lang": "zh", "output": "警察局长珊德拉·尚卡·索兰斯基表示，被告面部蒙盖，出现在法庭上。"}
+{"dataset_id": "fleurs", "sample_id": 1838, "src_lang": "en", "tgt_lang": "zh", "output": "吉萨的大金字塔是七大奇迹中唯一一个至今仍屹立不倒的奇迹。"}
+{"dataset_id": "fleurs", "sample_id": 1832, "src_lang": "en", "tgt_lang": "zh", "output": "流行的体育项目包括足球、篮球、排球、水球、击剑、橄榄球、自行车运动、冰球、旱地曲棍球和F1赛车。"}
+{"dataset_id": "fleurs", "sample_id": 1991, "src_lang": "en", "tgt_lang": "zh", "output": "在欧洲历史的这段时期，天主教会因其财富和权力而受到审查。"}
+{"dataset_id": "fleurs", "sample_id": 1776, "src_lang": "en", "tgt_lang": "zh", "output": "整个晚上，他们制作了 150 到 200 份，现在被称为“邦拉普传单”。"}
+{"dataset_id": "fleurs", "sample_id": 1809, "src_lang": "en", "tgt_lang": "zh", "output": "为了固定铁轨，人们相当早地引入了交叉绑带。然而，人们逐渐意识到，如果铁轨顶部有一条铁条，会更高效。"}
+{"dataset_id": "fleurs", "sample_id": 1693, "src_lang": "en", "tgt_lang": "zh", "output": "但在失去队长之后，印度只拿了 36 分，损失了 7 个击 wickets，最终输给了印度队。"}
+{"dataset_id": "fleurs", "sample_id": 1878, "src_lang": "en", "tgt_lang": "zh", "output": "教会的中央权力机构已在罗马存在了一千多年，这种权力和财富的集中，导致许多人质疑是否满足了这一租约条款。"}
+{"dataset_id": "fleurs", "sample_id": 1730, "src_lang": "en", "tgt_lang": "zh", "output": "全天都有公交车从河对岸的跨区公交车站出发，但大多数车次，尤其是前往雅卡-布桑的东线车次，都在 6:30 至 7:30 之间发车。"}
+{"dataset_id": "fleurs", "sample_id": 1696, "src_lang": "en", "tgt_lang": "zh", "output": "研究人员在大学网站上表示，这两种化合物相互反应，形成的晶体可能会阻碍肾脏功能。"}
+{"dataset_id": "fleurs", "sample_id": 1695, "src_lang": "en", "tgt_lang": "zh", "output": "一个简单受欢迎的调味品，尤其是在夏季，是 pa'am oli，即用橄榄油、番茄和任何可用的调味品（如奶酪、金枪鱼等）制作的面包。"}
+{"dataset_id": "fleurs", "sample_id": 1739, "src_lang": "en", "tgt_lang": "zh", "output": "这座洞穴位于麦加北部的一座山顶，与世隔绝。"}
+{"dataset_id": "fleurs", "sample_id": 1758, "src_lang": "en", "tgt_lang": "zh", "output": "该群岛位于半岛以北120公里处。其中最大的岛屿是乔治王岛，岛上有拉斯埃斯特雷拉斯村。"}
+{"dataset_id": "fleurs", "sample_id": 1699, "src_lang": "en", "tgt_lang": "zh", "output": "一位观察家称比什凯克陷入了无政府状态，一群群人横冲直撞，抢劫商店里的消费品。"}
+{"dataset_id": "fleurs", "sample_id": 1842, "src_lang": "en", "tgt_lang": "zh", "output": "由于恐龙羽毛没有发育良好的中轴（rachis），但确实具有其他特征，如羽轴（barbs）和羽小枝（barbels），研究人员推断，中轴可能是在这些其他特征之后才进化的。"}
+{"dataset_id": "fleurs", "sample_id": 1836, "src_lang": "en", "tgt_lang": "zh", "output": "自古以来，人们就已知晓金、银、铜等基本化学元素，因为这些元素都能以原生形式在地球上被发现，并且用原始工具开采起来相对简单。"}
+{"dataset_id": "fleurs", "sample_id": 1975, "src_lang": "en", "tgt_lang": "zh", "output": "梵蒂冈城的常住人口约为800人，是世界上最小的独立国家，也是人口最少的国家。"}
+{"dataset_id": "fleurs", "sample_id": 1738, "src_lang": "en", "tgt_lang": "zh", "output": "它还会攻击任何进入水中的生物。即使是像霸王龙这样巨大的恐龙也无法与它匹敌。"}
+{"dataset_id": "fleurs", "sample_id": 1935, "src_lang": "en", "tgt_lang": "zh", "output": "然而，事实并非如此。虽然文件背面有字，但它并非宝藏地图。"}
+{"dataset_id": "fleurs", "sample_id": 1889, "src_lang": "en", "tgt_lang": "zh", "output": "它使我们得以训练汽车和其他许多交通工具。"}
+{"dataset_id": "fleurs", "sample_id": 1865, "src_lang": "en", "tgt_lang": "zh", "output": "圣彼得堡游轮包括时间和城市。游轮乘客可免签证。请查看条款。"}
+{"dataset_id": "fleurs", "sample_id": 1848, "src_lang": "en", "tgt_lang": "zh", "output": "昨天早晨，土耳其加济安泰普市警察总部发生一起汽车炸弹爆炸事件，炸死两名警察，炸伤20多人。"}
+{"dataset_id": "fleurs", "sample_id": 1838, "src_lang": "en", "tgt_lang": "zh", "output": "吉萨的大金字塔是七大奇迹中唯一一个至今仍屹立不倒的奇迹。"}
+{"dataset_id": "fleurs", "sample_id": 1718, "src_lang": "en", "tgt_lang": "zh", "output": "对于哪些制造物品被视为古董，并没有一个普遍的定义。一些税务机构将超过100年的商品定义为古董。"}
+{"dataset_id": "fleurs", "sample_id": 1828, "src_lang": "en", "tgt_lang": "zh", "output": "在网上搜索“恶劣环境”课程，可能会提供一家当地公司的地址。"}
+{"dataset_id": "fleurs", "sample_id": 1740, "src_lang": "en", "tgt_lang": "zh", "output": "金字塔音响和灯光秀是该地区最吸引孩子们的有趣活动之一。"}
+{"dataset_id": "fleurs", "sample_id": 1701, "src_lang": "en", "tgt_lang": "zh", "output": "山羊似乎在约 10,000 年前在伊朗的扎格罗斯山脉首次被驯化。"}
+{"dataset_id": "fleurs", "sample_id": 1721, "src_lang": "en", "tgt_lang": "zh", "output": "1963年大坝建成后，原本会将泥沙扩散到整个河流的季节性洪水被阻挡住了。"}
+{"dataset_id": "fleurs", "sample_id": 1699, "src_lang": "en", "tgt_lang": "zh", "output": "一位观察家称比什凯克陷入了无政府状态，一群群人横冲直撞，抢劫商店里的消费品。"}
+{"dataset_id": "fleurs", "sample_id": 1854, "src_lang": "en", "tgt_lang": "zh", "output": "车辆本身于同日格林尼治标准时间12时左右被从事故现场移走。"}
+{"dataset_id": "fleurs", "sample_id": 1896, "src_lang": "en", "tgt_lang": "zh", "output": "美国体操协会和美国奥委会拥有相同的目标，那就是让体操运动和其他运动项目尽可能安全，让运动员在一个安全、积极且赋权的环境中追逐梦想。"}
+{"dataset_id": "fleurs", "sample_id": 1746, "src_lang": "en", "tgt_lang": "zh", "output": "植物通过光合作用利用阳光制造食物。它们还能提供阴凉。"}
+{"dataset_id": "fleurs", "sample_id": 1796, "src_lang": "en", "tgt_lang": "zh", "output": "这种沉积物对于形成沙洲和海滩是必要的，而沙洲和海滩则作为野生动物的栖息地。"}
+{"dataset_id": "fleurs", "sample_id": 1843, "src_lang": "en", "tgt_lang": "zh", "output": "邓迪大学的帕米拉·弗格森教授指出，记者在发布嫌疑人的照片等内容时，似乎确实走到了危险的边缘。"}
+{"dataset_id": "fleurs", "sample_id": 1683, "src_lang": "en", "tgt_lang": "zh", "output": "仍然有许多男女幸存者，他们曾在这里度过这段时光，还有更多人失去了亲人，无论他们是犹太人还是非犹太人，亲人都被谋杀或被迫害致死。"}
+{"dataset_id": "fleurs", "sample_id": 1764, "src_lang": "en", "tgt_lang": "zh", "output": "到场的人数众多，以至于无法让所有人都能进入圣彼得广场的葬礼现场。"}
+{"dataset_id": "fleurs", "sample_id": 1904, "src_lang": "en", "tgt_lang": "zh", "output": "然而，由于沟通渠道缓慢，西方风格可能会落后 25 至 30 年。"}
+{"dataset_id": "fleurs", "sample_id": 1698, "src_lang": "en", "tgt_lang": "zh", "output": "宇宙中的所有事物都是由物质构成的。所有物质都是由称为原子的微小粒子构成的。"}
+{"dataset_id": "fleurs", "sample_id": 1851, "src_lang": "en", "tgt_lang": "zh", "output": "绳索水流是波浪从海上退却时形成的回流，通常发生在珊瑚礁或类似的地方。"}
+{"dataset_id": "fleurs", "sample_id": 1700, "src_lang": "en", "tgt_lang": "zh", "output": "在梅里亚地区较薄，在高地地区较厚。"}
+{"dataset_id": "fleurs", "sample_id": 1907, "src_lang": "en", "tgt_lang": "zh", "output": "敌对行动爆发后不久，英国对德国实施了海上封锁。"}
+{"dataset_id": "fleurs", "sample_id": 1813, "src_lang": "en", "tgt_lang": "zh", "output": "巴塞罗那的官方语言是加泰罗尼亚语和西班牙语。大约一半的人更喜欢说加泰罗尼亚语，绝大多数人理解加泰罗尼亚语，几乎每个人都知道西班牙语。"}
+{"dataset_id": "fleurs", "sample_id": 1996, "src_lang": "en", "tgt_lang": "zh", "output": "澳大利亚的米切尔·戈利在男子站立式超级G比赛中获得第11名。捷克选手阿尔德里奇·迪莱尼奇在男子坐姿超级G比赛中获得第16名。"}
+{"dataset_id": "fleurs", "sample_id": 1915, "src_lang": "en", "tgt_lang": "zh", "output": "您可以在戈马使用boda boda摩托车出租车出行。短途车程的正常当地价格为500刚果法郎。"}
+{"dataset_id": "fleurs", "sample_id": 1721, "src_lang": "en", "tgt_lang": "zh", "output": "1963年大坝建成后，原本会将泥沙扩散到整个河流的季节性洪水被阻挡住了。"}
+{"dataset_id": "fleurs", "sample_id": 1910, "src_lang": "en", "tgt_lang": "zh", "output": "巴黎人以自我为中心、粗鲁、傲慢而闻名。"}
+{"dataset_id": "fleurs", "sample_id": 1954, "src_lang": "en", "tgt_lang": "zh", "output": "他们的纪律严明的防守、运球技巧和出色的团队合作使他们脱颖而出，很明显，这是最难战胜的队伍。"}
+{"dataset_id": "fleurs", "sample_id": 1993, "src_lang": "en", "tgt_lang": "zh", "output": "今天，大西洋飓风季节的强热带风暴杰瑞在大西洋形成。"}
+{"dataset_id": "fleurs", "sample_id": 1981, "src_lang": "en", "tgt_lang": "zh", "output": "如果您仅使用轮船或旅行团上岸，则从 2009 年起，您不需要单独的签证。"}
+{"dataset_id": "fleurs", "sample_id": 1967, "src_lang": "en", "tgt_lang": "zh", "output": "在与首相的会面中，莱顿要求修改保守党的环保法案，并要求彻底、完整地重写该法案。"}
+{"dataset_id": "fleurs", "sample_id": 1837, "src_lang": "en", "tgt_lang": "zh", "output": "自由派对重建工作的批评主要集中在将重建合同授予华盛顿内部人士上。"}
+{"dataset_id": "fleurs", "sample_id": 2009, "src_lang": "en", "tgt_lang": "zh", "output": "最容易获得的植物资源应该是叶片和豆类中的蛋白质，但对于像我们这样的灵长类动物来说，除非经过烹饪，否则很难消化。"}
+{"dataset_id": "fleurs", "sample_id": 1964, "src_lang": "en", "tgt_lang": "zh", "output": "现存的25份邓拉普传单是该文件现存最古老的副本。原手写副本已不复存在。"}
+{"dataset_id": "fleurs", "sample_id": 1933, "src_lang": "en", "tgt_lang": "zh", "output": "最后，还有许多小猫，包括流浪猫，它们的食物是数量远多的小型猎物，如昆虫、啮齿动物、蜥蜴和鸟类。"}
+{"dataset_id": "fleurs", "sample_id": 1877, "src_lang": "en", "tgt_lang": "zh", "output": "现任参议员、阿根廷第一夫人克里斯蒂娜·费尔南德斯·德基什内尔昨天晚上在布宜诺斯艾利斯以南50公里、31英里的城市拉普拉塔宣布参选总统。"}
+{"dataset_id": "fleurs", "sample_id": 1944, "src_lang": "en", "tgt_lang": "zh", "output": "这些有时是拥挤的家庭海滩，岸边有很多商店，所以许多海滩都很安全。"}
+{"dataset_id": "fleurs", "sample_id": 1731, "src_lang": "en", "tgt_lang": "zh", "output": "在群岛和湖泊中，你并不一定需要游艇。"}
+{"dataset_id": "fleurs", "sample_id": 1835, "src_lang": "en", "tgt_lang": "zh", "output": "目前尚未发布海啸警报，雅加达地球物理局表示，由于地震规模未达到 6.5 级，因此不会发布海啸警报。"}
+{"dataset_id": "fleurs", "sample_id": 1817, "src_lang": "en", "tgt_lang": "zh", "output": "然而，申根区在这方面运作的方式有点像一个国家。"}
+{"dataset_id": "fleurs", "sample_id": 1773, "src_lang": "en", "tgt_lang": "zh", "output": "睡眠中断是指在正常睡眠期间故意醒来，然后在短时间内（10至60分钟）再次入睡的过程。"}
+{"dataset_id": "fleurs", "sample_id": 1677, "src_lang": "en", "tgt_lang": "zh", "output": "今天，唯一不能将翅膀折回的昆虫是蜻蜓和蜉蝣。"}
+{"dataset_id": "fleurs", "sample_id": 1926, "src_lang": "en", "tgt_lang": "zh", "output": "亚里士多德关于科学的所有观点都被接受，包括心理学。"}
+{"dataset_id": "fleurs", "sample_id": 1978, "src_lang": "en", "tgt_lang": "zh", "output": "对于春申足球队来说，这场比赛结束了他们五连败的局面。"}
+{"dataset_id": "fleurs", "sample_id": 1938, "src_lang": "en", "tgt_lang": "zh", "output": "医院已遵循感染控制协议，包括将患者与其他人隔离，以防止可能对其他人造成感染。"}
+{"dataset_id": "fleurs", "sample_id": 1854, "src_lang": "en", "tgt_lang": "zh", "output": "车辆本身于同日格林尼治标准时间12时左右被从事故现场移走。"}
+{"dataset_id": "fleurs", "sample_id": 1873, "src_lang": "en", "tgt_lang": "zh", "output": "坚决拒绝男性，不要害怕坚持自己的立场。文化差异并不能为这种行为开脱。"}
+{"dataset_id": "fleurs", "sample_id": 1775, "src_lang": "en", "tgt_lang": "zh", "output": "视频记录的使用在对持续几毫秒的微表情面部动作的解读中取得了重要发现。"}
+{"dataset_id": "fleurs", "sample_id": 1937, "src_lang": "en", "tgt_lang": "zh", "output": "然而，这些计划几乎在一夜之间就被废弃了，因为苏联红军超过 80,000 名士兵违反《里加和平条约》、《苏波互不侵犯条约》以及其他双边和多边国际条约，入侵波兰东部地区，并建立了布尔什维克的俄罗斯和乌克兰战线。"}
+{"dataset_id": "fleurs", "sample_id": 1946, "src_lang": "en", "tgt_lang": "zh", "output": "取消政策各不相同，但截至3月底，大多数基于冠状病毒的取消政策并未延展至奥运会预定的2020年7月。"}
+{"dataset_id": "fleurs", "sample_id": 2002, "src_lang": "en", "tgt_lang": "zh", "output": "这将使玩家能够通过在空中移动设备来控制视频游戏中的动作和移动。"}
+{"dataset_id": "fleurs", "sample_id": 1875, "src_lang": "en", "tgt_lang": "zh", "output": "地球上河流注入海洋的水中，有 20% 全部来自亚马逊河。"}
+{"dataset_id": "fleurs", "sample_id": 1989, "src_lang": "en", "tgt_lang": "zh", "output": "他还为许多国家的钞票设计了浮雕图案。他近期作品的例子包括新版加拿大5元和100元钞票正面所印的总理肖像。"}
+{"dataset_id": "fleurs", "sample_id": 1976, "src_lang": "en", "tgt_lang": "zh", "output": "中下订单的板球手萨钦·塔杜尔卡和鲁库尔·德拉维表现出色，并建立了100分的合作。"}
+{"dataset_id": "fleurs", "sample_id": 1762, "src_lang": "en", "tgt_lang": "zh", "output": "这种疾病由猪携带，然后通过蚊子传播到人类。"}
+{"dataset_id": "fleurs", "sample_id": 1988, "src_lang": "en", "tgt_lang": "zh", "output": "20 世纪 20 年代，大多数公民和国家的普遍态度是和平主义和孤立主义。"}
+{"dataset_id": "fleurs", "sample_id": 1922, "src_lang": "en", "tgt_lang": "zh", "output": "当然，基督教神学对此传统有解释，但它很可能是一个基督教之前的春季和生育仪式。"}
+{"dataset_id": "fleurs", "sample_id": 1716, "src_lang": "en", "tgt_lang": "zh", "output": "据娱乐新闻网站 TNZ 了解，这位摄影师在塞普尔韦达大道的另一侧停车，试图在过马路继续前拍摄警察拦车的场景，这促使进行交通拦截的加州公路巡逻警察两次命令他返回。"}
+{"dataset_id": "fleurs", "sample_id": 1948, "src_lang": "en", "tgt_lang": "zh", "output": "三国时期是中国古代历史上最血腥的时期之一。成千上万的人为了争夺大殿最高座位而战死……在锡安？"}
+{"dataset_id": "fleurs", "sample_id": 2009, "src_lang": "en", "tgt_lang": "zh", "output": "最容易获得的植物资源应该是叶片和豆类中的蛋白质，但对于像我们这样的灵长类动物来说，除非经过烹饪，否则很难消化。"}
+{"dataset_id": "fleurs", "sample_id": 1786, "src_lang": "en", "tgt_lang": "zh", "output": "通过红外光谱法比较，这些晶体的组成与感染裤子尿液中发现的晶体相匹配。"}
+{"dataset_id": "fleurs", "sample_id": 1708, "src_lang": "en", "tgt_lang": "zh", "output": "CUNY 已辞职，Ed Davey 将接替他在内阁中的职位。预计 Norman Lamb 将接替 Davey 离开的商业部长职位。"}
+{"dataset_id": "fleurs", "sample_id": 1847, "src_lang": "en", "tgt_lang": "zh", "output": "他受到新加坡副总理黄根兴的迎接，并与新加坡总理李显龙讨论了贸易和恐怖主义问题。"}
+{"dataset_id": "fleurs", "sample_id": 1816, "src_lang": "en", "tgt_lang": "zh", "output": "杜瓦尔与两个成年子女结婚，没有给米勒留下深刻的印象，米勒是与他有关的故事的讲述者。"}
+{"dataset_id": "fleurs", "sample_id": 1724, "src_lang": "en", "tgt_lang": "zh", "output": "作为奢侈品中心的名声始于公元 400 年左右，一直持续到公元 1100 年左右。"}
+{"dataset_id": "fleurs", "sample_id": 1815, "src_lang": "en", "tgt_lang": "zh", "output": "裂变弹的工作原理是，将许多质子和中子组装成一个原子核需要能量。"}
+{"dataset_id": "fleurs", "sample_id": 1771, "src_lang": "en", "tgt_lang": "zh", "output": "请记住，即使主舞台上的音乐已经结束，但节日的某些区域可能会持续播放音乐直到深夜。"}
+{"dataset_id": "fleurs", "sample_id": 1743, "src_lang": "en", "tgt_lang": "zh", "output": "技术决定论的大多数解释都包含两个基本观点：技术本身的发展路径在很大程度上不受文化或政治影响；技术对社会的影响是内在的，而不是社会条件决定的。"}
+{"dataset_id": "fleurs", "sample_id": 1706, "src_lang": "en", "tgt_lang": "zh", "output": "在复活节周末的周六晚上，更传统的教堂通常会举行复活节守夜礼，信徒们通常在午夜时分开始庆祝，以庆祝基督的复活。"}
+{"dataset_id": "fleurs", "sample_id": 1748, "src_lang": "en", "tgt_lang": "zh", "output": "消防救援人员最终在晚上 11 点 35 分将大火扑灭。"}
+{"dataset_id": "fleurs", "sample_id": 1957, "src_lang": "en", "tgt_lang": "zh", "output": "他将这些谣言称为政治闲聊和胡说八道。"}
+{"dataset_id": "fleurs", "sample_id": 1804, "src_lang": "en", "tgt_lang": "zh", "output": "海地正义与民主研究所引用了独立研究的结果，这些研究表明，尼泊尔联合国维和营在不知情的情况下将这种疾病带到了海地。"}
+{"dataset_id": "fleurs", "sample_id": 1760, "src_lang": "en", "tgt_lang": "zh", "output": "在当时，摩萨龙是顶级掠食者，除了其他摩萨龙外，它什么都不怕。"}
+{"dataset_id": "fleurs", "sample_id": 1852, "src_lang": "en", "tgt_lang": "zh", "output": "恰当地使用博客可以使学生通过积极回应网络材料，培养更强的分析和批判能力。学生可以在其他文章的背景下定义自己的立场，并概述自己对特定问题的看法。Orvec 2002"}
+{"dataset_id": "fleurs", "sample_id": 1993, "src_lang": "en", "tgt_lang": "zh", "output": "今天，大西洋飓风季节的强热带风暴杰瑞在大西洋形成。"}
+{"dataset_id": "fleurs", "sample_id": 1720, "src_lang": "en", "tgt_lang": "zh", "output": "热巧克力符合比利时标准。果汁价格昂贵，但质量一流。"}
+{"dataset_id": "fleurs", "sample_id": 1916, "src_lang": "en", "tgt_lang": "zh", "output": "许多德国烘焙食品中都含有杏仁、榛子和其他坚果。受欢迎的蛋糕通常与一杯浓咖啡搭配特别好。"}
+{"dataset_id": "fleurs", "sample_id": 1995, "src_lang": "en", "tgt_lang": "zh", "output": "虚拟支架被软件内化，旨在质疑、提示和解释可能对学生来说过于具有挑战性的程序。"}
+{"dataset_id": "fleurs", "sample_id": 1957, "src_lang": "en", "tgt_lang": "zh", "output": "他将这些谣言称为政治闲聊和胡说八道。"}
+{"dataset_id": "fleurs", "sample_id": 1758, "src_lang": "en", "tgt_lang": "zh", "output": "该群岛位于半岛以北120公里处。其中最大的岛屿是乔治王岛，岛上有拉斯埃斯特雷拉斯村。"}
+{"dataset_id": "fleurs", "sample_id": 1832, "src_lang": "en", "tgt_lang": "zh", "output": "流行的体育项目包括足球、篮球、排球、水球、击剑、橄榄球、自行车运动、冰球、旱地曲棍球和F1赛车。"}
+{"dataset_id": "fleurs", "sample_id": 1877, "src_lang": "en", "tgt_lang": "zh", "output": "现任参议员、阿根廷第一夫人克里斯蒂娜·费尔南德斯·德基什内尔昨天晚上在布宜诺斯艾利斯以南50公里、31英里的城市拉普拉塔宣布参选总统。"}
+{"dataset_id": "fleurs", "sample_id": 1870, "src_lang": "en", "tgt_lang": "zh", "output": "场景在金字塔上展示，不同的金字塔被点亮。"}
+{"dataset_id": "fleurs", "sample_id": 1810, "src_lang": "en", "tgt_lang": "zh", "output": "加州州长阿诺德·施瓦辛格签署了一项法案，禁止向未成年人出售或出租暴力视频游戏。"}
+{"dataset_id": "fleurs", "sample_id": 1843, "src_lang": "en", "tgt_lang": "zh", "output": "邓迪大学的帕米拉·弗格森教授指出，记者在发布嫌疑人的照片等内容时，似乎确实走到了危险的边缘。"}
+{"dataset_id": "fleurs", "sample_id": 1697, "src_lang": "en", "tgt_lang": "zh", "output": "他一直无法服用克服疼痛所需的药物，因为这些药物在比赛中是被禁止的。"}
+{"dataset_id": "fleurs", "sample_id": 1685, "src_lang": "en", "tgt_lang": "zh", "output": "例如，世界上最常见的静态摄影格式是 35mm，这是模拟胶片时代结束时占主导地位的胶片尺寸。"}
+{"dataset_id": "fleurs", "sample_id": 1834, "src_lang": "en", "tgt_lang": "zh", "output": "在北方，还可以参观世界著名的圣母玛利亚显现之地——圣母玛利亚法蒂玛圣殿。"}
+{"dataset_id": "fleurs", "sample_id": 1679, "src_lang": "en", "tgt_lang": "zh", "output": "Aerosmith 已取消了他们巡回演唱会剩下的所有演出。"}
+{"dataset_id": "fleurs", "sample_id": 1742, "src_lang": "en", "tgt_lang": "zh", "output": "香港岛为香港地区命名，许多游客认为它是香港的主要景点。"}
+{"dataset_id": "fleurs", "sample_id": 1727, "src_lang": "en", "tgt_lang": "zh", "output": "流浪儿童在被遗弃或离家出走之前，可能经历过严重的虐待或创伤。"}
+{"dataset_id": "fleurs", "sample_id": 1751, "src_lang": "en", "tgt_lang": "zh", "output": "这场辩论的导火索是卡特里娜飓风过后救灾和重建的支出争议，一些财政保守派戏称这是布什的新奥尔良交易。"}
+{"dataset_id": "fleurs", "sample_id": 1734, "src_lang": "en", "tgt_lang": "zh", "output": "科学家们得出的结论是，暗物质以与普通物质相同的方式影响其他暗物质。"}
+{"dataset_id": "fleurs", "sample_id": 1716, "src_lang": "en", "tgt_lang": "zh", "output": "据娱乐新闻网站 TNZ 了解，这位摄影师在塞普尔韦达大道的另一侧停车，试图在过马路继续前拍摄警察拦车的场景，这促使进行交通拦截的加州公路巡逻警察两次命令他返回。"}
+{"dataset_id": "fleurs", "sample_id": 1899, "src_lang": "en", "tgt_lang": "zh", "output": "穆罕默德对超越他平凡生活的各种事物深感兴趣。他经常光顾努尔山的一处洞穴，这处洞穴后来被称为希拉洞，在那里进行沉思。"}
+{"dataset_id": "fleurs", "sample_id": 1898, "src_lang": "en", "tgt_lang": "zh", "output": "他从一开始就基本在骗我们。首先，他装作这是出于法律原因。其次，他假装一直都在听我们说话，直到他删除了艺术品。"}
+{"dataset_id": "fleurs", "sample_id": 1664, "src_lang": "en", "tgt_lang": "zh", "output": "将两种干粉混合搅拌，然后用干净湿润的手将它们捏成一团。"}
+{"dataset_id": "fleurs", "sample_id": 1789, "src_lang": "en", "tgt_lang": "zh", "output": "其他提名包括最佳影片、最佳导演、最佳摄影、最佳服装设计、最佳剪辑、最佳原创配乐、最佳美术设计、最佳音效剪辑、最佳音效混音和最佳原创剧本。"}
+{"dataset_id": "fleurs", "sample_id": 1811, "src_lang": "en", "tgt_lang": "zh", "output": "802.11n标准同时在2.4GHz和5.0GHz频率上运行。"}
+{"dataset_id": "fleurs", "sample_id": 1958, "src_lang": "en", "tgt_lang": "zh", "output": "这座城市与该国其他城市形成鲜明对比，因为它更具阿拉伯特色，而非非洲特色。"}
+{"dataset_id": "fleurs", "sample_id": 1894, "src_lang": "en", "tgt_lang": "zh", "output": "咖喱是一道以香草和香料为基础，搭配肉类或蔬菜的菜肴。"}
+{"dataset_id": "fleurs", "sample_id": 1944, "src_lang": "en", "tgt_lang": "zh", "output": "这些有时是拥挤的家庭海滩，岸边有很多商店，所以许多海滩都很安全。"}
+{"dataset_id": "fleurs", "sample_id": 1804, "src_lang": "en", "tgt_lang": "zh", "output": "海地正义与民主研究所引用了独立研究的结果，这些研究表明，尼泊尔联合国维和营在不知情的情况下将这种疾病带到了海地。"}
+{"dataset_id": "fleurs", "sample_id": 1985, "src_lang": "en", "tgt_lang": "zh", "output": "它与高山滑雪旅行或登山有关，但通常不涉及这些活动。后者是在陡峭的地形中进行的，需要更硬的滑雪板和滑雪靴。"}
+{"dataset_id": "fleurs", "sample_id": 1886, "src_lang": "en", "tgt_lang": "zh", "output": "古代文化和部落开始饲养它们，以便轻松获得牛奶、毛发、肉和皮毛。"}
+{"dataset_id": "fleurs", "sample_id": 1687, "src_lang": "en", "tgt_lang": "zh", "output": "分离和重组使两个基因库之间的变异在每一代中来回交替。"}
+{"dataset_id": "fleurs", "sample_id": 1674, "src_lang": "en", "tgt_lang": "zh", "output": "在一些地区，沸水一分钟就足够了，而在其他地区则需要几分钟。"}
+{"dataset_id": "fleurs", "sample_id": 1793, "src_lang": "en", "tgt_lang": "zh", "output": "如果你不习惯在乡村公路上驾驶，请保持警觉。陡峭的山路、狭窄的巷道和急转弯随处可见。"}
+{"dataset_id": "fleurs", "sample_id": 1753, "src_lang": "en", "tgt_lang": "zh", "output": "虽然这通常是一个不准确的刻板印象，但在巴黎相处最好的方法仍然是表现得最好，像一个 bien élevé（教养良好）的人一样行事。这样会让出行变得容易得多。"}
+{"dataset_id": "fleurs", "sample_id": 1856, "src_lang": "en", "tgt_lang": "zh", "output": "芬兰是一个绝佳的游船目的地。这片拥有千湖之地的国家，湖泊和沿海群岛上还有成千上万个岛屿。"}
+{"dataset_id": "fleurs", "sample_id": 1818, "src_lang": "en", "tgt_lang": "zh", "output": "人们可能没有意识到，耐心和理解对于回家的旅行者同样重要。"}
+{"dataset_id": "fleurs", "sample_id": 1820, "src_lang": "en", "tgt_lang": "zh", "output": "现在人们在电脑屏幕上写字，根本不用靠近削笔器。"}
+{"dataset_id": "fleurs", "sample_id": 1959, "src_lang": "en", "tgt_lang": "zh", "output": "尽管如此，仍应听从当局的建议，遵守所有标志，并注意安全警告。"}
+{"dataset_id": "fleurs", "sample_id": 1812, "src_lang": "en", "tgt_lang": "zh", "output": "虽然一种实验性疫苗似乎有助于降低埃博拉病毒的死亡率，但迄今为止，尚无药物被明确证明适用于治疗现有感染。"}
+{"dataset_id": "fleurs", "sample_id": 1719, "src_lang": "en", "tgt_lang": "zh", "output": "恶劣天气是指任何可能造成破坏、严重社会混乱或人员伤亡的危险天气现象。"}
+{"dataset_id": "fleurs", "sample_id": 1932, "src_lang": "en", "tgt_lang": "zh", "output": "表演开始后的五分钟，一阵风开始吹起。大约一分钟后，风速达到每小时70公里。接着，雨来了，但雨滴很大，像针一样刺痛皮肤。接着，冰雹从天而降，人们惊慌失措，尖叫着，互相践踏。"}
+{"dataset_id": "fleurs", "sample_id": 1936, "src_lang": "en", "tgt_lang": "zh", "output": "佩里表示，他将返回德克萨斯州，评估今晚党代表大会的结果，确定这是否是我在这场竞选中前进的道路，但后来又表示，他将继续参加竞选，并参加1月21日南卡罗来纳州的初选。"}
+{"dataset_id": "fleurs", "sample_id": 1948, "src_lang": "en", "tgt_lang": "zh", "output": "三国时期是中国古代历史上最血腥的时期之一。成千上万的人为了争夺大殿最高座位而战死……在锡安？"}
+{"dataset_id": "fleurs", "sample_id": 1979, "src_lang": "en", "tgt_lang": "zh", "output": "福克兰群岛的官方货币是福克兰镑，其价值与1英镑相等。"}
+{"dataset_id": "fleurs", "sample_id": 1670, "src_lang": "en", "tgt_lang": "zh", "output": "美国地质调查局（USGS）天文学小组成员、亚利桑那州立大学（位于亚利桑那州的弗拉格斯塔夫）的格伦·卡辛（Glenn Cushing）表示，这些洞穴的温度变化不如地球上的大洞穴稳定，但它们与地面的深洞一致。"}
+{"dataset_id": "fleurs", "sample_id": 1965, "src_lang": "en", "tgt_lang": "zh", "output": "它们几乎都是沙滩，游泳安全，大多数都有波伊肯树提供的遮阴。"}
+{"dataset_id": "fleurs", "sample_id": 1986, "src_lang": "en", "tgt_lang": "zh", "output": "拉森和拉福索（1989年，第109页）认为，真正的“隐形团队”的存在也是虚拟团队的一个独特组成部分。"}
+{"dataset_id": "fleurs", "sample_id": 1771, "src_lang": "en", "tgt_lang": "zh", "output": "请记住，即使主舞台上的音乐已经结束，但节日的某些区域可能会持续播放音乐直到深夜。"}
+{"dataset_id": "fleurs", "sample_id": 1945, "src_lang": "en", "tgt_lang": "zh", "output": "在整个摩洛哥，卡萨布兰卡是最不吸引人购物的地方之一。"}
+{"dataset_id": "fleurs", "sample_id": 1777, "src_lang": "en", "tgt_lang": "zh", "output": "渥太华是加拿大迷人的双语首都，拥有众多艺术画廊和博物馆，展示了加拿大的过去和现在。"}
+{"dataset_id": "fleurs", "sample_id": 2008, "src_lang": "en", "tgt_lang": "zh", "output": "在巴厘岛议程上的其他议题还包括拯救世界剩余的森林，以及分享技术，帮助发展中国家以更少污染的方式发展。"}
+{"dataset_id": "fleurs", "sample_id": 1673, "src_lang": "en", "tgt_lang": "zh", "output": "在独立战争期间，13个州首先组建了一个薄弱的中央政府，国会是根据联邦条例成立的唯一组成部分。"}
+{"dataset_id": "fleurs", "sample_id": 1872, "src_lang": "en", "tgt_lang": "zh", "output": "在毛运动组织的独立斗争期间，该镇的一次和平集会导致最高酋长 Tuba Tuba Siay Le III 被杀害。"}
+{"dataset_id": "fleurs", "sample_id": 1949, "src_lang": "en", "tgt_lang": "zh", "output": "昆虫学家在正式场合使用“bug”一词来指代这一类昆虫。"}
+{"dataset_id": "fleurs", "sample_id": 1968, "src_lang": "en", "tgt_lang": "zh", "output": "一些邮轮的宣传册上标注了德国柏林。从上面的地图可以看出，柏林离海很远，游览这座城市不包含在邮轮价格中。"}
+{"dataset_id": "fleurs", "sample_id": 1983, "src_lang": "en", "tgt_lang": "zh", "output": "文明一词源自拉丁语civilis，意为公民的，与拉丁语civis（公民）和civitas（城市或城邦）相关。这在某种程度上也定义了社会的规模。"}
+{"dataset_id": "fleurs", "sample_id": 1951, "src_lang": "en", "tgt_lang": "zh", "output": "2002 年，戈马被尼兰戈戈火山熔岩摧毁，大部分街道，尤其是市中心，都被埋没。"}
+{"dataset_id": "fleurs", "sample_id": 1845, "src_lang": "en", "tgt_lang": "zh", "output": "在马车里，他们返回巴黎，周围是一群人，他们尖叫着，对国王和王后发出威胁。"}
+{"dataset_id": "fleurs", "sample_id": 1820, "src_lang": "en", "tgt_lang": "zh", "output": "现在人们在电脑屏幕上写字，根本不用靠近削笔器。"}
+{"dataset_id": "fleurs", "sample_id": 1972, "src_lang": "en", "tgt_lang": "zh", "output": "有多少人不会把它们当作恐龙，因为它们有羽毛并且会飞？"}
+{"dataset_id": "fleurs", "sample_id": 1924, "src_lang": "en", "tgt_lang": "zh", "output": "女子坐姿滑雪组中有四名滑雪者未能完成比赛，在总共 117 名参加大回转赛的滑雪者中，有 45 名未能获得名次。"}
+{"dataset_id": "fleurs", "sample_id": 1990, "src_lang": "en", "tgt_lang": "zh", "output": "博客还可以提高学生的写作水平。虽然学生在开始写博客时通常语法和拼写都不太好，但有读者在场通常会改变这一点。"}
+{"dataset_id": "fleurs", "sample_id": 1759, "src_lang": "en", "tgt_lang": "zh", "output": "29岁的米拉尔·巴拉苏布拉曼博士在俄亥俄州布鲁阿什被发现，布鲁阿什是辛辛那提以北约15英里的一个郊区，他当时穿着T恤和内裤，躺在路边的地上，显然处于高度药物作用的状态。"}
+{"dataset_id": "fleurs", "sample_id": 1689, "src_lang": "en", "tgt_lang": "zh", "output": "欧洲是一个相对较小的大陆，但拥有许多独立的国家。在正常情况下，穿越多个国家意味着需要多次申请签证和通过护照检查。"}
+{"dataset_id": "fleurs", "sample_id": 1882, "src_lang": "en", "tgt_lang": "zh", "output": "科学家希望了解行星如何形成，特别是地球如何形成，因为很久以前彗星与地球相撞。"}
+{"dataset_id": "fleurs", "sample_id": 1673, "src_lang": "en", "tgt_lang": "zh", "output": "在独立战争期间，13个州首先组建了一个薄弱的中央政府，国会是根据联邦条例成立的唯一组成部分。"}
+{"dataset_id": "fleurs", "sample_id": 1714, "src_lang": "en", "tgt_lang": "zh", "output": "该卫星由火箭送入太空。科学家们在太空中使用望远镜，因为地球的大气层会扭曲我们的一些光线和视野。"}
+{"dataset_id": "fleurs", "sample_id": 1688, "src_lang": "en", "tgt_lang": "zh", "output": "海军的传统任务是确保本国能够运送人员和物资，同时干扰敌人运送人员和物资的能力。"}
+{"dataset_id": "fleurs", "sample_id": 1777, "src_lang": "en", "tgt_lang": "zh", "output": "渥太华是加拿大迷人的双语首都，拥有众多艺术画廊和博物馆，展示了加拿大的过去和现在。"}
+{"dataset_id": "fleurs", "sample_id": 1784, "src_lang": "en", "tgt_lang": "zh", "output": "格陵兰岛的定居者稀少。在北欧传奇中，他们说红衣埃里克因谋杀罪被流放到冰岛，在向西旅行时发现了格陵兰岛，并将其命名为格陵兰岛。"}
+{"dataset_id": "fleurs", "sample_id": 1865, "src_lang": "en", "tgt_lang": "zh", "output": "圣彼得堡游轮包括时间和城市。游轮乘客可免签证。请查看条款。"}
+{"dataset_id": "fleurs", "sample_id": 1702, "src_lang": "en", "tgt_lang": "zh", "output": "仅仅两周时间，美军和自由法国军队就解放了法国南部，并向德国进发。"}
+{"dataset_id": "fleurs", "sample_id": 1663, "src_lang": "en", "tgt_lang": "zh", "output": "卡查莫山谷，智利首屈一指的攀岩胜地，被称为南美洲的优胜美地，拥有各种花岗岩大岩壁和岩峰。"}
+{"dataset_id": "fleurs", "sample_id": 1982, "src_lang": "en", "tgt_lang": "zh", "output": "建议女性旅行者无论实际婚姻状况如何，都应自称已婚。"}
+{"dataset_id": "fleurs", "sample_id": 1710, "src_lang": "en", "tgt_lang": "zh", "output": "上周，许多人宣布苹果公司已告知其发生了34起过热事件，苹果公司称这些事件并不严重。"}
+{"dataset_id": "fleurs", "sample_id": 1933, "src_lang": "en", "tgt_lang": "zh", "output": "最后，还有许多小猫，包括流浪猫，它们的食物是数量远多的小型猎物，如昆虫、啮齿动物、蜥蜴和鸟类。"}
+{"dataset_id": "fleurs", "sample_id": 1863, "src_lang": "en", "tgt_lang": "zh", "output": "藏传佛教禅修的核心是护法瑜伽。通过对各种护法的观想，能清理能量通道，激活轮脉，并创造出觉悟意识。"}
+{"dataset_id": "fleurs", "sample_id": 1922, "src_lang": "en", "tgt_lang": "zh", "output": "当然，基督教神学对此传统有解释，但它很可能是一个基督教之前的春季和生育仪式。"}
+{"dataset_id": "fleurs", "sample_id": 1676, "src_lang": "en", "tgt_lang": "zh", "output": "与所有南非国家公园一样，该公园每天都有保护和入场费。"}
+{"dataset_id": "fleurs", "sample_id": 1767, "src_lang": "en", "tgt_lang": "zh", "output": "这提供了一个很好的机会来观赏北极光，因为天空几乎全天都会很暗。"}
+{"dataset_id": "fleurs", "sample_id": 1929, "src_lang": "en", "tgt_lang": "zh", "output": "德尔波特罗在第二盘中占据了先机，但在达到6-6后，这场比赛需要一场决胜盘。"}
+{"dataset_id": "fleurs", "sample_id": 1672, "src_lang": "en", "tgt_lang": "zh", "output": "请小心不要让织物过热，这可能导致织物缩水，或者在极端情况下，造成烧焦。"}
+{"dataset_id": "fleurs", "sample_id": 1920, "src_lang": "en", "tgt_lang": "zh", "output": "他们通常会提供特别的美食、饮品和娱乐活动，以保持客人的良好心情，并让他们留在酒店。"}
+{"dataset_id": "fleurs", "sample_id": 1884, "src_lang": "en", "tgt_lang": "zh", "output": "特别是，有人声称，通过正确解读微表情，就可以判断一个人是否在说谎。"}
+{"dataset_id": "fleurs", "sample_id": 1665, "src_lang": "en", "tgt_lang": "zh", "output": "根据泄露的文件，文件将提及边界争端，帕伦斯坦曾以1967年中东战争前的边界为依据。"}
+{"dataset_id": "fleurs", "sample_id": 1765, "src_lang": "en", "tgt_lang": "zh", "output": "自1537年阿法·安松西翁（Afa Anzuncion）成立以来，巴拉圭成功地保留了许多本土特色和身份。"}
+{"dataset_id": "fleurs", "sample_id": 1879, "src_lang": "en", "tgt_lang": "zh", "output": "当出现更新事物时，人们不禁想知道键盘会变成什么样子。"}
+{"dataset_id": "fleurs", "sample_id": 1976, "src_lang": "en", "tgt_lang": "zh", "output": "中下订单的板球手萨钦·塔杜尔卡和鲁库尔·德拉维表现出色，并建立了100分的合作。"}
+{"dataset_id": "fleurs", "sample_id": 1970, "src_lang": "en", "tgt_lang": "zh", "output": "我们不能确定，但它可能有一条分叉的舌头。它的食物包括乌龟、大鱼、其他沧龙，甚至可能自相残杀。"}
+{"dataset_id": "fleurs", "sample_id": 1745, "src_lang": "en", "tgt_lang": "zh", "output": "植物在自然环境中看起来最好，所以要抵制移走哪怕一个标本的诱惑。"}
+{"dataset_id": "fleurs", "sample_id": 1977, "src_lang": "en", "tgt_lang": "zh", "output": "一个骄傲群体由1至3只成年雄性同类组成，以及多达30只雌性和幼崽。"}
+{"dataset_id": "fleurs", "sample_id": 1770, "src_lang": "en", "tgt_lang": "zh", "output": "这似乎是合理的，因为地球并没有感觉像是在移动，对吧？"}
+{"dataset_id": "fleurs", "sample_id": 1806, "src_lang": "en", "tgt_lang": "zh", "output": "由于在它们最辉煌的时期，光污染并不是像今天这样严重的问题，因此它们通常位于城市或校园内，比现代建造的那些更容易到达。"}
+{"dataset_id": "fleurs", "sample_id": 1744, "src_lang": "en", "tgt_lang": "zh", "output": "罗斯贝数越小，恒星的磁极反转活动就越不活跃。"}
+{"dataset_id": "fleurs", "sample_id": 1869, "src_lang": "en", "tgt_lang": "zh", "output": "它的长而坚硬的颚骨上密布着70多颗锋利的牙齿，再加上口腔顶部还有一排牙齿，这意味着任何路过它面前的生物都无法逃脱。"}
+{"dataset_id": "fleurs", "sample_id": 1841, "src_lang": "en", "tgt_lang": "zh", "output": "除了头顶上蔚蓝的天空和周围的群山，什么都看不见。从洞穴内部几乎看不到或听到这个世界上的任何事物。"}
+{"dataset_id": "fleurs", "sample_id": 1986, "src_lang": "en", "tgt_lang": "zh", "output": "拉森和拉福索（1989年，第109页）认为，真正的“隐形团队”的存在也是虚拟团队的一个独特组成部分。"}
+{"dataset_id": "fleurs", "sample_id": 1926, "src_lang": "en", "tgt_lang": "zh", "output": "亚里士多德关于科学的所有观点都被接受，包括心理学。"}
+{"dataset_id": "fleurs", "sample_id": 1840, "src_lang": "en", "tgt_lang": "zh", "output": "在意大利其他许多城市以及世界其他地区，特别是在波兰，也制作了类似的装置，吸引了大量观众前来观看。"}
+{"dataset_id": "fleurs", "sample_id": 1964, "src_lang": "en", "tgt_lang": "zh", "output": "现存的25份邓拉普传单是该文件现存最古老的副本。原手写副本已不复存在。"}
+{"dataset_id": "fleurs", "sample_id": 1774, "src_lang": "en", "tgt_lang": "zh", "output": "在离岛，信用卡可能不被接受，但英镑和美元可能被接受。请提前与房东确认可接受的付款方式。"}
+{"dataset_id": "fleurs", "sample_id": 2003, "src_lang": "en", "tgt_lang": "zh", "output": "要欣赏香港最美的景色，离开岛屿，前往对面的九龙海滨。"}
+{"dataset_id": "fleurs", "sample_id": 1859, "src_lang": "en", "tgt_lang": "zh", "output": "中世纪后期，西欧开始发展出自己的风格。当时最大的发展之一是，由于十字军东征的影响，人们开始用纽扣来系紧衣服。"}
+{"dataset_id": "fleurs", "sample_id": 1842, "src_lang": "en", "tgt_lang": "zh", "output": "由于恐龙羽毛没有发育良好的中轴（rachis），但确实具有其他特征，如羽轴（barbs）和羽小枝（barbels），研究人员推断，中轴可能是在这些其他特征之后才进化的。"}
+{"dataset_id": "fleurs", "sample_id": 1887, "src_lang": "en", "tgt_lang": "zh", "output": "在医院工作期间，利金斯开始利用业余时间研究早产。"}
+{"dataset_id": "fleurs", "sample_id": 1830, "src_lang": "en", "tgt_lang": "zh", "output": "执政党——西南非洲人民组织在议会选举中也保持了多数席位。"}
+{"dataset_id": "fleurs", "sample_id": 1900, "src_lang": "en", "tgt_lang": "zh", "output": "事实上，即使知道它存在，也很难找到它。一旦进入洞穴，就会完全与外界隔绝。"}
+{"dataset_id": "fleurs", "sample_id": 1873, "src_lang": "en", "tgt_lang": "zh", "output": "坚决拒绝男性，不要害怕坚持自己的立场。文化差异并不能为这种行为开脱。"}
+{"dataset_id": "fleurs", "sample_id": 1735, "src_lang": "en", "tgt_lang": "zh", "output": "美国普林斯顿大学和瑞典乌普萨拉大学的研究人员报告称，这种新物种仅在两代人中进化出来，尽管由于当地特有物种达尔文雀（Geospisa fortis）与移民仙人掌雀（Geospisa conirostris）之间的繁殖，这一过程可能需要更长的时间。"}
+{"dataset_id": "fleurs", "sample_id": 1725, "src_lang": "en", "tgt_lang": "zh", "output": "华硕EPC因其成本节约和功能性因素而提前在全球推出，成为2007年台北IT月中的热门话题。"}
+{"dataset_id": "fleurs", "sample_id": 1868, "src_lang": "en", "tgt_lang": "zh", "output": "而在另一个极端，一个人会变成一个面目全非的个体，他或她觉得自己必须改变团队一直以来所做的一切，并将其变成自己的。"}
+{"dataset_id": "fleurs", "sample_id": 1981, "src_lang": "en", "tgt_lang": "zh", "output": "如果您仅使用轮船或旅行团上岸，则从 2009 年起，您不需要单独的签证。"}
+{"dataset_id": "fleurs", "sample_id": 1942, "src_lang": "en", "tgt_lang": "zh", "output": "我们用植物建造房屋，用植物制作衣服。我们吃的食物大部分都是植物。没有植物，动物就无法生存。"}
+{"dataset_id": "fleurs", "sample_id": 1918, "src_lang": "en", "tgt_lang": "zh", "output": "苏德尔班斯已被联合国教科文组织宣布为世界遗产。位于印度领土内的部分森林被称为苏德尔班斯国家公园。"}
+{"dataset_id": "fleurs", "sample_id": 1925, "src_lang": "en", "tgt_lang": "zh", "output": "所做的工作主要是理论性的，但该程序的编写是为了模拟对人马座星系的观测。"}
+{"dataset_id": "fleurs", "sample_id": 1955, "src_lang": "en", "tgt_lang": "zh", "output": "MS 是一种影响中枢神经系统的疾病，中枢神经系统由大脑、脊髓和视神经组成。"}
+{"dataset_id": "fleurs", "sample_id": 1857, "src_lang": "en", "tgt_lang": "zh", "output": "他还补充说，然而，不应要求他们承担超出其发展阶段、责任和能力的义务。"}
+{"dataset_id": "fleurs", "sample_id": 1965, "src_lang": "en", "tgt_lang": "zh", "output": "它们几乎都是沙滩，游泳安全，大多数都有波伊肯树提供的遮阴。"}
+{"dataset_id": "fleurs", "sample_id": 1840, "src_lang": "en", "tgt_lang": "zh", "output": "在意大利其他许多城市以及世界其他地区，特别是在波兰，也制作了类似的装置，吸引了大量观众前来观看。"}
+{"dataset_id": "fleurs", "sample_id": 1814, "src_lang": "en", "tgt_lang": "zh", "output": "氢离子是失去电子的质子，因为氢原子由一个质子和一个电子组成。"}
+{"dataset_id": "fleurs", "sample_id": 1905, "src_lang": "en", "tgt_lang": "zh", "output": "曼多瓦的首都是基希讷乌。当地语言是罗马尼亚语，但俄语被广泛使用。"}
+{"dataset_id": "fleurs", "sample_id": 1959, "src_lang": "en", "tgt_lang": "zh", "output": "尽管如此，仍应听从当局的建议，遵守所有标志，并注意安全警告。"}
+{"dataset_id": "fleurs", "sample_id": 1766, "src_lang": "en", "tgt_lang": "zh", "output": "有些原子的原子核不稳定，这意味着它们倾向于在几乎没有或完全没有外力作用下自行分裂和解体。"}
+{"dataset_id": "fleurs", "sample_id": 1768, "src_lang": "en", "tgt_lang": "zh", "output": "建筑群边缘的大部分建筑已被重建，以便游客更好地了解它们最初的样貌。"}
+{"dataset_id": "fleurs", "sample_id": 1908, "src_lang": "en", "tgt_lang": "zh", "output": "这是区分某些动词和宾语的重要方法。"}
+{"dataset_id": "fleurs", "sample_id": 1891, "src_lang": "en", "tgt_lang": "zh", "output": "Lak Ha Sing 也表演了 Sapan Bhajan。歌手 Raju Khandelwal 伴奏。"}
+{"dataset_id": "fleurs", "sample_id": 1753, "src_lang": "en", "tgt_lang": "zh", "output": "虽然这通常是一个不准确的刻板印象，但在巴黎相处最好的方法仍然是表现得最好，像一个 bien élevé（教养良好）的人一样行事。这样会让出行变得容易得多。"}
+{"dataset_id": "fleurs", "sample_id": 1793, "src_lang": "en", "tgt_lang": "zh", "output": "如果你不习惯在乡村公路上驾驶，请保持警觉。陡峭的山路、狭窄的巷道和急转弯随处可见。"}
+{"dataset_id": "fleurs", "sample_id": 1684, "src_lang": "en", "tgt_lang": "zh", "output": "阿皮亚是萨摩亚的首都。该镇位于阿普鲁岛上，人口近40,000。"}
+{"dataset_id": "fleurs", "sample_id": 1960, "src_lang": "en", "tgt_lang": "zh", "output": "据报道，他当时20多岁。比伯在一份声明中说：“虽然我不在场，也不直接参与了这次悲惨的事故，但我与受害者家人的思念和祈祷。"}
+{"dataset_id": "fleurs", "sample_id": 1924, "src_lang": "en", "tgt_lang": "zh", "output": "女子坐姿滑雪组中有四名滑雪者未能完成比赛，在总共 117 名参加大回转赛的滑雪者中，有 45 名未能获得名次。"}
+{"dataset_id": "fleurs", "sample_id": 1718, "src_lang": "en", "tgt_lang": "zh", "output": "对于哪些制造物品被视为古董，并没有一个普遍的定义。一些税务机构将超过100年的商品定义为古董。"}
+{"dataset_id": "fleurs", "sample_id": 1862, "src_lang": "en", "tgt_lang": "zh", "output": "NextGen 是 FAA 声称的系统，它将使飞机能够飞更短的航线，每年节省数百万加仑的燃料，并减少碳排放。"}
+{"dataset_id": "fleurs", "sample_id": 1756, "src_lang": "en", "tgt_lang": "zh", "output": "周日晚间，美国总统唐纳德·特朗普通过新闻秘书发表声明，宣布美军将撤离叙利亚。"}
+{"dataset_id": "fleurs", "sample_id": 1779, "src_lang": "en", "tgt_lang": "zh", "output": "特朗普与土耳其总统雷杰普·塔伊普·埃尔多安通话后宣布了这一消息。"}
+{"dataset_id": "fleurs", "sample_id": 1969, "src_lang": "en", "tgt_lang": "zh", "output": "它指出，主体最有效的位置是图像垂直和水平三分之一的交点。见示例。"}
+{"dataset_id": "fleurs", "sample_id": 1883, "src_lang": "en", "tgt_lang": "zh", "output": "该桥下垂直净空为15米。工程于2011年8月竣工，但直到2017年3月才正式通车。"}
+{"dataset_id": "fleurs", "sample_id": 1839, "src_lang": "en", "tgt_lang": "zh", "output": "将滑雪路线想象成一条类似的徒步路线。"}
+{"dataset_id": "fleurs", "sample_id": 1818, "src_lang": "en", "tgt_lang": "zh", "output": "人们可能没有意识到，耐心和理解对于回家的旅行者同样重要。"}
+{"dataset_id": "fleurs", "sample_id": 1963, "src_lang": "en", "tgt_lang": "zh", "output": "熨烫湿衣服有助于它们干燥。许多酒店提供熨斗和熨衣板供客人借用，即使房间内没有这些设备。"}
+{"dataset_id": "fleurs", "sample_id": 1754, "src_lang": "en", "tgt_lang": "zh", "output": "近侧的玛丽亚可能更多，因为地壳较薄，熔岩更容易上升到地表。"}
+{"dataset_id": "fleurs", "sample_id": 1963, "src_lang": "en", "tgt_lang": "zh", "output": "熨烫湿衣服有助于它们干燥。许多酒店提供熨斗和熨衣板供客人借用，即使房间内没有这些设备。"}
+{"dataset_id": "fleurs", "sample_id": 1681, "src_lang": "en", "tgt_lang": "zh", "output": "然而，科学研究不仅仅是实验。实验和试验是一种用于排除一个或多个可能假设的测试。提出问题和进行观察也是科学研究的指导原则。"}
+{"dataset_id": "fleurs", "sample_id": 1871, "src_lang": "en", "tgt_lang": "zh", "output": "在中东温暖的气候中，房子并不那么重要。"}
+{"dataset_id": "fleurs", "sample_id": 1947, "src_lang": "en", "tgt_lang": "zh", "output": "在部队抵达之前，海地自1800年代以来从未遇到过与该疾病相关的疾病问题。"}
+{"dataset_id": "fleurs", "sample_id": 1894, "src_lang": "en", "tgt_lang": "zh", "output": "咖喱是一道以香草和香料为基础，搭配肉类或蔬菜的菜肴。"}
+{"dataset_id": "fleurs", "sample_id": 1696, "src_lang": "en", "tgt_lang": "zh", "output": "研究人员在大学网站上表示，这两种化合物相互反应，形成的晶体可能会阻碍肾脏功能。"}
+{"dataset_id": "fleurs", "sample_id": 1712, "src_lang": "en", "tgt_lang": "zh", "output": "自1966年以来，苏德尔班斯一直是一个野生动物保护区，据估计，目前该地区有400只孟加拉虎和约30,000只斑鹿。"}
+{"dataset_id": "fleurs", "sample_id": 1679, "src_lang": "en", "tgt_lang": "zh", "output": "Aerosmith 已取消了他们巡回演唱会剩下的所有演出。"}
+{"dataset_id": "fleurs", "sample_id": 1807, "src_lang": "en", "tgt_lang": "zh", "output": "意大利语也是大多数国家工作人员日常使用的语言，而拉丁语则经常用于宗教仪式。"}
+{"dataset_id": "fleurs", "sample_id": 1815, "src_lang": "en", "tgt_lang": "zh", "output": "裂变弹的工作原理是，将许多质子和中子组装成一个原子核需要能量。"}
+{"dataset_id": "fleurs", "sample_id": 1762, "src_lang": "en", "tgt_lang": "zh", "output": "这种疾病由猪携带，然后通过蚊子传播到人类。"}
+{"dataset_id": "fleurs", "sample_id": 1824, "src_lang": "en", "tgt_lang": "zh", "output": "位于埃及死亡之谷的吉萨高原或吉萨陵区包含数座金字塔，其中大金字塔最大，还有几座小型墓葬、几座寺庙和巨大的狮身人面像。"}
+{"dataset_id": "fleurs", "sample_id": 1935, "src_lang": "en", "tgt_lang": "zh", "output": "然而，事实并非如此。虽然文件背面有字，但它并非宝藏地图。"}
+{"dataset_id": "fleurs", "sample_id": 1947, "src_lang": "en", "tgt_lang": "zh", "output": "在部队抵达之前，海地自1800年代以来从未遇到过与该疾病相关的疾病问题。"}
+{"dataset_id": "fleurs", "sample_id": 1800, "src_lang": "en", "tgt_lang": "zh", "output": "这座桥预计将于 2017 年 9 月全面投入运营，届时巴西海关检查站预计也将完工。"}
+{"dataset_id": "fleurs", "sample_id": 1678, "src_lang": "en", "tgt_lang": "zh", "output": "奥利弗·萨克斯在他的论文《总统的演讲》中指出，尽管因脑损伤而无法理解言语，但人们仍然能够准确地评估真诚。"}
+{"dataset_id": "fleurs", "sample_id": 1795, "src_lang": "en", "tgt_lang": "zh", "output": "自1988年以来，投票箱必须是透明的，以便选民和观察员可以确认在投票开始时没有信封，除了已正确计票和授权的选民的信封外，不得添加其他信封。"}
+{"dataset_id": "fleurs", "sample_id": 1708, "src_lang": "en", "tgt_lang": "zh", "output": "CUNY 已辞职，Ed Davey 将接替他在内阁中的职位。预计 Norman Lamb 将接替 Davey 离开的商业部长职位。"}
+{"dataset_id": "fleurs", "sample_id": 1885, "src_lang": "en", "tgt_lang": "zh", "output": "格林尼治标准时间晚上10点到11点之间，囚犯在院子里点燃了火。"}
+{"dataset_id": "fleurs", "sample_id": 1852, "src_lang": "en", "tgt_lang": "zh", "output": "恰当地使用博客可以使学生通过积极回应网络材料，培养更强的分析和批判能力。学生可以在其他文章的背景下定义自己的立场，并概述自己对特定问题的看法。Orvec 2002"}
+{"dataset_id": "fleurs", "sample_id": 1973, "src_lang": "en", "tgt_lang": "zh", "output": "但由于位于热带高纬度地区，距离赤道只有几度，您将需要始终应对高温，以及在晴朗的天气中强烈的阳光，这种情况较少发生。"}
+{"dataset_id": "fleurs", "sample_id": 1668, "src_lang": "en", "tgt_lang": "zh", "output": "购买一张通票也可能会有好处，这张通票可以进入南非的某些公园或所有南非国家公园。"}
+{"dataset_id": "fleurs", "sample_id": 1828, "src_lang": "en", "tgt_lang": "zh", "output": "在网上搜索“恶劣环境”课程，可能会提供一家当地公司的地址。"}
+{"dataset_id": "fleurs", "sample_id": 1909, "src_lang": "en", "tgt_lang": "zh", "output": "虚拟团队与传统团队都需达到卓越的标准，但两者之间存在细微差别。"}
+{"dataset_id": "fleurs", "sample_id": 1895, "src_lang": "en", "tgt_lang": "zh", "output": "随着对希腊知识的了解减少，西方发现自己与希腊哲学和科学的根源隔绝了。"}
+{"dataset_id": "fleurs", "sample_id": 1902, "src_lang": "en", "tgt_lang": "zh", "output": "他最初被送往位于大雅茅斯的詹姆斯·佩杰特医院住院。"}
+{"dataset_id": "fleurs", "sample_id": 1905, "src_lang": "en", "tgt_lang": "zh", "output": "曼多瓦的首都是基希讷乌。当地语言是罗马尼亚语，但俄语被广泛使用。"}
+{"dataset_id": "fleurs", "sample_id": 1819, "src_lang": "en", "tgt_lang": "zh", "output": "古代中国有一种独特的方式来表示不同的时期。中国每个阶段或每个执政的家族都是一个独特的王朝。"}
+{"dataset_id": "fleurs", "sample_id": 1971, "src_lang": "en", "tgt_lang": "zh", "output": "强风、冰雹、暴雨和野火是极端天气的形式和影响，雷暴、龙卷风、水龙卷和气旋也是如此。"}
+{"dataset_id": "fleurs", "sample_id": 1826, "src_lang": "en", "tgt_lang": "zh", "output": "事故发生后，吉布森被送往医院，但不久后死亡。"}
+{"dataset_id": "fleurs", "sample_id": 1672, "src_lang": "en", "tgt_lang": "zh", "output": "请小心不要让织物过热，这可能导致织物缩水，或者在极端情况下，造成烧焦。"}
+{"dataset_id": "fleurs", "sample_id": 1902, "src_lang": "en", "tgt_lang": "zh", "output": "他最初被送往位于大雅茅斯的詹姆斯·佩杰特医院住院。"}
+{"dataset_id": "fleurs", "sample_id": 1936, "src_lang": "en", "tgt_lang": "zh", "output": "佩里表示，他将返回德克萨斯州，评估今晚党代表大会的结果，确定这是否是我在这场竞选中前进的道路，但后来又表示，他将继续参加竞选，并参加1月21日南卡罗来纳州的初选。"}
+{"dataset_id": "fleurs", "sample_id": 1775, "src_lang": "en", "tgt_lang": "zh", "output": "视频记录的使用在对持续几毫秒的微表情面部动作的解读中取得了重要发现。"}
+{"dataset_id": "fleurs", "sample_id": 1954, "src_lang": "en", "tgt_lang": "zh", "output": "他们的纪律严明的防守、运球技巧和出色的团队合作使他们脱颖而出，很明显，这是最难战胜的队伍。"}
+{"dataset_id": "fleurs", "sample_id": 1802, "src_lang": "en", "tgt_lang": "zh", "output": "互联网结合了大众传播和人际传播的元素。"}
+{"dataset_id": "fleurs", "sample_id": 1866, "src_lang": "en", "tgt_lang": "zh", "output": "首先，大多数作家都穿着带有跟子和光滑、安静、窄鞋底的骑马靴。"}
+{"dataset_id": "fleurs", "sample_id": 1798, "src_lang": "en", "tgt_lang": "zh", "output": "最初，该节目仅在长期运营的互联网广播网站 Togginet Radio 上播出，该网站专注于谈话广播。"}
+{"dataset_id": "fleurs", "sample_id": 1874, "src_lang": "en", "tgt_lang": "zh", "output": "有些人认为他是对的，但很多人则持有相反的观点，认为太阳系围绕地球运动，包括太阳甚至其他恒星。"}
+{"dataset_id": "fleurs", "sample_id": 2000, "src_lang": "en", "tgt_lang": "zh", "output": "如果在冬季穿越波罗的海北部，请检查机舱位置，因为穿过冰层会产生相当可怕的噪音，对大多数人来说影响很大。"}
+{"dataset_id": "fleurs", "sample_id": 2007, "src_lang": "en", "tgt_lang": "zh", "output": "美国工程兵部队估计，6英寸的降雨可能导致先前受损的树叶破裂。"}
+{"dataset_id": "fleurs", "sample_id": 1772, "src_lang": "en", "tgt_lang": "zh", "output": "因此，这种符号很可能只是作为标签添加的。"}
+{"dataset_id": "fleurs", "sample_id": 1671, "src_lang": "en", "tgt_lang": "zh", "output": "国会于 2005 财年开始为淫秽犯罪计划提供资金，并明确规定 FBI 必须将 10 名特工专门用于打击成人色情制品。"}
+{"dataset_id": "fleurs", "sample_id": 1742, "src_lang": "en", "tgt_lang": "zh", "output": "香港岛为香港地区命名，许多游客认为它是香港的主要景点。"}
+{"dataset_id": "fleurs", "sample_id": 1940, "src_lang": "en", "tgt_lang": "zh", "output": "考虑到所有因素，如果我们的祖先以与今天萨凡纳的黑猩猩大致相同的方式解决了他们的蛋白质问题，我们就不应该感到惊讶了。"}
+{"dataset_id": "fleurs", "sample_id": 1763, "src_lang": "en", "tgt_lang": "zh", "output": "就像月球专家一样，月球对地球的拉力引起潮汐，同样，银河系也会对射手座星系施加力量。"}
+{"dataset_id": "fleurs", "sample_id": 1791, "src_lang": "en", "tgt_lang": "zh", "output": "请勿在建筑物上涂鸦或刻画，以免破坏景观。"}
+{"dataset_id": "fleurs", "sample_id": 1761, "src_lang": "en", "tgt_lang": "zh", "output": "摄影师后来代替了一位上了年纪的女士，因为她需要上厕所。门多萨被枪杀。"}
+{"dataset_id": "fleurs", "sample_id": 1781, "src_lang": "en", "tgt_lang": "zh", "output": "就野生动物而言，马达加斯加是迄今为止最大、也是独立的大陆。"}
+{"dataset_id": "fleurs", "sample_id": 1665, "src_lang": "en", "tgt_lang": "zh", "output": "根据泄露的文件，文件将提及边界争端，帕伦斯坦曾以1967年中东战争前的边界为依据。"}
+{"dataset_id": "fleurs", "sample_id": 1717, "src_lang": "en", "tgt_lang": "zh", "output": "由于水下地形，回流集中在几个较深的区域，并且可能会形成向深水快速流动的水流。"}
+{"dataset_id": "fleurs", "sample_id": 1714, "src_lang": "en", "tgt_lang": "zh", "output": "该卫星由火箭送入太空。科学家们在太空中使用望远镜，因为地球的大气层会扭曲我们的一些光线和视野。"}
+{"dataset_id": "fleurs", "sample_id": 1971, "src_lang": "en", "tgt_lang": "zh", "output": "强风、冰雹、暴雨和野火是极端天气的形式和影响，雷暴、龙卷风、水龙卷和气旋也是如此。"}
+{"dataset_id": "fleurs", "sample_id": 1796, "src_lang": "en", "tgt_lang": "zh", "output": "这种沉积物对于形成沙洲和海滩是必要的，而沙洲和海滩则作为野生动物的栖息地。"}
+{"dataset_id": "fleurs", "sample_id": 1914, "src_lang": "en", "tgt_lang": "zh", "output": "20 世纪的研究表明，存在两种基因变异库，即隐藏的和表达的。"}
+{"dataset_id": "fleurs", "sample_id": 1861, "src_lang": "en", "tgt_lang": "zh", "output": "因此，表演者在舞台上吸食大麻卷烟，剧院本身也在鼓励观众加入。"}
+{"dataset_id": "fleurs", "sample_id": 1670, "src_lang": "en", "tgt_lang": "zh", "output": "美国地质调查局（USGS）天文学小组成员、亚利桑那州立大学（位于亚利桑那州的弗拉格斯塔夫）的格伦·卡辛（Glenn Cushing）表示，这些洞穴的温度变化不如地球上的大洞穴稳定，但它们与地面的深洞一致。"}
+{"dataset_id": "fleurs", "sample_id": 1788, "src_lang": "en", "tgt_lang": "zh", "output": "美国体操协会支持美国奥林匹克委员会的信件，并接受奥林匹克大家庭为所有运动员创造安全环境的绝对需求。"}
+{"dataset_id": "fleurs", "sample_id": 1927, "src_lang": "en", "tgt_lang": "zh", "output": "Angel 2006 解释了连续统方法是一种帮助组织达到更高绩效水平的方法。"}
+{"dataset_id": "fleurs", "sample_id": 1703, "src_lang": "en", "tgt_lang": "zh", "output": "马泰利昨日提名了一个由九名成员组成的新的临时选举委员会。"}
+{"dataset_id": "fleurs", "sample_id": 1879, "src_lang": "en", "tgt_lang": "zh", "output": "当出现更新事物时，人们不禁想知道键盘会变成什么样子。"}
+{"dataset_id": "fleurs", "sample_id": 1737, "src_lang": "en", "tgt_lang": "zh", "output": "狮子是猫科动物中最为社会化的动物，它们生活在被称为“狮群”的大型群体中。"}
+{"dataset_id": "fleurs", "sample_id": 1901, "src_lang": "en", "tgt_lang": "zh", "output": "尽管人工智能具有强烈的科幻色彩，但它构成了计算机科学的一个非常重要的分支，涉及机器的行为、学习和智能适应。"}
+{"dataset_id": "fleurs", "sample_id": 1952, "src_lang": "en", "tgt_lang": "zh", "output": "任何打算在高纬度地区或山间峠驾驶的人，都应该考虑到可能遇到雪、冰或低温。"}
+{"dataset_id": "fleurs", "sample_id": 1900, "src_lang": "en", "tgt_lang": "zh", "output": "事实上，即使知道它存在，也很难找到它。一旦进入洞穴，就会完全与外界隔绝。"}
+{"dataset_id": "fleurs", "sample_id": 1967, "src_lang": "en", "tgt_lang": "zh", "output": "在与首相的会面中，莱顿要求修改保守党的环保法案，并要求彻底、完整地重写该法案。"}
+{"dataset_id": "fleurs", "sample_id": 1663, "src_lang": "en", "tgt_lang": "zh", "output": "卡查莫山谷，智利首屈一指的攀岩胜地，被称为南美洲的优胜美地，拥有各种花岗岩大岩壁和岩峰。"}
+{"dataset_id": "fleurs", "sample_id": 1888, "src_lang": "en", "tgt_lang": "zh", "output": "返乡冲击比文化冲击来得更快。蜜月期更短。持续时间更长，可能更严重。"}
+{"dataset_id": "fleurs", "sample_id": 1800, "src_lang": "en", "tgt_lang": "zh", "output": "这座桥预计将于 2017 年 9 月全面投入运营，届时巴西海关检查站预计也将完工。"}
+{"dataset_id": "fleurs", "sample_id": 1764, "src_lang": "en", "tgt_lang": "zh", "output": "到场的人数众多，以至于无法让所有人都能进入圣彼得广场的葬礼现场。"}
+{"dataset_id": "fleurs", "sample_id": 1766, "src_lang": "en", "tgt_lang": "zh", "output": "有些原子的原子核不稳定，这意味着它们倾向于在几乎没有或完全没有外力作用下自行分裂和解体。"}
+{"dataset_id": "fleurs", "sample_id": 1897, "src_lang": "en", "tgt_lang": "zh", "output": "北部与萨赫勒地区接壤，南部和西部濒临大西洋。"}
+{"dataset_id": "fleurs", "sample_id": 1821, "src_lang": "en", "tgt_lang": "zh", "output": "大脑病理与行为之间的相关性支持科学家及其研究。"}
+{"dataset_id": "fleurs", "sample_id": 1953, "src_lang": "en", "tgt_lang": "zh", "output": "随后，他被转移到剑桥的阿登布鲁克医院。"}
+{"dataset_id": "fleurs", "sample_id": 1973, "src_lang": "en", "tgt_lang": "zh", "output": "但由于位于热带高纬度地区，距离赤道只有几度，您将需要始终应对高温，以及在晴朗的天气中强烈的阳光，这种情况较少发生。"}
+{"dataset_id": "fleurs", "sample_id": 1985, "src_lang": "en", "tgt_lang": "zh", "output": "它与高山滑雪旅行或登山有关，但通常不涉及这些活动。后者是在陡峭的地形中进行的，需要更硬的滑雪板和滑雪靴。"}
+{"dataset_id": "fleurs", "sample_id": 1781, "src_lang": "en", "tgt_lang": "zh", "output": "就野生动物而言，马达加斯加是迄今为止最大、也是独立的大陆。"}
+{"dataset_id": "fleurs", "sample_id": 1675, "src_lang": "en", "tgt_lang": "zh", "output": "所有名词以及在 C 之后的名词，即使在句中，也始终以大写字母开头。"}
+{"dataset_id": "fleurs", "sample_id": 1726, "src_lang": "en", "tgt_lang": "zh", "output": "实地考察是课堂教学的重要组成部分。很多时候，老师们都希望带学生去一些不能坐公共汽车到达的地方。"}
+{"dataset_id": "fleurs", "sample_id": 1921, "src_lang": "en", "tgt_lang": "zh", "output": "另一方面，在许多国家，冰冻和下雪的天气很正常，交通基本上全年不停。"}
+{"dataset_id": "fleurs", "sample_id": 1715, "src_lang": "en", "tgt_lang": "zh", "output": "地铁的定期广播仅以加泰罗尼亚语进行，但非计划的中断则由自动系统以多种语言（包括西班牙语、英语、法语、阿拉伯语和日语）进行广播。"}
+{"dataset_id": "fleurs", "sample_id": 1856, "src_lang": "en", "tgt_lang": "zh", "output": "芬兰是一个绝佳的游船目的地。这片拥有千湖之地的国家，湖泊和沿海群岛上还有成千上万个岛屿。"}
+{"dataset_id": "fleurs", "sample_id": 1869, "src_lang": "en", "tgt_lang": "zh", "output": "它的长而坚硬的颚骨上密布着70多颗锋利的牙齿，再加上口腔顶部还有一排牙齿，这意味着任何路过它面前的生物都无法逃脱。"}
+{"dataset_id": "fleurs", "sample_id": 1844, "src_lang": "en", "tgt_lang": "zh", "output": "月球表面由岩石和尘埃组成。月球的外层被称为地壳。"}
+{"dataset_id": "fleurs", "sample_id": 1951, "src_lang": "en", "tgt_lang": "zh", "output": "2002 年，戈马被尼兰戈戈火山熔岩摧毁，大部分街道，尤其是市中心，都被埋没。"}
+{"dataset_id": "fleurs", "sample_id": 1738, "src_lang": "en", "tgt_lang": "zh", "output": "它还会攻击任何进入水中的生物。即使是像霸王龙这样巨大的恐龙也无法与它匹敌。"}
+{"dataset_id": "fleurs", "sample_id": 1661, "src_lang": "en", "tgt_lang": "zh", "output": "他没有设定削减的具体数字，表示削减将根据中国的经济产出来决定。"}
+{"dataset_id": "fleurs", "sample_id": 1983, "src_lang": "en", "tgt_lang": "zh", "output": "文明一词源自拉丁语civilis，意为公民的，与拉丁语civis（公民）和civitas（城市或城邦）相关。这在某种程度上也定义了社会的规模。"}
+{"dataset_id": "fleurs", "sample_id": 1745, "src_lang": "en", "tgt_lang": "zh", "output": "植物在自然环境中看起来最好，所以要抵制移走哪怕一个标本的诱惑。"}
+{"dataset_id": "fleurs", "sample_id": 1863, "src_lang": "en", "tgt_lang": "zh", "output": "藏传佛教禅修的核心是护法瑜伽。通过对各种护法的观想，能清理能量通道，激活轮脉，并创造出觉悟意识。"}
+{"dataset_id": "fleurs", "sample_id": 1960, "src_lang": "en", "tgt_lang": "zh", "output": "据报道，他当时20多岁。比伯在一份声明中说：“虽然我不在场，也不直接参与了这次悲惨的事故，但我与受害者家人的思念和祈祷。"}
+{"dataset_id": "fleurs", "sample_id": 1901, "src_lang": "en", "tgt_lang": "zh", "output": "尽管人工智能具有强烈的科幻色彩，但它构成了计算机科学的一个非常重要的分支，涉及机器的行为、学习和智能适应。"}
+{"dataset_id": "fleurs", "sample_id": 1886, "src_lang": "en", "tgt_lang": "zh", "output": "古代文化和部落开始饲养它们，以便轻松获得牛奶、毛发、肉和皮毛。"}
+{"dataset_id": "fleurs", "sample_id": 1989, "src_lang": "en", "tgt_lang": "zh", "output": "他还为许多国家的钞票设计了浮雕图案。他近期作品的例子包括新版加拿大5元和100元钞票正面所印的总理肖像。"}
+{"dataset_id": "fleurs", "sample_id": 1910, "src_lang": "en", "tgt_lang": "zh", "output": "巴黎人以自我为中心、粗鲁、傲慢而闻名。"}
+{"dataset_id": "fleurs", "sample_id": 1724, "src_lang": "en", "tgt_lang": "zh", "output": "作为奢侈品中心的名声始于公元 400 年左右，一直持续到公元 1100 年左右。"}
+{"dataset_id": "fleurs", "sample_id": 1817, "src_lang": "en", "tgt_lang": "zh", "output": "然而，申根区在这方面运作的方式有点像一个国家。"}
+{"dataset_id": "fleurs", "sample_id": 1997, "src_lang": "en", "tgt_lang": "zh", "output": "然而，在所有结核病患者中，耐多药结核病的比例似乎仍然很低。在南非，在任何特定时刻，感染人数为 33 万人，其中 6,000 人为耐多药结核病患者。"}
+{"dataset_id": "fleurs", "sample_id": 1892, "src_lang": "en", "tgt_lang": "zh", "output": "这是英国殖民者自认为属于自己的地方，所以如果你在寻找这个地区殖民历史的证据，这里是一个好的起点。"}
+{"dataset_id": "fleurs", "sample_id": 1833, "src_lang": "en", "tgt_lang": "zh", "output": "亚里士多德，一位哲学家，提出了一个理论，认为一切事物都是由一种或多种基本元素混合而成的。这些元素是：土、水、气和火。"}
+{"dataset_id": "fleurs", "sample_id": 1931, "src_lang": "en", "tgt_lang": "zh", "output": "该服务经常被包括压力船在内的航运公司以及需要远程数据和语音的探险队使用。"}
+{"dataset_id": "fleurs", "sample_id": 2001, "src_lang": "en", "tgt_lang": "zh", "output": "强烈建议旅客注意当地可能出现的严重天气风险，因为这些天气可能会影响旅行计划。"}
+{"dataset_id": "fleurs", "sample_id": 1819, "src_lang": "en", "tgt_lang": "zh", "output": "古代中国有一种独特的方式来表示不同的时期。中国每个阶段或每个执政的家族都是一个独特的王朝。"}
+{"dataset_id": "fleurs", "sample_id": 1754, "src_lang": "en", "tgt_lang": "zh", "output": "近侧的玛丽亚可能更多，因为地壳较薄，熔岩更容易上升到地表。"}
+{"dataset_id": "fleurs", "sample_id": 1662, "src_lang": "en", "tgt_lang": "zh", "output": "合金基本上是由两种或更多种金属组成的混合物。别忘了周期表上有许多元素。"}
+{"dataset_id": "fleurs", "sample_id": 1785, "src_lang": "en", "tgt_lang": "zh", "output": "支架不是一种学习方法，而是一种帮助工具，为那些正在经历新学习体验的人提供支持，例如使用新的计算机程序或开始新项目。"}
+{"dataset_id": "fleurs", "sample_id": 1898, "src_lang": "en", "tgt_lang": "zh", "output": "他从一开始就基本在骗我们。首先，他装作这是出于法律原因。其次，他假装一直都在听我们说话，直到他删除了艺术品。"}
+{"dataset_id": "fleurs", "sample_id": 1872, "src_lang": "en", "tgt_lang": "zh", "output": "在毛运动组织的独立斗争期间，该镇的一次和平集会导致最高酋长 Tuba Tuba Siay Le III 被杀害。"}
+{"dataset_id": "fleurs", "sample_id": 1799, "src_lang": "en", "tgt_lang": "zh", "output": "除了周三的比赛外，卡彭尼多还在锦标赛上参加了两项个人赛。"}
+{"dataset_id": "fleurs", "sample_id": 1974, "src_lang": "en", "tgt_lang": "zh", "output": "同样，男士需穿长至膝盖的裤子。"}
+{"dataset_id": "fleurs", "sample_id": 1962, "src_lang": "en", "tgt_lang": "zh", "output": "pH值由被测化学物质中氢离子的数量表示。"}
+{"dataset_id": "fleurs", "sample_id": 1731, "src_lang": "en", "tgt_lang": "zh", "output": "在群岛和湖泊中，你并不一定需要游艇。"}
+{"dataset_id": "fleurs", "sample_id": 1871, "src_lang": "en", "tgt_lang": "zh", "output": "在中东温暖的气候中，房子并不那么重要。"}
+{"dataset_id": "fleurs", "sample_id": 1835, "src_lang": "en", "tgt_lang": "zh", "output": "目前尚未发布海啸警报，雅加达地球物理局表示，由于地震规模未达到 6.5 级，因此不会发布海啸警报。"}
+{"dataset_id": "fleurs", "sample_id": 1707, "src_lang": "en", "tgt_lang": "zh", "output": "它是南非的主要景点之一，被认为是南非国家公园、桑迪公园的旗舰。"}
+{"dataset_id": "fleurs", "sample_id": 1906, "src_lang": "en", "tgt_lang": "zh", "output": "这不是告别。这将是一个篇章的结束，一个新篇章的开始。"}
+{"dataset_id": "fleurs", "sample_id": 1787, "src_lang": "en", "tgt_lang": "zh", "output": "博客是一种激发合作并鼓励学生将学习延伸到传统学校日以外的工具。"}
+{"dataset_id": "fleurs", "sample_id": 1703, "src_lang": "en", "tgt_lang": "zh", "output": "马泰利昨日提名了一个由九名成员组成的新的临时选举委员会。"}
+{"dataset_id": "fleurs", "sample_id": 1713, "src_lang": "en", "tgt_lang": "zh", "output": "虽然戈马相对安全，但任何前往戈马以外地区的旅行都应事先了解北基伍省持续存在的战斗状况。"}
+{"dataset_id": "fleurs", "sample_id": 1966, "src_lang": "en", "tgt_lang": "zh", "output": "该委员会是马尔泰利对 10 月开始的广泛反政府抗议活动的回应。"}
+{"dataset_id": "fleurs", "sample_id": 1880, "src_lang": "en", "tgt_lang": "zh", "output": "因此，铅笔一出现就成了许多人的好朋友。"}
+{"dataset_id": "fleurs", "sample_id": 1794, "src_lang": "en", "tgt_lang": "zh", "output": "一个文明是一个由大量的人们共享的独特文化，他们作为一个社会合作地生活和工作。"}
+{"dataset_id": "fleurs", "sample_id": 1837, "src_lang": "en", "tgt_lang": "zh", "output": "自由派对重建工作的批评主要集中在将重建合同授予华盛顿内部人士上。"}
+{"dataset_id": "fleurs", "sample_id": 1875, "src_lang": "en", "tgt_lang": "zh", "output": "地球上河流注入海洋的水中，有 20% 全部来自亚马逊河。"}
+{"dataset_id": "fleurs", "sample_id": 1992, "src_lang": "en", "tgt_lang": "zh", "output": "在日常生活中，人们常说的“野生动物观赏游”指的是前往非洲大草原等地，通过陆路旅行观赏非洲野生动物的活动。"}
+{"dataset_id": "fleurs", "sample_id": 1812, "src_lang": "en", "tgt_lang": "zh", "output": "虽然一种实验性疫苗似乎有助于降低埃博拉病毒的死亡率，但迄今为止，尚无药物被明确证明适用于治疗现有感染。"}
+{"dataset_id": "fleurs", "sample_id": 1782, "src_lang": "en", "tgt_lang": "zh", "output": "此外，每个朝代之间都有一个分封诸侯的不稳定时期。其中最著名的时期是三国时代，发生在汉朝和晋朝之间的六十年间。"}
+{"dataset_id": "fleurs", "sample_id": 1704, "src_lang": "en", "tgt_lang": "zh", "output": "1990 年，由于沙漠沙丘的威胁，它被列入世界濒危遗产名录。"}
+{"dataset_id": "fleurs", "sample_id": 1686, "src_lang": "en", "tgt_lang": "zh", "output": "因此，一个组织共同克服障碍的过程，可能会产生一种新的创新流程，以满足客户的需求。"}
+{"dataset_id": "fleurs", "sample_id": 1747, "src_lang": "en", "tgt_lang": "zh", "output": "摔跤手们也向卢娜致敬。"}
+{"dataset_id": "fleurs", "sample_id": 1755, "src_lang": "en", "tgt_lang": "zh", "output": "一枚炸弹在总督办公室外面爆炸。"}
+{"dataset_id": "fleurs", "sample_id": 1692, "src_lang": "en", "tgt_lang": "zh", "output": "据日本核能机构称，已在该工厂发现了放射性酪蛋白和碘。"}
+{"dataset_id": "fleurs", "sample_id": 1831, "src_lang": "en", "tgt_lang": "zh", "output": "普利特维采湖国家公园森林茂密，主要生长有山毛榉、云杉和冷杉，同时还拥有阿尔卑斯山区和地中海地区的植被。"}
+{"dataset_id": "fleurs", "sample_id": 1790, "src_lang": "en", "tgt_lang": "zh", "output": "他的作品质量和细节都得到了广泛认可，他是集邮家中的少数几个家喻户晓的人物之一，有些人甚至专门收藏他的作品。"}
+{"dataset_id": "fleurs", "sample_id": 1669, "src_lang": "en", "tgt_lang": "zh", "output": "警察局长珊德拉·尚卡·索兰斯基表示，被告面部蒙盖，出现在法庭上。"}
+{"dataset_id": "fleurs", "sample_id": 1892, "src_lang": "en", "tgt_lang": "zh", "output": "这是英国殖民者自认为属于自己的地方，所以如果你在寻找这个地区殖民历史的证据，这里是一个好的起点。"}
+{"dataset_id": "fleurs", "sample_id": 1816, "src_lang": "en", "tgt_lang": "zh", "output": "杜瓦尔与两个成年子女结婚，没有给米勒留下深刻的印象，米勒是与他有关的故事的讲述者。"}
+{"dataset_id": "fleurs", "sample_id": 1979, "src_lang": "en", "tgt_lang": "zh", "output": "福克兰群岛的官方货币是福克兰镑，其价值与1英镑相等。"}
+{"dataset_id": "fleurs", "sample_id": 1823, "src_lang": "en", "tgt_lang": "zh", "output": "交通流量研究的是个体驾驶员和车辆在两点之间移动的过程，以及它们相互之间的互动。"}
+{"dataset_id": "fleurs", "sample_id": 1770, "src_lang": "en", "tgt_lang": "zh", "output": "这似乎是合理的，因为地球并没有感觉像是在移动，对吧？"}
+{"dataset_id": "fleurs", "sample_id": 1833, "src_lang": "en", "tgt_lang": "zh", "output": "亚里士多德，一位哲学家，提出了一个理论，认为一切事物都是由一种或多种基本元素混合而成的。这些元素是：土、水、气和火。"}
+{"dataset_id": "fleurs", "sample_id": 1874, "src_lang": "en", "tgt_lang": "zh", "output": "有些人认为他是对的，但很多人则持有相反的观点，认为太阳系围绕地球运动，包括太阳甚至其他恒星。"}
+{"dataset_id": "fleurs", "sample_id": 1783, "src_lang": "en", "tgt_lang": "zh", "output": "区域性和季节性极端天气现象包括暴雪、雪storm、冰storm和沙尘storm。"}
+{"dataset_id": "fleurs", "sample_id": 1759, "src_lang": "en", "tgt_lang": "zh", "output": "29岁的米拉尔·巴拉苏布拉曼博士在俄亥俄州布鲁阿什被发现，布鲁阿什是辛辛那提以北约15英里的一个郊区，他当时穿着T恤和内裤，躺在路边的地上，显然处于高度药物作用的状态。"}
+{"dataset_id": "fleurs", "sample_id": 1829, "src_lang": "en", "tgt_lang": "zh", "output": "前往税率较高的国家旅行的旅客有时可以节省不少钱，尤其是在购买酒精饮料和烟草制品时。"}
+{"dataset_id": "fleurs", "sample_id": 1732, "src_lang": "en", "tgt_lang": "zh", "output": "事件发生的时间通常被称为高中古典时代，是欧洲历史上 11、12 和 13 世纪的时期。"}
+{"dataset_id": "fleurs", "sample_id": 1876, "src_lang": "en", "tgt_lang": "zh", "output": "北马里亚纳群岛紧急事务管理办公室表示，该国未报告任何损害。"}
+{"dataset_id": "fleurs", "sample_id": 1844, "src_lang": "en", "tgt_lang": "zh", "output": "月球表面由岩石和尘埃组成。月球的外层被称为地壳。"}
+{"dataset_id": "fleurs", "sample_id": 1661, "src_lang": "en", "tgt_lang": "zh", "output": "他没有设定削减的具体数字，表示削减将根据中国的经济产出来决定。"}
+{"dataset_id": "fleurs", "sample_id": 1920, "src_lang": "en", "tgt_lang": "zh", "output": "他们通常会提供特别的美食、饮品和娱乐活动，以保持客人的良好心情，并让他们留在酒店。"}
+{"dataset_id": "fleurs", "sample_id": 1783, "src_lang": "en", "tgt_lang": "zh", "output": "区域性和季节性极端天气现象包括暴雪、雪storm、冰storm和沙尘storm。"}
+{"dataset_id": "fleurs", "sample_id": 1748, "src_lang": "en", "tgt_lang": "zh", "output": "消防救援人员最终在晚上 11 点 35 分将大火扑灭。"}
+{"dataset_id": "fleurs", "sample_id": 1707, "src_lang": "en", "tgt_lang": "zh", "output": "它是南非的主要景点之一，被认为是南非国家公园、桑迪公园的旗舰。"}
+{"dataset_id": "fleurs", "sample_id": 1677, "src_lang": "en", "tgt_lang": "zh", "output": "今天，唯一不能将翅膀折回的昆虫是蜻蜓和蜉蝣。"}
+{"dataset_id": "fleurs", "sample_id": 1851, "src_lang": "en", "tgt_lang": "zh", "output": "绳索水流是波浪从海上退却时形成的回流，通常发生在珊瑚礁或类似的地方。"}
+{"dataset_id": "fleurs", "sample_id": 1915, "src_lang": "en", "tgt_lang": "zh", "output": "您可以在戈马使用boda boda摩托车出租车出行。短途车程的正常当地价格为500刚果法郎。"}
+{"dataset_id": "fleurs", "sample_id": 1848, "src_lang": "en", "tgt_lang": "zh", "output": "昨天早晨，土耳其加济安泰普市警察总部发生一起汽车炸弹爆炸事件，炸死两名警察，炸伤20多人。"}
+{"dataset_id": "fleurs", "sample_id": 1747, "src_lang": "en", "tgt_lang": "zh", "output": "摔跤手们也向卢娜致敬。"}
+{"dataset_id": "fleurs", "sample_id": 1942, "src_lang": "en", "tgt_lang": "zh", "output": "我们用植物建造房屋，用植物制作衣服。我们吃的食物大部分都是植物。没有植物，动物就无法生存。"}
+{"dataset_id": "fleurs", "sample_id": 1931, "src_lang": "en", "tgt_lang": "zh", "output": "该服务经常被包括压力船在内的航运公司以及需要远程数据和语音的探险队使用。"}
+{"dataset_id": "fleurs", "sample_id": 1733, "src_lang": "en", "tgt_lang": "zh", "output": "在其78项建议中，第一项建议是在今年年底前采取新的外交举措，以确保伊拉克边境免受敌对干预，并重新建立与邻国的外交关系。"}
+{"dataset_id": "fleurs", "sample_id": 1715, "src_lang": "en", "tgt_lang": "zh", "output": "地铁的定期广播仅以加泰罗尼亚语进行，但非计划的中断则由自动系统以多种语言（包括西班牙语、英语、法语、阿拉伯语和日语）进行广播。"}
+{"dataset_id": "fleurs", "sample_id": 1980, "src_lang": "en", "tgt_lang": "zh", "output": "遗憾的是，研究交通流量很困难，因为驾驶员的行为无法100%准确地预测。"}
+{"dataset_id": "fleurs", "sample_id": 1934, "src_lang": "en", "tgt_lang": "zh", "output": "通常，你总能听到游客和商贩的声音。声音与光的故事就像一本故事书。"}
+{"dataset_id": "fleurs", "sample_id": 1757, "src_lang": "en", "tgt_lang": "zh", "output": "只有生殖细胞的突变才能遗传给后代，而其他部位的突变则可能导致细胞死亡或癌症。"}
+{"dataset_id": "fleurs", "sample_id": 1888, "src_lang": "en", "tgt_lang": "zh", "output": "返乡冲击比文化冲击来得更快。蜜月期更短。持续时间更长，可能更严重。"}
+{"dataset_id": "fleurs", "sample_id": 1666, "src_lang": "en", "tgt_lang": "zh", "output": "您可能还想咨询其他国家的政府的建议，但他们的建议是为本国公民设计的。"}
+{"dataset_id": "fleurs", "sample_id": 1945, "src_lang": "en", "tgt_lang": "zh", "output": "在整个摩洛哥，卡萨布兰卡是最不吸引人购物的地方之一。"}
+{"dataset_id": "fleurs", "sample_id": 1822, "src_lang": "en", "tgt_lang": "zh", "output": "摩洛哥苏丹重建了达鲁伊巴迪亚城，西班牙商人在这里建立贸易基地，并将其命名为卡萨布兰卡。"}
+{"dataset_id": "fleurs", "sample_id": 1725, "src_lang": "en", "tgt_lang": "zh", "output": "华硕EPC因其成本节约和功能性因素而提前在全球推出，成为2007年台北IT月中的热门话题。"}
+{"dataset_id": "fleurs", "sample_id": 1961, "src_lang": "en", "tgt_lang": "zh", "output": "说明社会化重要性的最常见方法之一，是引用一些不幸的案例，这些孩子由于忽视、不幸或故意虐待，在成长过程中没有得到成人的社会化。"}
+{"dataset_id": "fleurs", "sample_id": 1928, "src_lang": "en", "tgt_lang": "zh", "output": "到 1976 年，马丘比丘的 30% 已得到修复，修复工作至今仍在继续。"}
+{"dataset_id": "fleurs", "sample_id": 1839, "src_lang": "en", "tgt_lang": "zh", "output": "将滑雪路线想象成一条类似的徒步路线。"}
+{"dataset_id": "fleurs", "sample_id": 1913, "src_lang": "en", "tgt_lang": "zh", "output": "老虎的吼声不像狮子那样的洪亮，更像是一连串尖厉的怒吼。"}
+{"dataset_id": "fleurs", "sample_id": 1709, "src_lang": "en", "tgt_lang": "zh", "output": "该报告对行政当局目前对伊拉克的政策几乎每个方面都提出了严厉的批评，并敦促立即改变方向。"}
+{"dataset_id": "fleurs", "sample_id": 1660, "src_lang": "en", "tgt_lang": "zh", "output": "浪漫主义包含了很大一部分文化决定论因素，这些因素源自歌德、费希特和施莱格尔等作家的作品。"}
+{"dataset_id": "fleurs", "sample_id": 1958, "src_lang": "en", "tgt_lang": "zh", "output": "这座城市与该国其他城市形成鲜明对比，因为它更具阿拉伯特色，而非非洲特色。"}
+{"dataset_id": "fleurs", "sample_id": 1780, "src_lang": "en", "tgt_lang": "zh", "output": "通过昆达里尼瑜伽，昆达里尼能量（觉悟能量）通过瑜伽体式、呼吸练习、咒语和可视化来唤醒。"}
+{"dataset_id": "fleurs", "sample_id": 1684, "src_lang": "en", "tgt_lang": "zh", "output": "阿皮亚是萨摩亚的首都。该镇位于阿普鲁岛上，人口近40,000。"}
+{"dataset_id": "fleurs", "sample_id": 1733, "src_lang": "en", "tgt_lang": "zh", "output": "在其78项建议中，第一项建议是在今年年底前采取新的外交举措，以确保伊拉克边境免受敌对干预，并重新建立与邻国的外交关系。"}
+{"dataset_id": "fleurs", "sample_id": 1795, "src_lang": "en", "tgt_lang": "zh", "output": "自1988年以来，投票箱必须是透明的，以便选民和观察员可以确认在投票开始时没有信封，除了已正确计票和授权的选民的信封外，不得添加其他信封。"}
+{"dataset_id": "fleurs", "sample_id": 1925, "src_lang": "en", "tgt_lang": "zh", "output": "所做的工作主要是理论性的，但该程序的编写是为了模拟对人马座星系的观测。"}
+{"dataset_id": "fleurs", "sample_id": 1968, "src_lang": "en", "tgt_lang": "zh", "output": "一些邮轮的宣传册上标注了德国柏林。从上面的地图可以看出，柏林离海很远，游览这座城市不包含在邮轮价格中。"}
+{"dataset_id": "fleurs", "sample_id": 1676, "src_lang": "en", "tgt_lang": "zh", "output": "与所有南非国家公园一样，该公园每天都有保护和入场费。"}
+{"dataset_id": "fleurs", "sample_id": 1994, "src_lang": "en", "tgt_lang": "zh", "output": "不用说，如果你懂一种罗曼语系语言，那么学习葡萄牙语会更容易。"}
+{"dataset_id": "fleurs", "sample_id": 1688, "src_lang": "en", "tgt_lang": "zh", "output": "海军的传统任务是确保本国能够运送人员和物资，同时干扰敌人运送人员和物资的能力。"}
+{"dataset_id": "fleurs", "sample_id": 1691, "src_lang": "en", "tgt_lang": "zh", "output": "在一些道路上，大型公司有自己的飞机，但在其他道路和小型公司那里，存在一个问题。"}
+{"dataset_id": "fleurs", "sample_id": 1881, "src_lang": "en", "tgt_lang": "zh", "output": "虚拟实地考察也是反思旅行和与未来班级分享经验的好方法。"}
+{"dataset_id": "fleurs", "sample_id": 1974, "src_lang": "en", "tgt_lang": "zh", "output": "同样，男士需穿长至膝盖的裤子。"}
+{"dataset_id": "fleurs", "sample_id": 1859, "src_lang": "en", "tgt_lang": "zh", "output": "中世纪后期，西欧开始发展出自己的风格。当时最大的发展之一是，由于十字军东征的影响，人们开始用纽扣来系紧衣服。"}
+{"dataset_id": "fleurs", "sample_id": 1868, "src_lang": "en", "tgt_lang": "zh", "output": "而在另一个极端，一个人会变成一个面目全非的个体，他或她觉得自己必须改变团队一直以来所做的一切，并将其变成自己的。"}
+{"dataset_id": "fleurs", "sample_id": 1827, "src_lang": "en", "tgt_lang": "zh", "output": "近侧地壳厚度约为70公里，远侧地壳厚度约为100公里。"}
+{"dataset_id": "fleurs", "sample_id": 1836, "src_lang": "en", "tgt_lang": "zh", "output": "自古以来，人们就已知晓金、银、铜等基本化学元素，因为这些元素都能以原生形式在地球上被发现，并且用原始工具开采起来相对简单。"}
+{"dataset_id": "fleurs", "sample_id": 1785, "src_lang": "en", "tgt_lang": "zh", "output": "支架不是一种学习方法，而是一种帮助工具，为那些正在经历新学习体验的人提供支持，例如使用新的计算机程序或开始新项目。"}
+{"dataset_id": "fleurs", "sample_id": 1768, "src_lang": "en", "tgt_lang": "zh", "output": "建筑群边缘的大部分建筑已被重建，以便游客更好地了解它们最初的样貌。"}
+{"dataset_id": "fleurs", "sample_id": 1883, "src_lang": "en", "tgt_lang": "zh", "output": "该桥下垂直净空为15米。工程于2011年8月竣工，但直到2017年3月才正式通车。"}
+{"dataset_id": "fleurs", "sample_id": 1686, "src_lang": "en", "tgt_lang": "zh", "output": "因此，一个组织共同克服障碍的过程，可能会产生一种新的创新流程，以满足客户的需求。"}
+{"dataset_id": "fleurs", "sample_id": 1867, "src_lang": "en", "tgt_lang": "zh", "output": "植物制造氧气供人类呼吸，同时吸收人类呼出的二氧化碳。"}
+{"dataset_id": "fleurs", "sample_id": 1682, "src_lang": "en", "tgt_lang": "zh", "output": "虽然没有人确切知道是谁写了它，但众所周知，这幅巨大的羊皮纸文件（长二十九又四分之三英寸，宽二十四又二分之一英寸）在其生命早期就被卷起来存放。"}
+{"dataset_id": "fleurs", "sample_id": 1681, "src_lang": "en", "tgt_lang": "zh", "output": "然而，科学研究不仅仅是实验。实验和试验是一种用于排除一个或多个可能假设的测试。提出问题和进行观察也是科学研究的指导原则。"}
+{"dataset_id": "fleurs", "sample_id": 1813, "src_lang": "en", "tgt_lang": "zh", "output": "巴塞罗那的官方语言是加泰罗尼亚语和西班牙语。大约一半的人更喜欢说加泰罗尼亚语，绝大多数人理解加泰罗尼亚语，几乎每个人都知道西班牙语。"}
+{"dataset_id": "fleurs", "sample_id": 1995, "src_lang": "en", "tgt_lang": "zh", "output": "虚拟支架被软件内化，旨在质疑、提示和解释可能对学生来说过于具有挑战性的程序。"}
+{"dataset_id": "fleurs", "sample_id": 1737, "src_lang": "en", "tgt_lang": "zh", "output": "狮子是猫科动物中最为社会化的动物，它们生活在被称为“狮群”的大型群体中。"}
+{"dataset_id": "fleurs", "sample_id": 1825, "src_lang": "en", "tgt_lang": "zh", "output": "如果你想离音乐现场近一些，就必须早点来这里，才能获得一个靠近音乐的露营地。"}
