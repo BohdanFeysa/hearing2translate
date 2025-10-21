@@ -10,8 +10,8 @@ export GlotLID_PATH=''
 
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'canary-v2' 'seamlessm4t' 'voxtral-small-24b')
-readonly DIRECTION_PAIRS=('en-de' 'en-es' 'en-fr' 'en-it')
+readonly SYSTEMS=('owsm4.0-ctc' 'qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'canary-v2' 'seamlessm4t' 'voxtral-small-24b' 'spirelm')
+readonly DIRECTION_PAIRS=('en-de' 'en-es' 'en-fr' 'en-it' 'en-pt')
 
 # Define constant base paths.
 readonly EVAL_MODE="ref_free_only"
@@ -54,7 +54,7 @@ for system in "${SYSTEMS[@]}"; do
             --summary-file "${SAVING_FOLDER}/results_summary.jsonl"
 
         # Compute gender bias
-        echo "sh eval_WinoST.sh ${system} ${OUTPUT_JSONL} $MANIFEST ${pair: -2} awesome_align"
+        #echo "sh eval_WinoST.sh ${system} ${OUTPUT_JSONL} $MANIFEST ${pair: -2} awesome_align"
         sh eval_WinoST.sh ${system} ${OUTPUT_JSONL} $MANIFEST ${pair: -2} awesome_align
 
         echo "--- [DONE] Finished Pair: ${pair} for System: ${system} ---"

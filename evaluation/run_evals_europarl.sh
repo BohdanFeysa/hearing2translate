@@ -9,12 +9,13 @@ export XCOMET_CK_NAME=''
 export GlotLID_PATH=''
 
 BASE_PATH="/path_to/hearing2translate"
-SAVING_BASE_DIR="./output_evals/mexpresso"
+SAVING_BASE_DIR="./output_evals/europarl_st"
 
+# ref_free_only for language pairs with NO references!!
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b' 'spirelm' 'voxtral-small-24b' 'owsm4.0-ctc' 'seamlessm4t' 'canary-v2')
-DIRECTION_PAIRS=('en-nl' 'en-pt')
+SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'voxtral-small-24b' 'spirelm' 'desta2-8b' 'owsm4.0-ctc' 'seamlessm4t' 'whisper' 'canary-v2')
+DIRECTION_PAIRS=('en-zh')
 
 # Define constant base paths.
 EVAL_MODE="ref_free_only"
@@ -39,8 +40,8 @@ for system in "${SYSTEMS[@]}"; do
         echo "--- [INFO] Processing Pair: ${pair} for System: ${system} ---"
 
         # Construct paths dynamically. Note the use of the correct variable for each path.
-        MANIFEST="${BASE_PATH}/manifests/mexpresso/${pair}.jsonl"
-        OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/mexpresso/${pair}.jsonl"
+        MANIFEST="${BASE_PATH}/manifests/europarl_st/${pair}.jsonl"
+        OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/europarl_st/${pair}.jsonl"
 
         # Create the target directory.
         mkdir -p "$SAVING_FOLDER"
@@ -61,10 +62,11 @@ done
 
 echo "--- All systems and pairs processed successfully. ---"
 
+# ref_free_and_ref_based for language pairs with references!!
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b' 'spirelm' 'voxtral-small-24b' 'owsm4.0-ctc' 'seamlessm4t' 'canary-v2')
-DIRECTION_PAIRS=('en-de' 'en-es' 'en-fr' 'en-it' 'en-zh')
+SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'voxtral-small-24b' 'spirelm' 'desta2-8b' 'owsm4.0-ctc' 'seamlessm4t' 'whisper' 'canary-v2')
+DIRECTION_PAIRS=('de-en' 'en-de' 'en-es' 'en-fr' 'en-it' 'en-nl' 'en-pt' 'es-en' 'fr-en' 'it-en' 'pt-en')
 
 # Define constant base paths.
 EVAL_MODE="ref_free_and_ref_based"
@@ -89,8 +91,8 @@ for system in "${SYSTEMS[@]}"; do
         echo "--- [INFO] Processing Pair: ${pair} for System: ${system} ---"
 
         # Construct paths dynamically. Note the use of the correct variable for each path.
-        MANIFEST="${BASE_PATH}/manifests/mexpresso/${pair}.jsonl"
-        OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/mexpresso/${pair}.jsonl"
+        MANIFEST="${BASE_PATH}/manifests/europarl_st/${pair}.jsonl"
+        OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/europarl_st/${pair}.jsonl"
 
         # Create the target directory.
         mkdir -p "$SAVING_FOLDER"

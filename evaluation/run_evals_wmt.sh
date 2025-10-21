@@ -15,7 +15,7 @@ readonly SAVING_BASE_DIR="./output_evals/wmt"
 # ref_free_only
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b')
+readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b' 'spirelm' 'owsm4.0-ctc' 'seamlessm4t' 'canary-v2')
 readonly DIRECTION_PAIRS=('en-fr' 'en-it' 'en-nl' 'en-pt' 'en-de' 'en-es' 'en-zh')
 
 # Define constant base paths.

@@ -10,7 +10,7 @@ export GlotLID_PATH=''
 
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=( 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b')
+readonly SYSTEMS=( 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b' 'qwen2audio-7b' 'canary-v2' 'owsm4.0-ctc')
 readonly DIRECTION_PAIRS=('en-de' 'en-it' 'en-zh')
 
 # Define constant base paths.
@@ -43,7 +43,6 @@ for system in "${SYSTEMS[@]}"; do
 
         OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/mcif-long/${pair}.jsonl"
         OUTPUT_SEGMENTED_JSONL="${BASE_PATH}/outputs/${system}/mcif-long/${pair}_segmented.jsonl"
-
 
         # Create the target directory.
         mkdir -p "$SAVING_FOLDER"

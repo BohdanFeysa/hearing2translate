@@ -11,7 +11,7 @@ export NLLB_TOKENIZER=''
 
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=( 'phi4multimodal' 'desta2-8b' 'canary-v2' 'voxtral-small-24b')
+readonly SYSTEMS=( 'phi4multimodal' 'desta2-8b' 'canary-v2' 'voxtral-small-24b' 'owsm4.0-ctc')
 readonly DIRECTION_PAIRS=('en-de' 'en-fr' 'en-pt' 'en-zh')
 
 # Define constant base paths.

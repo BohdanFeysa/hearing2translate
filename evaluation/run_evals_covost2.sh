@@ -11,14 +11,14 @@ export GlotLID_PATH=''
 readonly BASE_PATH="/path_to/hearing2translate"
 readonly SAVING_BASE_DIR="./output_evals/covost2"
 
-# ref_free_and_ref_based for language pairs with references!!
+# ref_free_only for language pairs with NO references!!
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal')
-readonly DIRECTION_PAIRS=('en-de' 'de-en' 'es-en' 'it-en' 'pt-en' 'en-zh' 'zh-en')
+SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'voxtral-small-24b' 'spirelm' 'desta2-8b' 'seamlessm4t' 'whisper' 'canary-v2' 'owsm4.0-ctc')
+DIRECTION_PAIRS=('en-es' 'en-fr' 'en-it' 'en-pt' 'en-nl')
 
 # Define constant base paths.
-readonly EVAL_MODE="ref_free_and_ref_based"
+EVAL_MODE="ref_free_only"
 
 # --- Main Loops ---
 for system in "${SYSTEMS[@]}"; do
@@ -39,7 +39,7 @@ for system in "${SYSTEMS[@]}"; do
 
         echo "--- [INFO] Processing Pair: ${pair} for System: ${system} ---"
 
-        # Construct paths dynamically. Note the use of the correct variable for each path.
+        # Construct paths dynamically
         MANIFEST="${BASE_PATH}/manifests/covost2/${pair}.jsonl"
         OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/covost2/${pair}.jsonl"
 
@@ -62,16 +62,14 @@ done
 
 echo "--- All systems and pairs processed successfully. ---"
 
-
-
-# ref_free_only for language pairs with NO references!!
+# ref_free_and_ref_based for language pairs with references!!
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal')
-readonly DIRECTION_PAIRS=('en-es' 'en-fr' 'en-it' 'en-pt' 'en-nl')
+SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'voxtral-small-24b' 'spirelm' 'desta2-8b' 'seamlessm4t' 'whisper' 'canary-v2' 'owsm4.0-ctc')
+DIRECTION_PAIRS=('zh-en' 'en-zh' 'es-en' 'en-de' 'de-en' 'it-en' 'pt-en')
 
 # Define constant base paths.
-readonly EVAL_MODE="ref_free_only"
+EVAL_MODE="ref_free_and_ref_based"
 
 # --- Main Loops ---
 for system in "${SYSTEMS[@]}"; do
@@ -92,7 +90,7 @@ for system in "${SYSTEMS[@]}"; do
 
         echo "--- [INFO] Processing Pair: ${pair} for System: ${system} ---"
 
-        # Construct paths dynamically. Note the use of the correct variable for each path.
+        # Construct paths dynamically
         MANIFEST="${BASE_PATH}/manifests/covost2/${pair}.jsonl"
         OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/covost2/${pair}.jsonl"
 

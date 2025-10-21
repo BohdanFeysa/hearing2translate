@@ -8,15 +8,17 @@ export METRICX_TOKENIZER=''
 export XCOMET_CK_NAME=''
 export GlotLID_PATH=''
 
+readonly BASE_PATH="/path_to/hearing2translate"
+readonly SAVING_BASE_DIR="./output_evals/emotiontalk"
+
+# ref_free_only
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'canary-v2' 'seamlessm4t' 'whisper' 'voxtral-small-24b' 'spirelm' 'owsm4.0-ctc' 'tower_whisper' 'tower_owsm4.0-ctc' 'gemma_canary-v2' 'tower_seamlessm4t' 'gemma_seamlessm4t' 'gemma_owsm4.0-ctc' 'tower_canary-v2' 'gemma_whisper' 'aya_whisper' 'aya_canary-v2' 'aya_seamlessm4t' 'aya_owsm4.0-ctc')
-readonly DIRECTION_PAIRS=('en-de' 'de-en' 'en-es' 'es-en' 'en-fr' 'fr-en' 'en-it' 'it-en' 'pt-en' 'en-pt' 'en-zh' 'zh-en' 'en-nl')
+readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b' 'owsm4.0-ctc' 'seamlessm4t' 'whisper' 'canary-v2' 'gemma_whisper' 'gemma_owsm4.0-ctc' 'gemma_seamlessm4t')
+readonly DIRECTION_PAIRS=('zh-en')
 
 # Define constant base paths.
-readonly EVAL_MODE="ref_free_and_ref_based"
-readonly BASE_PATH="/path_to/hearing2translate"
-readonly SAVING_BASE_DIR="./output_evals/fleurs"
+readonly EVAL_MODE="ref_free_only"
 
 # --- Main Loops ---
 for system in "${SYSTEMS[@]}"; do
@@ -38,8 +40,8 @@ for system in "${SYSTEMS[@]}"; do
         echo "--- [INFO] Processing Pair: ${pair} for System: ${system} ---"
 
         # Construct paths dynamically. Note the use of the correct variable for each path.
-        MANIFEST="${BASE_PATH}/manifests/fleurs/${pair}.jsonl"
-        OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/fleurs/${pair}.jsonl"
+        MANIFEST="${BASE_PATH}/manifests/emotiontalk/${pair}.jsonl"
+        OUTPUT_JSONL="${BASE_PATH}/outputs/${system}/emotiontalk/${pair}.jsonl"
 
         # Create the target directory.
         mkdir -p "$SAVING_FOLDER"

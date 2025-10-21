@@ -10,7 +10,7 @@ export GlotLID_PATH=''
 
 # --- Configuration ---
 # Define systems and pairs. The pairs use the primary format (with a hyphen)
-readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b')
+readonly SYSTEMS=('qwen2audio-7b' 'phi4multimodal' 'desta2-8b' 'voxtral-small-24b' 'canary-v2' 'whisper' 'seamlessm4t' 'owsm4.0-ctc')
 readonly DIRECTION_PAIRS=('zh-en')
 
 # Define constant base paths.
