@@ -206,6 +206,7 @@ def main(args):
                 # update JSON with new noisy audio path
                 sample["dataset_id"] = dataset_id
                 sample["src_audio"] = f"{dataset_id}_wavs/{src_lang}/{noisy_audio_filename}"
+                sample["sample_id"] = noisy_audio_filename.replace('.wav', '')
                 all_samples.append(sample)
                 new_jsonl_lines.append(json.dumps(sample, ensure_ascii=False))
 
