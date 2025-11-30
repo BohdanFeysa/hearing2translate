@@ -1,0 +1,21 @@
+INFO:root:Loading model seamlessm4t
+INFO:root:Setting transformers seed to 42 for reproducibility.
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 53, in setup_model
+    from transformers.trainer_utils import set_seed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/__init__.py", line 28, in <module>
+    from .utils import (
+ImportError: cannot import name 'is_mistral_common_available' from 'transformers.utils' (/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 242, in <module>
+    infer(args)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 156, in infer
+    model, generate = setup_model(args.model, modality)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 55, in setup_model
+    from transformers import set_seed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/__init__.py", line 28, in <module>
+    from .utils import (
+ImportError: cannot import name 'is_mistral_common_available' from 'transformers.utils' (/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/__init__.py)

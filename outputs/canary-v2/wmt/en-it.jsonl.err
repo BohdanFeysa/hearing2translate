@@ -1,0 +1,50 @@
+INFO:root:Loading model canary-v2
+INFO:root:Setting transformers seed to 42 for reproducibility.
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/home/feysab/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+INFO:numexpr.utils:Note: NumExpr detected 32 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+INFO:numexpr.utils:NumExpr defaulting to 16 threads.
+INFO:datasets:PyTorch version 2.9.0 available.
+[NeMo W 2025-11-29 11:32:15 modelPT:176] If you intend to do training or fine-tuning, please call the ModelPT.setup_training_data() method and provide a valid configuration file to setup the train data loader.
+    Train config : 
+    use_lhotse: true
+    skip_missing_manifest_entries: true
+    input_cfg: null
+    tarred_audio_filepaths: null
+    manifest_filepath: null
+    sample_rate: 16000
+    shuffle: true
+    num_workers: 4
+    pin_memory: true
+    prompt_format: canary2
+    max_duration: 40.0
+    min_duration: 0.01
+    text_field: answer
+    lang_field: target_lang
+    use_bucketing: true
+    max_tps: null
+    bucket_duration_bins: null
+    bucket_batch_size: null
+    num_buckets: null
+    bucket_buffer_size: 20000
+    shuffle_buffer_size: 10000
+    
+[NeMo W 2025-11-29 11:32:15 modelPT:183] If you intend to do validation, please call the ModelPT.setup_validation_data() or ModelPT.setup_multiple_validation_data() method and provide a valid configuration file to setup the validation data loader(s). 
+    Validation config : 
+    use_lhotse: true
+    prompt_format: canary2
+    manifest_filepath: null
+    sample_rate: 16000
+    batch_size: 4
+    shuffle: true
+    max_duration: 40.0
+    min_duration: 0.1
+    num_workers: 2
+    pin_memory: true
+    text_field: answer
+    lang_field: target_lang
+    
+INFO:root:Continuing from outputs/canary-v2/wmt/en-it.jsonl, skipping 173 already processed inputs.
+Generating Outputs: 0it [00:00, ?it/s]Generating Outputs: 0it [00:00, ?it/s]

@@ -1,0 +1,8 @@
+INFO:root:Loading model whisper
+INFO:root:Setting transformers seed to 42 for reproducibility.
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+Device set to use cpu
+INFO:root:Continuing from outputs/whisper_asr/mexpresso//en-pt.jsonl, skipping 5757 already processed inputs.
+Generating Outputs: 0it [00:00, ?it/s]Generating Outputs: 0it [00:00, ?it/s]

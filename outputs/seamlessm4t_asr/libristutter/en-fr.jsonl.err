@@ -1,0 +1,47 @@
+INFO:root:Loading model seamlessm4t
+INFO:root:Setting transformers seed to 42 for reproducibility.
+Traceback (most recent call last):
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1817, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 28, in <module>
+    from ...processing_utils import ProcessorMixin
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/image_processing_utils.py", line 25, in <module>
+    from .utils.import_utils import requires
+ImportError: cannot import name 'requires' from 'transformers.utils.import_utils' (/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 242, in <module>
+    infer(args)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 156, in infer
+    model, generate = setup_model(args.model, modality)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 59, in setup_model
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/inference/sfm/seamlessm4t.py", line 1, in <module>
+    from transformers import AutoProcessor, SeamlessM4Tv2Model
+  File "<frozen importlib._bootstrap>", line 1075, in _handle_fromlist
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1806, in __getattr__
+    value = getattr(module, name)
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1805, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1819, in _get_module
+    raise RuntimeError(
+RuntimeError: Failed to import transformers.models.auto.processing_auto because of the following error (look up to see its traceback):
+cannot import name 'requires' from 'transformers.utils.import_utils' (/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py)

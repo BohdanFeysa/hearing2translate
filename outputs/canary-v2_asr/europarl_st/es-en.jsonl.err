@@ -1,0 +1,19 @@
+INFO:root:Loading model canary-v2
+INFO:root:Setting transformers seed to 42 for reproducibility.
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 53, in setup_model
+    from transformers.trainer_utils import set_seed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/trainer_utils.py", line 31, in <module>
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/__init__.py", line 23, in <module>
+ImportError: cannot import name '__version__' from 'transformers' (unknown location)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 242, in <module>
+    infer(args)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 156, in infer
+    model, generate = setup_model(args.model, modality)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 55, in setup_model
+    from transformers import set_seed
+ImportError: cannot import name 'set_seed' from 'transformers' (unknown location)

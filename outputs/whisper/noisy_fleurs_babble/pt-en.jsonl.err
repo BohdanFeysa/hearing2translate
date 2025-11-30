@@ -1,0 +1,39 @@
+INFO:root:Loading model whisper
+INFO:root:Setting transformers seed to 42 for reproducibility.
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 53, in setup_model
+    from transformers.trainer_utils import set_seed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 57, in <module>
+    require_version_core(deps[pkg])
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/versions.py", line 117, in require_version_core
+    return require_version(requirement, hint)
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/versions.py", line 111, in require_version
+    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/versions.py", line 44, in _compare_versions
+    raise ImportError(
+ImportError: tokenizers>=0.22.0,<=0.23.0 is required for a normal functioning of this module, but found tokenizers==0.21.4.
+Try: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 242, in <module>
+    infer(args)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 156, in infer
+    model, generate = setup_model(args.model, modality)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 55, in setup_model
+    from transformers import set_seed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 57, in <module>
+    require_version_core(deps[pkg])
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/versions.py", line 117, in require_version_core
+    return require_version(requirement, hint)
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/versions.py", line 111, in require_version
+    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/versions.py", line 44, in _compare_versions
+    raise ImportError(
+ImportError: tokenizers>=0.22.0,<=0.23.0 is required for a normal functioning of this module, but found tokenizers==0.21.4.
+Try: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main

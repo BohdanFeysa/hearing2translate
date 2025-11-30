@@ -1,0 +1,35 @@
+INFO:root:Loading model seamlessm4t
+INFO:root:Setting transformers seed to 42 for reproducibility.
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 53, in setup_model
+    from transformers.trainer_utils import set_seed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/__init__.py", line 37, in <module>
+    from .chat_template_utils import DocstringParsingException, TypeHintParsingException, get_json_schema
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/generic.py", line 34, in <module>
+    from .import_utils import (
+ImportError: cannot import name 'requires' from 'transformers.utils.import_utils' (/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 242, in <module>
+    infer(args)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 156, in infer
+    model, generate = setup_model(args.model, modality)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 55, in setup_model
+    from transformers import set_seed
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 16, in <module>
+    from .utils.versions import require_version, require_version_core
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/__init__.py", line 24, in <module>
+    from .auto_docstring import (
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/auto_docstring.py", line 30, in <module>
+    from .generic import ModelOutput
+  File "/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/generic.py", line 34, in <module>
+    from .import_utils import (
+ImportError: cannot import name 'requires' from 'transformers.utils.import_utils' (/home/feysab/.local/lib/python3.10/site-packages/transformers/utils/import_utils.py)

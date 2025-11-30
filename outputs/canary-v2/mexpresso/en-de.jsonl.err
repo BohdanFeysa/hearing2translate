@@ -1,0 +1,40 @@
+INFO:root:Loading model canary-v2
+INFO:root:Setting transformers seed to 42 for reproducibility.
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/home/feysab/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:datasets:PyTorch version 2.9.0 available.
+Traceback (most recent call last):
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 242, in <module>
+    infer(args)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 156, in infer
+    model, generate = setup_model(args.model, modality)
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/infer.py", line 69, in setup_model
+    model = load_func()
+  File "/lnet/aic/personal/feysab/NPFL101/hearing2translate/inference/sfm/canaryv2.py", line 5, in load_model
+    model = ASRModel.from_pretrained(model_name="nvidia/canary-1b-v2")
+  File "/home/feysab/.local/lib/python3.10/site-packages/nemo/core/classes/common.py", line 765, in from_pretrained
+    instance = class_.restore_from(
+  File "/home/feysab/.local/lib/python3.10/site-packages/nemo/core/classes/modelPT.py", line 474, in restore_from
+    instance = cls._save_restore_connector.restore_from(
+  File "/home/feysab/.local/lib/python3.10/site-packages/nemo/core/connectors/save_restore_connector.py", line 260, in restore_from
+    loaded_params = self.load_config_and_state_dict(
+  File "/home/feysab/.local/lib/python3.10/site-packages/nemo/core/connectors/save_restore_connector.py", line 149, in load_config_and_state_dict
+    self._unpack_nemo_file(path2file=restore_path, out_folder=tmpdir, members=members)
+  File "/home/feysab/.local/lib/python3.10/site-packages/nemo/core/connectors/save_restore_connector.py", line 678, in _unpack_nemo_file
+    SaveRestoreConnector._safe_extract(tar, out_folder, members)
+  File "/home/feysab/.local/lib/python3.10/site-packages/nemo/core/connectors/save_restore_connector.py", line 618, in _safe_extract
+    tar.extract(member, extract_to)
+  File "/usr/lib/python3.10/tarfile.py", line 2322, in extract
+    self._extract_one(tarinfo, path, set_attrs, numeric_owner)
+  File "/usr/lib/python3.10/tarfile.py", line 2352, in _extract_one
+    self._extract_member(tarinfo, os.path.join(path, tarinfo.name),
+  File "/usr/lib/python3.10/tarfile.py", line 2435, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "/usr/lib/python3.10/tarfile.py", line 2488, in makefile
+    copyfileobj(source, target, tarinfo.size, ReadError, bufsize)
+  File "/usr/lib/python3.10/tarfile.py", line 255, in copyfileobj
+    dst.write(buf)
+KeyboardInterrupt
